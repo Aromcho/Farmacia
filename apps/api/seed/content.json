@@ -1,0 +1,1670 @@
+{
+ "highlights": [
+  {
+   "title": "Perfumes",
+   "cover": "stories/perfumes/cover.jpg",
+   "items": [
+    {
+     "file": "stories/perfumes/01.jpg",
+     "productSlug": "versace-crystal-noir",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/02.jpg",
+     "productSlug": "dior-j-adore",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/03.jpg",
+     "productSlug": "versace-eros",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/04.jpg",
+     "productSlug": "dolce-gabbana-devotion",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/05.jpg",
+     "productSlug": "armaf-odyssey-mandarin-sky",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/06.jpg",
+     "productSlug": "lattafa-fakhar-men",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/07.jpg",
+     "productSlug": "victoria-s-secret-body-mist-velvet-petals",
+     "caption": "Body mists de Victoria’s Secret: Velvet Petals, Bare Vanilla, Pure Seduction, Love Spell y más.",
+     "linkUrl": null,
+     "durationMs": 6000
+    },
+    {
+     "file": "stories/perfumes/08.jpg",
+     "productSlug": "kenzo-kenzo-homme-intense",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/09.jpg",
+     "productSlug": "dolce-gabbana-the-one-gold",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/10.jpg",
+     "productSlug": "jesus-del-pozo-halloween",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/11.jpg",
+     "productSlug": "calvin-klein-ck-hair-body-mist-sheer-peach",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/12.jpg",
+     "productSlug": "calvin-klein-ck-hair-body-mist-sheer-peach",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/13.jpg",
+     "productSlug": "calvin-klein-ck-hair-body-mist-silky-coconut",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/14.jpg",
+     "productSlug": "calvin-klein-ck-hair-body-mist-pure-vanilla",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/15.jpg",
+     "productSlug": "carolina-herrera-la-bomba",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/perfumes/16.jpg",
+     "productSlug": "rabanne-fame-parfum",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    }
+   ]
+  },
+  {
+   "title": "Árabes",
+   "cover": "stories/arabes/cover.jpg",
+   "items": [
+    {
+     "file": "stories/arabes/01.jpg",
+     "productSlug": "lattafa-musamam-black-intense",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/arabes/02.jpg",
+     "productSlug": "lattafa-pride-ansaam-silver",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/arabes/03.jpg",
+     "productSlug": "lattafa-yara",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    }
+   ]
+  },
+  {
+   "title": "Decants",
+   "cover": "stories/decants/cover.jpg",
+   "items": [
+    {
+     "file": "stories/decants/01.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/decants/02.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/decants/03.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/decants/04.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    }
+   ]
+  },
+  {
+   "title": "Maquillaje",
+   "cover": "stories/maquillaje/cover.jpg",
+   "items": [
+    {
+     "file": "stories/maquillaje/01.jpg",
+     "productSlug": "maybelline-new-york-fit-me-fresh-tint-c",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/maquillaje/02.jpg",
+     "productSlug": "maybelline-new-york-fit-me-fresh-tint-c",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/maquillaje/03.jpg",
+     "productSlug": "maybelline-new-york-lifter-stix",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/maquillaje/04.jpg",
+     "productSlug": "maybelline-new-york-lifter-glaze",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/maquillaje/05.jpg",
+     "productSlug": "maybelline-new-york-iluminador",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/maquillaje/06.jpg",
+     "productSlug": "maybelline-new-york-paleta-the-burgundy-bar",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    }
+   ]
+  },
+  {
+   "title": "Cosmética",
+   "cover": "stories/cosmetica/cover.jpg",
+   "items": [
+    {
+     "file": "stories/cosmetica/01.jpg",
+     "productSlug": "garnier-pimple-patch-8-horas-invisible",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/cosmetica/02.jpg",
+     "productSlug": "bagovit-bagovit-a-pura-vitamina-a",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/cosmetica/03.jpg",
+     "productSlug": "nivea-protector-labial-24h-original-care",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    }
+   ]
+  },
+  {
+   "title": "Nuevos ingresos",
+   "cover": "stories/nuevos-ingresos/cover.jpg",
+   "items": [
+    {
+     "file": "stories/nuevos-ingresos/01.jpg",
+     "productSlug": "carmex-daily-care-fps-15-pack-x3",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/nuevos-ingresos/02.jpg",
+     "productSlug": "karseell-maca-power-collagen-mascara",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/nuevos-ingresos/03.jpg",
+     "productSlug": null,
+     "caption": "Llegaron nuevos perfumes árabes. ¡Vení a conocerlos!",
+     "linkUrl": null,
+     "durationMs": 6000
+    },
+    {
+     "file": "stories/nuevos-ingresos/04.jpg",
+     "productSlug": "medicube-pdrn-pink-collagen-exosome-shot-2000",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/nuevos-ingresos/05.jpg",
+     "productSlug": "medicube-pdrn-pink-peptide-eye-cream",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/nuevos-ingresos/06.jpg",
+     "productSlug": "medicube-collagen-jelly-cream",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    }
+   ]
+  },
+  {
+   "title": "Herboristería",
+   "cover": "stories/herboristeria/cover.jpg",
+   "items": [
+    {
+     "file": "stories/herboristeria/01.jpg",
+     "productSlug": null,
+     "caption": "Hierbas, tisanas y tinturas madres para sentirte mejor de forma natural.",
+     "linkUrl": null,
+     "durationMs": 6000
+    },
+    {
+     "file": "stories/herboristeria/02.jpg",
+     "productSlug": "tinturas-madres",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/herboristeria/03.jpg",
+     "productSlug": "hierbas-y-tisanas",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/herboristeria/04.jpg",
+     "productSlug": "hierbas-y-tisanas",
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    }
+   ]
+  },
+  {
+   "title": "La Farma",
+   "cover": "stories/la-farma/cover.jpg",
+   "items": [
+    {
+     "file": "stories/la-farma/01.jpg",
+     "productSlug": null,
+     "caption": "Te esperamos en Paseo 106 y Boulevard, Villa Gesell.",
+     "linkUrl": null,
+     "durationMs": 6000
+    },
+    {
+     "file": "stories/la-farma/02.jpg",
+     "productSlug": null,
+     "caption": "Atención cercana, profesional y de confianza.",
+     "linkUrl": null,
+     "durationMs": 6000
+    },
+    {
+     "file": "stories/la-farma/03.jpg",
+     "productSlug": null,
+     "caption": "Fragancias nacionales e importadas para todos los gustos.",
+     "linkUrl": null,
+     "durationMs": 6000
+    },
+    {
+     "file": "stories/la-farma/04.jpg",
+     "productSlug": null,
+     "caption": "Nuestra sección de herboristería.",
+     "linkUrl": null,
+     "durationMs": 6000
+    },
+    {
+     "file": "stories/la-farma/05.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/la-farma/06.jpg",
+     "productSlug": null,
+     "caption": "Más de 60 años cuidándote.",
+     "linkUrl": null,
+     "durationMs": 6000
+    }
+   ]
+  },
+  {
+   "title": "Horarios",
+   "cover": "stories/horarios/cover.jpg",
+   "items": [
+    {
+     "file": "stories/horarios/01.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/horarios/02.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    }
+   ]
+  },
+  {
+   "title": "Obras sociales",
+   "cover": "stories/obras-sociales/cover.jpg",
+   "items": [
+    {
+     "file": "stories/obras-sociales/01.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": null,
+     "durationMs": 5000
+    },
+    {
+     "file": "stories/obras-sociales/02.jpg",
+     "productSlug": null,
+     "caption": "Si no encontrás tu obra social, escribinos por WhatsApp.",
+     "linkUrl": null,
+     "durationMs": 6000
+    }
+   ]
+  },
+  {
+   "title": "WhatsApp",
+   "cover": "stories/whatsapp/cover.jpg",
+   "items": [
+    {
+     "file": "stories/whatsapp/01.jpg",
+     "productSlug": null,
+     "caption": null,
+     "linkUrl": "https://wa.me/5492255418960",
+     "durationMs": 5000
+    }
+   ]
+  }
+ ],
+ "posts": [
+  {
+   "code": "DekgKNop3_y",
+   "type": "REEL",
+   "caption": "Ellos ya eligieron el regalo para mamá. 🤍\n\n¿Y vos, qué estás esperando? ✨\n\nEn Farmacia Amancio Fernández tenemos una gran variedad de opciones para sorprenderla en su día.\n\nAdemás, podés aprovechar nuestros beneficios:\n👉🏻 3 cuotas sin interés.\n👉🏻 Descuentos abonando en efectivo.\n\n¡Te esperamos!\n📍 106 y Boulevard, Villa Gesell.\".",
+   "permalink": "https://www.instagram.com/reel/DekgKNop3_y/",
+   "postedAt": "2026-10-16T21:30:07.000Z",
+   "cover": "instagram/DekgKNop3_y.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "Dek0wDVJrXD",
+   "type": "REEL",
+   "caption": "¡Mirá tooooodas las opciones que tenemos para regalarle a mamá en su día! ✨\n\nY no te olvides de aprovechar nuestros beneficios:\n\n👉🏻 3 cuotas sin interés.\n👉🏻 Descuentos abonando en efectivo.\n\n¡Te esperamos en Farmacia Amancio Fernández!\n\n📍 106 y Boulevard, Villa Gesell.\".",
+   "permalink": "https://www.instagram.com/reel/Dek0wDVJrXD/",
+   "postedAt": "2026-10-16T12:50:33.000Z",
+   "cover": "instagram/Dek0wDVJrXD.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DehqNoqPPJi",
+   "type": "REEL",
+   "caption": "¿Todavía no tenés el regalo para mamá? 🤍\n\nEn la Farma te esperamos con una gran variedad de opciones para sorprenderla y hacer de su día un momento especial. ✨\n\nAdemás, recordá que podés aprovechar nuestros beneficios:\n\n👉🏻 3 cuotas sin interés.\n👉🏻 Descuentos abonando en efectivo.\n\n¡Te esperamos para encontrar ese regalo especial!\n\n📍 106 y Boulevard, Villa Gesell\".",
+   "permalink": "https://www.instagram.com/reel/DehqNoqPPJi/",
+   "postedAt": "2026-10-15T19:03:22.000Z",
+   "cover": "instagram/DehqNoqPPJi.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DeU_-WFpXSn",
+   "type": "REEL",
+   "caption": "¡Corré a la Farma que vuelan los perfumes! 🏃‍♀️\n\nEncontrá una gran variedad de fragancias nacionales e importadas, con opciones para todos los gustos y presupuestos. ✨\n\nNo te olvides de aprovechar nuestros beneficios:\n\n👉🏻 3 cuotas sin interés.\n👉🏻 Descuentos abonando en efectivo.\n\n¡Te esperamos en 106 y Boulevard, Villa Gesell!\".",
+   "permalink": "https://www.instagram.com/reel/DeU_-WFpXSn/",
+   "postedAt": "2026-10-10T21:00:12.000Z",
+   "cover": "instagram/DeU_-WFpXSn.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DeO8CLGpQQi",
+   "type": "REEL",
+   "caption": "¡Mirá toooodos los nuevos ingresos de Stanley! 🤩\n\nVení a la Farma a descubrir los modelos y colores que tenemos para vos. 🙌🏻\n\nAprovechá nuestros beneficios:\n👉🏻 3 cuotas sin interés.\n👉🏻 Descuentos abonando en efectivo.\n\n📍 106 y Boulevard, Villa Gesell.\n¡Te esperamos!\".",
+   "permalink": "https://www.instagram.com/reel/DeO8CLGpQQi/",
+   "postedAt": "2026-10-08T12:30:10.000Z",
+   "cover": "instagram/DeO8CLGpQQi.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DeK8a5zhKpi",
+   "type": "REEL",
+   "caption": "Octubreee empezó lleno de promos ✨\n\nHasta 50% de descuento en productos seleccionados para aprovechar durante todo el mes.\n\nVení a Farmacia Amancio Fernández y encontrá estos y muchos más beneficios. 🙌🏻\n\n¡Te esperamos!\".",
+   "permalink": "https://www.instagram.com/reel/DeK8a5zhKpi/",
+   "postedAt": "2026-10-06T23:44:17.000Z",
+   "cover": "instagram/DeK8a5zhKpi.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "Dd4rR-DJMqj",
+   "type": "REEL",
+   "caption": "✨ Tu perfume favorito, ahora también en decant.\n\nElegí la fragancia que más te gusta y llevátela en un formato práctico, ideal para tener siempre con vos.\n\nVení por el tuyo a Farmacia Amancio Fernández.\n\n📍 106 y Boulevard\n📲 2255 418960\".",
+   "permalink": "https://www.instagram.com/reel/Dd4rR-DJMqj/",
+   "postedAt": "2026-09-29T21:00:10.000Z",
+   "cover": "instagram/Dd4rR-DJMqj.jpg",
+   "visible": true,
+   "featured": true
+  },
+  {
+   "code": "Ddzhn_qpAr8",
+   "type": "REEL",
+   "caption": "Semana de descuentos en Farmacia Amancio Fernández 🤩\n\nDesde este lunes, vas a encontrar hasta 50% de descuento en productos seleccionados.\n\n👉🏻 Estate atento a nuestras historias porque los descuentos van cambiando todos los días.\n\n📍 106 y Boulevard\n📲 2255 418960\n\nMañana arrancamos. No te lo pierdas.\".",
+   "permalink": "https://www.instagram.com/reel/Ddzhn_qpAr8/",
+   "postedAt": "2026-09-27T21:00:08.000Z",
+   "cover": "instagram/Ddzhn_qpAr8.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DduYD83JEhw",
+   "type": "REEL",
+   "caption": "Empezó la primavera y te dejamos 4 fragancias \nim-per-di-ble 🤩\n\n✨ J’adore de Dior\n✨ Club de Nuit Woman\n✨ Club de Nuit Intense Man\n✨ Versace Eros\n\nCuatro opciones con estilos distintos para encontrar la que mejor va con vos esta primavera.\n\n¿Cuál elegirías? \n\n📍 Farmacia Amancio Fernández · 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DduYD83JEhw/",
+   "postedAt": "2026-09-25T21:00:21.000Z",
+   "cover": "instagram/DduYD83JEhw.jpg",
+   "visible": true,
+   "featured": true
+  },
+  {
+   "code": "DdoYJgnBrzc",
+   "type": "REEL",
+   "caption": "Esta primavera, NO regales flores 💐\n\nVení por tu perfume a Farmacia Amancio Fernández✨\n\nY no te olvides que tenemos 3 cuotas sin interés y descuentos abonando en efectivo!!\n\n📍 106 y Boulevard\n📲 2255 418960\".",
+   "permalink": "https://www.instagram.com/reel/DdoYJgnBrzc/",
+   "postedAt": "2026-09-23T13:05:08.000Z",
+   "cover": "instagram/DdoYJgnBrzc.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DdkMteyx3Cc",
+   "type": "REEL",
+   "caption": "Tour por la Farma: vení que te mostramos un poquito de todo.\n\nVariedad, novedades y opciones para acompañarte todos los días. ✨\n\nPasá por Farmacia Amancio Fernández y conocé todo lo que tenemos para vos.\n\n📍 106 y Boulevard\n📲 2255 418960\n🚚 Envíos a domicilio sin cargo.\".",
+   "permalink": "https://www.instagram.com/reel/DdkMteyx3Cc/",
+   "postedAt": "2026-09-21T22:10:33.000Z",
+   "cover": "instagram/DdkMteyx3Cc.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DdZ7t5SttpS",
+   "type": "REEL",
+   "caption": "✨ Nuevos ingresos en Farmacia Amancio Fernández.\n\nVení a conocer las nuevas fragancias y elegí tu próxima favorita.\n\nAdemás, aprovechá 3 cuotas sin interés y descuentos abonando en efectivo.\n\n📍 106 y Boulevard\n📲 2255 418960\".",
+   "permalink": "https://www.instagram.com/reel/DdZ7t5SttpS/",
+   "postedAt": "2026-09-17T22:28:44.000Z",
+   "cover": "instagram/DdZ7t5SttpS.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DdPkx_hJS_G",
+   "type": "REEL",
+   "caption": "✨ Encontrá tu próximo perfume en Farmacia Amancio Fernández.\n\nTenemos distintas fragancias para que encuentres la que mejor va con vos y, si necesitás ayuda para elegir, te asesoramos.\n\nAdemás, podés aprovechar 3 cuotas sin interés o descuentos abonando en efectivo.\n\nTe esperamos en Farmacia Amancio Fernández 💫\n\n📍 106 y Boulevard, Villa Gesell\n📲 2255 418960\".",
+   "permalink": "https://www.instagram.com/reel/DdPkx_hJS_G/",
+   "postedAt": "2026-09-15T21:00:04.000Z",
+   "cover": "instagram/DdPkx_hJS_G.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DdKWnkOJzxP",
+   "type": "REEL",
+   "caption": "📲 Pedí por WhatsApp y recibilo en tu casa.\n\nEn Farmacia Amancio Fernández podés hacer tus pedidos de forma rápida y cómoda por WhatsApp.\n\nY lo mejor: te lo llevamos a domicilio sin cargo🏠✨\n\nHacé tu pedido sin moverte de casa.\".",
+   "permalink": "https://www.instagram.com/reel/DdKWnkOJzxP/",
+   "postedAt": "2026-09-13T21:15:09.000Z",
+   "cover": "instagram/DdKWnkOJzxP.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DdMwpJxhReh",
+   "type": "REEL",
+   "caption": "¿Querés descubrir nuevas fragancias sin comprar el frasco completo? ✨\n\nLos decants son una forma práctica de probar perfumes originales, llevar tus favoritos siempre con vos y encontrar cuál realmente va con tu estilo.\nVení a Farmacia Amancio Fernández y conocé las opciones disponibles. \n\n📍 106 y Boulevard\n📲 2255 418960\".",
+   "permalink": "https://www.instagram.com/reel/DdMwpJxhReh/",
+   "postedAt": "2026-09-12T19:43:57.000Z",
+   "cover": "instagram/DdMwpJxhReh.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DdT0DCUpF_I",
+   "type": "REEL",
+   "caption": "¿Vos también estás buscando un nuevo perfume como Dante? 👀✨\n\nEn Farmacia Amancio Fernández tenemos distintas fragancias para que encuentres esa que va con vos.\n\nAdemás, aprovechá 3 cuotas sin interés o descuentos abonando en efectivo.\n\n📍 106 y Boulevard\n📲 2255 418960\".",
+   "permalink": "https://www.instagram.com/reel/DdT0DCUpF_I/",
+   "postedAt": "2026-09-11T20:25:04.000Z",
+   "cover": "instagram/DdT0DCUpF_I.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DbQ4OKjMQb1",
+   "type": "REEL",
+   "caption": "¿Quién dijo que hay que viajar para encontrar productos increíbles? ✈️✨\n\nEn este reel les comparto algunos de mis favoritos, esos que realmente probé, uso en mi rutina y volvería a elegir una y otra vez. Lo mejor de todo es que no tuve que buscarlos en un Duty Free: los conseguí en Farmacia Amancio Fernández. 💚\n\nSi están buscando skincare, perfumería o productos de calidad, este lugar siempre tiene opciones increíbles, marcas reconocidas y el asesoramiento necesario para encontrar lo que realmente necesitás.\n\n✨ Porque cuando un producto es bueno, se nota. Y cuando una farmacia tiene variedad y calidad, también.\n\n¿Si querés venir? ¡Vení! Te esperamos en Farmacia Amancio Fernández. 🤍\n\n#FarmaciaAmancioFernández #Skincare #BeautyFavorites #Perfumería #VillaGesell\".",
+   "permalink": "https://www.instagram.com/reel/DbQ4OKjMQb1/",
+   "postedAt": "2026-07-26T17:02:07.000Z",
+   "cover": "instagram/DbQ4OKjMQb1.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DbDo3V8jsu2",
+   "type": "POST",
+   "caption": "No todos los suplementos cumplen la misma función. Elegir el indicado puede marcar la diferencia según tus objetivos y necesidades.\n\nEn Farmacia Amancio Fernández encontrás una amplia variedad de suplementos, con asesoramiento para ayudarte a elegir la mejor opción para vos.\n\nAcercate a nuestra sucursal o escribinos para recibir más información.\".",
+   "permalink": "https://www.instagram.com/p/DbDo3V8jsu2/",
+   "postedAt": "2026-07-21T13:37:10.000Z",
+   "cover": "instagram/DbDo3V8jsu2.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "Davo9jtvi3X",
+   "type": "POST",
+   "caption": "🎉 ¡SORTEO DÍA DEL AMIGO! 🎉\n\nParticipá por un perfume árabe y sorprendé a ese amigo especial (¡o date un gustito!).\n\n¿Cómo participar?\n✨ Etiquetá a 2 amigos en los comentarios.\n❤️ Dale “Me gusta” a esta publicación.\n📲 Compartila en tu historia.\n\n📅 El ganador se anunciará el 20 de julio por nuestras historias.\n\n¡Cuantos más comentarios (etiquetando amigos diferentes), más chances tenés de ganar!\n\n📍 Te esperamos en Farmacia Amancio Fernández.\n\n#Sorteo #DíaDelAmigo #PerfumesÁrabes #FarmaciaAmancioFernández #VillaGesell\".",
+   "permalink": "https://www.instagram.com/p/Davo9jtvi3X/",
+   "postedAt": "2026-07-13T19:17:01.000Z",
+   "cover": "instagram/Davo9jtvi3X.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DadtwReIJ8t",
+   "type": "POST",
+   "caption": "📲 Enviáselo a un amigo. Si no responde en 5 minutos… te debe un regalo de la farmacia🤣 🎁\n\n📍 Te esperamos en nuestra sucursal para encontrar el regalo perfecto para ese amigo especial.\n\n✨ ¿Necesitás una recomendación? Escribinos o acercate, ¡estamos para ayudarte!\".",
+   "permalink": "https://www.instagram.com/p/DadtwReIJ8t/",
+   "postedAt": "2026-07-06T20:08:46.000Z",
+   "cover": "instagram/DadtwReIJ8t.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DaOe3WLOgFF",
+   "type": "REEL",
+   "caption": "❤️ Cuidar tu salud empieza con un buen control.\n\nCon el tensiómetro Aspen podés medir tu presión de forma rápida, precisa y sencilla, sin salir de casa.\n\n📲 Escribinos y consultá por disponibilidad.\".",
+   "permalink": "https://www.instagram.com/reel/DaOe3WLOgFF/",
+   "postedAt": "2026-06-30T22:10:23.000Z",
+   "cover": "instagram/DaOe3WLOgFF.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DZ5yrpIOkpl",
+   "type": "REEL",
+   "caption": "Cuál es tu favorito? Te leemos👇\n\n#amanciofernandez #villagesell #perfumesdediseñador\n#top5\".",
+   "permalink": "https://www.instagram.com/reel/DZ5yrpIOkpl/",
+   "postedAt": "2026-06-22T21:22:08.000Z",
+   "cover": "instagram/DZ5yrpIOkpl.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DZsYr1ttkpd",
+   "type": "POST",
+   "caption": "🎁 El regalo perfecto para papá te espera en Farmacia Amancio A. Fernández.\n✨ Perfumes, fragancias y muchas opciones más para sorprenderlo en su día.\n💳 Aprovechá 3 y 6 cuotas sin interés en perfumería y regalería.\n💙 ¡Te esperamos!\".",
+   "permalink": "https://www.instagram.com/p/DZsYr1ttkpd/",
+   "postedAt": "2026-06-17T16:22:18.000Z",
+   "cover": "instagram/DZsYr1ttkpd.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DZamKhLBcrc",
+   "type": "REEL",
+   "caption": "✨ Luca vino por su producto de perfumería, se llevó su raspadita… ¡y tuvo premio! 🎉\n\nCada compra puede traer una sorpresa, y esta vez la suerte estuvo de su lado.\n\n¡Gracias por sumarte y felicitaciones! 🤍\n\n#FarmaciaAmancioFernandez #RaspaYGana #Premios #Perfumería #VillaGesell\".",
+   "permalink": "https://www.instagram.com/reel/DZamKhLBcrc/",
+   "postedAt": "2026-06-10T18:38:36.000Z",
+   "cover": "instagram/DZamKhLBcrc.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DYr4TuhuSyW",
+   "type": "REEL",
+   "caption": "✨ Rutina, hidratación y cuidado real para tu piel ✨\nEn Farmacia Amancio Fernández encontrás líneas completas para cada necesidad: limpieza, hidratación, renovación y protección 💙🩷\n\nPorque cuidar tu piel no es solo una tendencia, es dedicarte un momento para vos 🤍\n¿Cuál es tu producto favorito de skincare? 👀\n\n#Skincare #FarmaciaAmancioFernandez #CuidadoFacial #RutinaFacial #BeautyCare\".",
+   "permalink": "https://www.instagram.com/reel/DYr4TuhuSyW/",
+   "postedAt": "2026-05-23T15:16:00.000Z",
+   "cover": "instagram/DYr4TuhuSyW.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DXN5KlvDqIA",
+   "type": "REEL",
+   "caption": "🎉 SORTEO EXPRESS 🎉 \n\nEste miercoles 22 de abril sorteamos 2 perfumes árabes 🙌 \n\n⏰ A las 18 hs realizamos el sorteo \n\n💥 Premio: \n• Un perfume de hombre de Maison Alhambra \n• Un perfume de mujer de Lattafa \n\n📍 Exclusivo para geselinos \n\n👉 ¿Cómo participar? \n1. Compartí este video \n2. Dale me gusta\n3. Comentá (¡cuantos más comentarios, más chances tenés de ganar!) \n\n⏳ Tenés tiempo hasta el viernes a las 18 hs \n\n¡Mucha suerte a todos! 🍀\".",
+   "permalink": "https://www.instagram.com/reel/DXN5KlvDqIA/",
+   "postedAt": "2026-04-17T10:40:46.000Z",
+   "cover": "instagram/DXN5KlvDqIA.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DVyo5shjkX7",
+   "type": "REEL",
+   "caption": "Te presentamos la rutina de skincare Medicube\nMirá para qué sirve cada uno:\n\n💗PDRN Pink Collagen Exosome Shot: El secreto del brillo extremo. Estimula la regeneración con ADN de salmón para una piel firme y luminosa.\n\n🌙 Collagen Night Wrapping Mask: ¡Dormí y despertate con piel nueva! Crea una capa protectora de colágeno que se retira a la mañana siguiente.\n\n💚 Exosome Cica Cream: El rescate para pieles sensibles. Calma, hidrata y repara la barrera cutánea en tiempo récord.\n\n❤️ Red Acne Body Peeling Shot: ¡Chau granitos en la espalda y brazos! Un exfoliante químico potente para una piel corporal suave y sin marcas.\n\n🌿 Super Cica Deep Cleansing Balm: Limpieza profunda sin irritar. Derrite el maquillaje y la suciedad dejando la piel hidratada.\n\n💛 Deep Vita C Pad: Discos con Vitamina C para borrar manchas y unificar el tono. ¡Tu dosis diaria de luz!\n\n🌸 PDRN Pink Vita Coating Mask: El “shot” final de vitaminas y colágeno para un efecto buena cara inmediato.\n\n¡Conseguí toda la línea completa en Farmacia Amancio A. Fernández.! ✨\n\n#Medicube #SkincareCoreano #FarmaciaAmancioFernandez #RutinaFacial #PielSaludable\".",
+   "permalink": "https://www.instagram.com/reel/DVyo5shjkX7/",
+   "postedAt": "2026-03-12T16:38:44.000Z",
+   "cover": "instagram/DVyo5shjkX7.jpg",
+   "visible": true,
+   "featured": true
+  },
+  {
+   "code": "DVlqA-kjmjY",
+   "type": "REEL",
+   "caption": "¡SIGUE LA PROMO MÁS ESPERADA! ⚽️✨\n\n📍En Farmacia Amancio A. Fernández elevamos el nivel de nuestra colección. ¡Más de 120 fragancias árabes exclusivas y toda la línea de diseñador te están esperando !\n\n🎁 Durante este mes y el próximo, con la compra de tu perfume favorito, ¡te llevás una pelota de fútbol de regalo!\n\nVení a visitarnos en Farmacia Amancio A. Fernández. Calidad, exclusividad y el mejor asesoramiento en un solo lugar. \n\n#futbol #oferta #viral #perfumes #fragancias\".",
+   "permalink": "https://www.instagram.com/reel/DVlqA-kjmjY/",
+   "postedAt": "2026-03-07T15:36:00.000Z",
+   "cover": "instagram/DVlqA-kjmjY.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DVemSczDtaf",
+   "type": "REEL",
+   "caption": "¡NUEVOS INGRESOS DE BILLETERAS! 😍\n¿Ya viste los modelos que llegaron de Skora y Amayra? 💣\n\nBilleteras XL, minis y sobres con toda la onda para que no te falte nada.\n ¡Vení a ver la colección completa a Farmacia Amancio A. Fernández! \n\n¡No te quedes sin la tuya! 🏃‍♀️💨\n\n#NewArrivals #villagesell #farmácia #amanciofernandez #viralreels\".",
+   "permalink": "https://www.instagram.com/reel/DVemSczDtaf/",
+   "postedAt": "2026-03-04T21:47:59.000Z",
+   "cover": "instagram/DVemSczDtaf.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DVPHzMnDqTl",
+   "type": "REEL",
+   "caption": "¡RESPIRÁ MEJOR HOY MISMO!\n¿Ronquidos o nariz tapada? 😴 Con el Dilatador Nasal Magnético, abrís tus vías respiratorias hasta un 80% más al instante. 🚀\n\n💰 PRECIO: $18.000\n\n📍 Encontralo en Farmacia Amancio Fernández.\n\n#RespirarBien #farmaciaamanciofernández #Salud #villagesell #deporte\".",
+   "permalink": "https://www.instagram.com/reel/DVPHzMnDqTl/",
+   "postedAt": "2026-02-26T21:32:59.000Z",
+   "cover": "instagram/DVPHzMnDqTl.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DVJMiqfjtcD",
+   "type": "REEL",
+   "caption": "¡En Farmacia Amancio A. Fernández nos volvimos locos! 😱✨\n\n¿Buscabas los mejores productos al mejor precio? ¡Llegaron! 🚀\n🔹 Perfumes árabes exclusivos para resaltar tu esencia. 🇦🇪✨\n🔹 Toda la línea de Victoria’s Secret a un precio que no vas a creer: ¡Solo $35.000! \n🔹 Y para tu cabello, lo que tanto buscabas: línea completa de Karseell (aceite, baño de crema, shampoo y acondicionador).\n\n🎁 ¡Y HAY MÁS! Con la compra de tu perfume árabe, ¡te llevas una pelota de regalo! ⚽️🎁\n\n¡No esperes más! Vení a visitarnos y llevate todo antes de que se agote. 🏃‍♂️💨\n\n#FarmaciaAmancioAFernandez #OfertasFarmacia #PerfumesArabes #VictoriasSecret #Karseell\".",
+   "permalink": "https://www.instagram.com/reel/DVJMiqfjtcD/",
+   "postedAt": "2026-02-24T14:18:32.000Z",
+   "cover": "instagram/DVJMiqfjtcD.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DU__NGrjtgy",
+   "type": "REEL",
+   "caption": "¡SE VIENE EL MUNDIAL Y NOS VOLVIMOS LOCOS! 🤯⚽️\n\n¿Querías una señal para renovar tu perfume? ¡Acá la tenés! Durante este mes y el próximo, con la compra de tu perfume árabe favorito, te llevás de regalo una pelota de fútbol espectacular. 🎁🏃‍♂️\n\n⚠️ ¡Atención! La promo es válida hasta agotar stock, ¡así que no te duermas!\n\n🛒 Conseguí la tuya ahora en nuestra farmacia o ahora también en nuestra web:\n👉 * Link de compra en nuestra BIO*\".",
+   "permalink": "https://www.instagram.com/reel/DU__NGrjtgy/",
+   "postedAt": "2026-02-21T01:32:06.000Z",
+   "cover": "instagram/DU__NGrjtgy.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DUtJgiOjiBz",
+   "type": "REEL",
+   "caption": "✨Descubrí la línea de skincare de Medicube: regeneración, firmeza y un brillo espectacular en solo 3 pasos.\n\nConseguí toda la línea de productos en Farmacia Amancio Fernández. \n\n¡Tu piel se lo merece! 💖\n\n#Medicube #SkincareCoreano #farmaciaamanciofernández #GlassSkin #rutinafacial\".",
+   "permalink": "https://www.instagram.com/reel/DUtJgiOjiBz/",
+   "postedAt": "2026-02-13T16:56:38.000Z",
+   "cover": "instagram/DUtJgiOjiBz.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DUqgX-sDsQN",
+   "type": "REEL",
+   "caption": "🔥 ¡NUEVO REINGRESO! 🔥\n\nLa pistola masajeadora viral ya está acá. \n💥 Práctica, potente y con excelente batería.\n¡Llevá tu relax a todos lados por solo $20.000!\n\n#Masajeador #Bienestar #Relax #MassageGun #amanciofernandez\".",
+   "permalink": "https://www.instagram.com/reel/DUqgX-sDsQN/",
+   "postedAt": "2026-02-12T16:18:56.000Z",
+   "cover": "instagram/DUqgX-sDsQN.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DUonXEgjstw",
+   "type": "REEL",
+   "caption": "💖 ¡ESPECIAL SAN VALENTÍN! 💖\n\nEn Farmacia Amancio Fernández festejamos el amor con una rebaja imperdible. 🌹\n\n✨ Lattafa Yara & Fakhar ✨\n💰 ¡A solo $55.000!\n\n⏳ Promo válida desde hoy hasta el sábado inclusive.\n\n¡No te quedes sin tu regalo! Vení a buscar el tuyo. 🎁📍\n\n#sanvalentín #perfumesarabes #farmaciaamanciofernández #oferta\".",
+   "permalink": "https://www.instagram.com/reel/DUonXEgjstw/",
+   "postedAt": "2026-02-11T22:38:59.000Z",
+   "cover": "instagram/DUonXEgjstw.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DUjhXPzDnS0",
+   "type": "REEL",
+   "caption": "✨ NUEVO perfilador eléctrico ✨\nPráctico, silencioso y súper fácil de usar.\nConsegui el tuyo desde $10.000\nDisponible en Farmacia Amancio Fernández.\".",
+   "permalink": "https://www.instagram.com/reel/DUjhXPzDnS0/",
+   "postedAt": "2026-02-09T23:12:19.000Z",
+   "cover": "instagram/DUjhXPzDnS0.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DUYfcLwDip0",
+   "type": "REEL",
+   "caption": "¿Original o réplica? 👀\nAprendé a identificar tu crema Karseell original.\nConseguila en Farmacia Amancio Fernández ✨\n#farmacia #viral #belleza #cuidado #salud\".",
+   "permalink": "https://www.instagram.com/reel/DUYfcLwDip0/",
+   "postedAt": "2026-02-05T16:39:39.000Z",
+   "cover": "instagram/DUYfcLwDip0.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DUT6d8CEi2b",
+   "type": "REEL",
+   "caption": "Llegaron nuevos secadores de pelo\nPrácticos y fáciles de usar. ✨\nEncontralos en Farmacia Amancio Fernández.\".",
+   "permalink": "https://www.instagram.com/reel/DUT6d8CEi2b/",
+   "postedAt": "2026-02-03T21:53:09.000Z",
+   "cover": "instagram/DUT6d8CEi2b.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DUMaDsODpbq",
+   "type": "REEL",
+   "caption": "El no lee recetas, las interpreta 😎\n\n#humor #farmacia #verano\n #villagesell #argentina\".",
+   "permalink": "https://www.instagram.com/reel/DUMaDsODpbq/",
+   "postedAt": "2026-01-31T23:46:04.000Z",
+   "cover": "instagram/DUMaDsODpbq.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DTsaEV2DjXk",
+   "type": "POST",
+   "caption": "Todo lo que necesitás para potenciar tu entrenamiento está en Farmacia Amancio Fernández.\n\nProteínas, creatina, colágeno y mucho más para acompañar tu rendimiento y recuperación 💪🏻\n\n📍 Amancio Fernández 106 y Boulevard\n\n#FarmaciaAmancioFernández #Entrenamiento\".",
+   "permalink": "https://www.instagram.com/p/DTsaEV2DjXk/",
+   "postedAt": "2026-01-19T13:25:10.000Z",
+   "cover": "instagram/DTsaEV2DjXk.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DTp0GzWDu9L",
+   "type": "REEL",
+   "caption": "Los bálsamos labiales perfectos sí existen.\nHidratación, aroma y ese detalle que no puede faltar en tu bolso ✨\n\n¿Cuál elegirías vos? Contanos.\n\nFarmacia Amancio  Fernández I 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DTp0GzWDu9L/",
+   "postedAt": "2026-01-18T13:15:04.000Z",
+   "cover": "instagram/DTp0GzWDu9L.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DTkyh6MjpW4",
+   "type": "REEL",
+   "caption": "Empezó el verano y es momento de cuidarte y disfrutarlo al máximo ☀️\n\nEn Farmacia Amancio Fernández te esperamos con descuentos especiales en protectores solares, productos para el cuidado del pelo, perfumería y muchos productos más para acompañarte durante toda la temporada.\n\nTodo lo que necesitás para la playa, el día a día y el bienestar, en un solo lugar ⛱️\n\n¡Te esperamos!\n📍 Farmacia Amancio Fernández I 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DTkyh6MjpW4/",
+   "postedAt": "2026-01-16T14:26:59.000Z",
+   "cover": "instagram/DTkyh6MjpW4.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DS2V9sjjguK",
+   "type": "REEL",
+   "caption": "Nuevos ingresos ✨\nIdeales para cuidar y proteger tu pelo este verano.\nEncontrá estos y muchos más productos en Farmacia Amancio Fernández.\n\n📍 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DS2V9sjjguK/",
+   "postedAt": "2025-12-29T13:30:03.000Z",
+   "cover": "instagram/DS2V9sjjguK.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DS46sWNDnQE",
+   "type": "REEL",
+   "caption": "Sentarte bien hace la diferencia.\nMás comodidad, mejor postura y menos molestias en el día a día.🙌🏻\n\nLas almohadillas ergonómicas brindan el apoyo que tu cuerpo necesita para estar mejor mientras trabajás, estudiás o descansás.\n\n👉🏻En Farmacia Amancio Fernández y elegí la que mejor se adapte a vos.\".",
+   "permalink": "https://www.instagram.com/reel/DS46sWNDnQE/",
+   "postedAt": "2025-12-27T03:00:03.000Z",
+   "cover": "instagram/DS46sWNDnQE.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DSsyTpujg8c",
+   "type": "REEL",
+   "caption": "Llegó el verano y tu pelo necesita más cuidado.\nLlegó NUTRI CARE de PRISMAX a Farmacia Amancio Fernández.\n\nEl trío experto que nutre, hidrata y protege tu pelo de raíz a puntas,\ndejándolo más suave, más sano\ny con un brillo espectacular ✨\n\n📍 106 y Boulevard\nVení por el tuyo 🙌🏻\".",
+   "permalink": "https://www.instagram.com/reel/DSsyTpujg8c/",
+   "postedAt": "2025-12-25T20:25:03.000Z",
+   "cover": "instagram/DSsyTpujg8c.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DSlEcdBkggm",
+   "type": "REEL",
+   "caption": "El sonido de la Navidad llegó a Farmacia Amancio Fernández ✨\n\nSi todavía no tenés tu regalo, mirá todas las opciones de perfumes que tenemos para elegir.\n\n📍 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DSlEcdBkggm/",
+   "postedAt": "2025-12-22T20:30:06.000Z",
+   "cover": "instagram/DSlEcdBkggm.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DSijPimknMP",
+   "type": "REEL",
+   "caption": "¿Todavía no tenés tu regalo de Navidad?\nEn Farmacia Amancio Fernández tenemos un montón de opciones para regalar 🎄✨\n\n👉🏻Y si sos geselino/a, aprovechá descuentos del 10% al 30% \n\n📍 Te esperamos en 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DSijPimknMP/",
+   "postedAt": "2025-12-21T21:03:56.000Z",
+   "cover": "instagram/DSijPimknMP.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DSPtdfficAc",
+   "type": "REEL",
+   "caption": "Nuevos ingresos para todos los días 🤩\nPrácticos, cómodos y con diseños que combinan con todo ✨  Ideales para regalar esta Navidad ✨\n\nEncontralos en Farmacia Amancio Fernández\n📍 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DSPtdfficAc/",
+   "postedAt": "2025-12-15T03:00:06.000Z",
+   "cover": "instagram/DSPtdfficAc.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DSKqM2BCanZ",
+   "type": "REEL",
+   "caption": "Mochilitas para los más peques 🎒\n\nCómodas, livianas y llenas de color, ideales para acompañarlos en cada aventura del verano.🤩\n\nEncontralas en Farmacia Amancio Fernández\n📍 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DSKqM2BCanZ/",
+   "postedAt": "2025-12-13T03:00:07.000Z",
+   "cover": "instagram/DSKqM2BCanZ.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DSFf9owCbtp",
+   "type": "REEL",
+   "caption": "¿Todavía no tenés tu bolso de playa? 🏖️\n\nSol, arena, mates y días que no se terminan más.\n\nEn Farmacia Amancio Fernández encontrás bolsos de playa amplios, cómodos y súper cancheros, ideales para acompañarte todo el verano ☀️\n\n📍 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DSFf9owCbtp/",
+   "postedAt": "2025-12-11T13:15:03.000Z",
+   "cover": "instagram/DSFf9owCbtp.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DSCyqR2DtGd",
+   "type": "POST",
+   "caption": "Llegaron nuevas billeteras a Farmacia Amancio Fernández\n\n👉🏻Deslizá y mirá todos los modelos disponibles,\nideales para regalar esta Navidad 🤍\n\n¡Te esperamos! \n📍 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/p/DSCyqR2DtGd/",
+   "postedAt": "2025-12-09T13:00:06.000Z",
+   "cover": "instagram/DSCyqR2DtGd.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DR-tERRCaUY",
+   "type": "REEL",
+   "caption": "¿Todavía no tenés tu bolso de fiesta? 🥂\n\nEse detalle que completa tu look y marca la diferencia.\nDescubrí todas las opciones en Farmacia Amancio Fernández.\n\n📍 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DR-tERRCaUY/",
+   "postedAt": "2025-12-07T19:32:00.000Z",
+   "cover": "instagram/DR-tERRCaUY.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DRzaShZjqpQ",
+   "type": "POST",
+   "caption": "Les compartimos algunas fotos de lo que fue nuestro sorteo de fin de año.\n\nGracias, una vez más, a todos los que nos acompañaron y formaron parte 🙌🏻\".",
+   "permalink": "https://www.instagram.com/p/DRzaShZjqpQ/",
+   "postedAt": "2025-12-03T13:39:25.000Z",
+   "cover": "instagram/DRzaShZjqpQ.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DPR4EREkTXN",
+   "type": "REEL",
+   "caption": "🎉 ¡Gran Sorteo de Fin de Año en Farmacia Amancio A. Fernández! 🎉\n\nCon cada compra que realices, obtenés un cupón para participar por estos premios: 🙌🏻\n\n1° premio: TV 50 pulgadas\n2° premio: Bicicleta rodado 29\n3° premio: Perfume importado\n4° premio: Orden de compras por $100.000\n5° y 6° premio: Perfume árabe\n7° premio: Secador de pelo\n8° premio: Cortadora de pelo\n9° premio: Creatina Ena\n10° premio: Proteína Ena\n\n📅 Sábado 29 de noviembre de 2025 – 12:30 hs\n📍 Sorteo presencial en la farmacia\n\nQueremos celebrar un año más junto a ustedes, nuestros clientes que nos acompañan todo el año.\n¡Los esperamos!\n\n#Sorteo #FinDeAño #FarmaciaAmancioFernandez #VillaGesell #Premios\".",
+   "permalink": "https://www.instagram.com/reel/DPR4EREkTXN/",
+   "postedAt": "2025-10-01T20:03:37.000Z",
+   "cover": "instagram/DPR4EREkTXN.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DOJyuftjq7v",
+   "type": "REEL",
+   "caption": "✨ 20% OFF en perfumes seleccionados ✨\nFragancias femeninas y masculinas que conquistan: Hernán Drago, María, Las Oreiro Dolor Vita, Oreiro My Rules y Oreiro My Life.\n💫 Elegí tu favorita y disfrutá del aroma ideal con un beneficio único.\n\n📍 Te esperamos en Farmacia Amancio Fernández, 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DOJyuftjq7v/",
+   "postedAt": "2025-09-03T20:10:04.000Z",
+   "cover": "instagram/DOJyuftjq7v.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DN1GPWkXAS3",
+   "type": "POST",
+   "caption": "✨ ¿Pelo seco, teñido o con frizz?\nCada tipo de cabello necesita su propia rutina para lucir sano, fuerte y brillante. 💆‍♀️💖\n\nEn este carrusel te compartimos productos recomendados para:\n✔️ Nutrir el pelo seco\n✔️ Proteger el color en cabellos teñidos\n✔️ Controlar el frizz e hidratar en profundidad\n\n💚 Lo mejor: ¡todos los encontrás en Farmacia Amancio Fernández!\n\n📍 Te esperamos en 106 y Boulevard\n\n#CuidadoCapilar #RutinaDeCabello #FarmaciaAmancioFernández\".",
+   "permalink": "https://www.instagram.com/p/DN1GPWkXAS3/",
+   "postedAt": "2025-08-26T19:17:07.000Z",
+   "cover": "instagram/DN1GPWkXAS3.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DNMB9a-tgxn",
+   "type": "REEL",
+   "caption": "Los bálsamos labiales perfectos no exist…😍\n¿Cuál elegirías vos? \n\n📍Villa Gesell - Paseo 106 y Boulevard\".",
+   "permalink": "https://www.instagram.com/reel/DNMB9a-tgxn/",
+   "postedAt": "2025-08-10T20:30:06.000Z",
+   "cover": "instagram/DNMB9a-tgxn.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DNG3Wc9vm7X",
+   "type": "REEL",
+   "caption": "Agosto de nuevas promos en  Farmacia Amancio Fernández 🤍\n⁠\n¡Vení y llévate todo!\n⁠\n📍Farmacia Amancio Fernández\n106 y Boulevard, Villa Gesell\".",
+   "permalink": "https://www.instagram.com/reel/DNG3Wc9vm7X/",
+   "postedAt": "2025-08-08T20:22:35.000Z",
+   "cover": "instagram/DNG3Wc9vm7X.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DNBr2NtvEw0",
+   "type": "REEL",
+   "caption": "¿Todavía no elegiste el regalo para el Día del Niño?\n\nEn Farmacia Amancio Fernández tenemos un montón de opciones para que encuentres el detalle perfecto para los más peques 🧸\n\n📍Villa Gesell - Paseo 106 y Boulevard\n📲2255 418960\n\n#DíaDelNiño #FarmaciaAmancioFernández #RegalosConAmor\".",
+   "permalink": "https://www.instagram.com/reel/DNBr2NtvEw0/",
+   "postedAt": "2025-08-06T20:06:57.000Z",
+   "cover": "instagram/DNBr2NtvEw0.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DMqgsCuv4Z-",
+   "type": "REEL",
+   "caption": "Bienvenidos a Farmacia Amancio Fernández!\n\nDonde cada día trabajamos para brindarte atención cercana, profesional y de confianza 🤍\n\nPorque tu bienestar es nuestra prioridad.\n¡Te esperamos!\n\n📍 Estamos en 106 y Boulevard\n\n#FarmaciaAmancioFernández #CuidamosTuSalud\".",
+   "permalink": "https://www.instagram.com/reel/DMqgsCuv4Z-/",
+   "postedAt": "2025-07-28T20:05:05.000Z",
+   "cover": "instagram/DMqgsCuv4Z-.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DMJACnYvCk1",
+   "type": "REEL",
+   "caption": "¡Nuevas carteras Las Oreiro! \n\nPasá a conocer los nuevos modelos… ¡y llevate tu favorita!\n\n📍Villa Gesell – Paseo 106 y Boulevard\n📞 2255 418960\n\nTambién encontrás suplementos y medicina natural para cuidarte todos los días 🌿\n\n#LasOreiro #CarterasConEstilo #NuevosIngresos\".",
+   "permalink": "https://www.instagram.com/reel/DMJACnYvCk1/",
+   "postedAt": "2025-07-15T19:45:59.000Z",
+   "cover": "instagram/DMJACnYvCk1.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DL8fhNQP6fH",
+   "type": "REEL",
+   "caption": "Llegó julio y llegaron nuevas promos a Farmacia Amancio Fernández \n⁠\n¡Vení y llévate todo! \n⁠\n📍Farmacia Amancio Fernández\n106 y Boulevard, Villa Gesell\n\n#PromosJulio #VillaGesell #OfertasDelMes #SaludYBienestar #FarmaciaAmancioFernández\".",
+   "permalink": "https://www.instagram.com/reel/DL8fhNQP6fH/",
+   "postedAt": "2025-07-10T23:10:50.000Z",
+   "cover": "instagram/DL8fhNQP6fH.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DL3FVVzzw1Q",
+   "type": "POST",
+   "caption": "Fortalece tus defensas y cuidar tu salud\n\nTe esperamos en la farmacia con más infusiones, suplementos y medicina natural.\n\n2255 418960\nVilla Gesell | Paseo 106 y Boulevard . \n\n#SaludNatural #HierbasMedicinales #FarmaciaNatural #AmancioFernández\".",
+   "permalink": "https://www.instagram.com/p/DL3FVVzzw1Q/",
+   "postedAt": "2025-07-08T20:44:54.000Z",
+   "cover": "instagram/DL3FVVzzw1Q.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DLvRjhHvVjJ",
+   "type": "REEL",
+   "caption": "¡Llegaron las riñoneras y bandoleras de hombre de la NBA! 🏀\n\nAhora podés llevar el estilo de tu equipo favorito con vos, ¡y en todo momento! 😎\n\n¿Cuál es tu favorita? \n\n📍 Villa Gesell, en 106 y Boulevard.\n\n#NBA #RiñonerasNBA #EstiloDeJuego #ModaDeportivo #FarmaciaAmancioFernández\".",
+   "permalink": "https://www.instagram.com/reel/DLvRjhHvVjJ/",
+   "postedAt": "2025-07-05T19:59:53.000Z",
+   "cover": "instagram/DLvRjhHvVjJ.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DLsElryuCBR",
+   "type": "POST",
+   "caption": "✨¡Nuevos Ingresos de Victoria’s Secret! ✨\nLlegaron las Body Lotion de Victoria’s Secret y mas  Body Splash.\n\nTe invitamos a descubrirlas en 106 y Boulevard. \n\n📲 Consultas al: 2255 41-8960\n\n¡Te esperamos!\".",
+   "permalink": "https://www.instagram.com/p/DLsElryuCBR/",
+   "postedAt": "2025-07-04T14:06:45.000Z",
+   "cover": "instagram/DLsElryuCBR.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DLibgHPPKZm",
+   "type": "REEL",
+   "caption": "¿Buscás una rutina simple y efectiva para aclarar la piel?\n\nEn Farmacia Amancio Fernández te mostramos el paso a paso con los productos de la línea Garnier Express Aclara:\n\n🧼 Gel limpiador purificante\nLimpia en profundidad y ayuda a reducir imperfecciones.\n\n🌙 Sérum de noche con vitamina C pura al 10%\nActúa mientras dormís para reducir manchas y unificar el tono.\n\n👁️ Crema de ojos anti-ojeras\nIlumina la mirada y combate la opacidad.\n\n☀️ Crema hidratante con FPS 30\nProtección solar + acción antimanchas para el día a día.\n\n📍Encontrá toda la línea Garnier en 106 y Boulevard\n📞 2255 41-8960\n\n#GarnierExpressAclara #CuidadoFacial #RutinaDePiel #FarmaciaAmancioFernández #VitaminaC\".",
+   "permalink": "https://www.instagram.com/reel/DLibgHPPKZm/",
+   "postedAt": "2025-06-30T20:15:52.000Z",
+   "cover": "instagram/DLibgHPPKZm.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DKvK0qavnYu",
+   "type": "REEL",
+   "caption": "🎁 ¿Buscás el regalo ideal para papá?\nEn @farmacia.amancio.fernandez tenemos opciones para todos los estilos 🙌\n\n▪️Afeitadoras y cortadoras de pelo\n▪️Perfumes que son un clásico\n▪️Proteínas para los papás fit\n▪️Riñoneras y billeteras con mucha onda\n\n ¡Y mucho más para sorprender este 16 de junio!\n\n.\n.\n#DíaDelPadre #RegalosParaPapá #FarmaciaAmancioFernandez #PapáSeLoMerece #VillaGesell\".",
+   "permalink": "https://www.instagram.com/reel/DKvK0qavnYu/",
+   "postedAt": "2025-06-10T22:29:24.000Z",
+   "cover": "instagram/DKvK0qavnYu.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DKfbYZnvP-V",
+   "type": "REEL",
+   "caption": "Hoy Silvana, nuestra farmacéutica, te cuenta cuáles son tres suplementos clave para fortalecer tu sistema inmunológico:\n\n▪️Gomitas Arcor: una forma práctica y rica de sumar vitamina C y zinc todos los días.\n▪️Centrum: multivitamínico completo que ayuda a mantener tu cuerpo equilibrado y protegido.\n▪️Quelat: zinc quelado de alta absorción, esencial para el buen funcionamiento de las defensas.\n\nConsultá siempre con tu médico antes de consumir suplementos.\nTe esperamos en 106 y Boulevard.\n2255 41-8960\n\n#SistemaInmunológico #CuidadoDeLaSalud #FarmaciaAmancioFernández #Vitaminas #Zinc #GomitasArcor\".",
+   "permalink": "https://www.instagram.com/reel/DKfbYZnvP-V/",
+   "postedAt": "2025-06-04T19:48:37.000Z",
+   "cover": "instagram/DKfbYZnvP-V.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DJcfxw2v0fB",
+   "type": "REEL",
+   "caption": "¡Es mayo y tenemos nuevas promos! 🛍️\nNo te las podés perder.\n\n📍Te esperamos en 106 y Boulevard:\n▪️Lunes a viernes de 8:30 a 13:00 y de 16:30 a 21:00\n▪️Sábados de 8:30 a 13:00\n\nPasá por la farmacia y aprovechá los descuentos del mes. 😉\n\n#AmancioFernandez #VillaGesell #Farmacia #Promos\".",
+   "permalink": "https://www.instagram.com/reel/DJcfxw2v0fB/",
+   "postedAt": "2025-05-09T19:55:48.000Z",
+   "cover": "instagram/DJcfxw2v0fB.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DJHRvT_OFj7",
+   "type": "POST",
+   "caption": "¡Feliz Día del Trabajador para todos, pero especialmente para nuestro increíble equipo de Farmacia Amaneció Fernández!\n\nGracias por su esfuerzo, dedicación y compromiso. ¡Feliz día!\".",
+   "permalink": "https://www.instagram.com/p/DJHRvT_OFj7/",
+   "postedAt": "2025-05-01T14:06:58.000Z",
+   "cover": "instagram/DJHRvT_OFj7.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DIme1xEvHWd",
+   "type": "REEL",
+   "caption": "Llegaron los perfumes árabes a Farmacia Amancio Fernández!\nFragancias exóticas, intensas y de larga duración.\n\nTE ESPERAMOS EN \n📍106 y Boulevard – Villa Gesell\n\n#PerfumesÁrabes #FarmaciaAmancioFernández #FraganciasÚnicas #VillaGesell\".",
+   "permalink": "https://www.instagram.com/reel/DIme1xEvHWd/",
+   "postedAt": "2025-04-18T20:27:29.000Z",
+   "cover": "instagram/DIme1xEvHWd.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DIbZSdeuXpM",
+   "type": "REEL",
+   "caption": "Smart Cool: body splash + shower gel, pensado para el hombre moderno que transforma el cuidado personal en un ritual.\n\n🌿 Notas de mandarina verde, lavanda y cuero se combinan en una fragancia intensa y envolvente.\n✨ Un set ideal para regalar… o regalarte.\n\n📍Farmacia Amancio Fernández – 106 y Boulevard, Villa Gesell\n🕒 Lunes a viernes: 8:30 a 13:00 y 16:00 a 20:30\n🕒 Sábados: 8:30 a 13:00\n.\n.\n.\n#SmartCool #Bensimon #CuidadoPersonal #FarmaciaAmancioFernández #VillaGesell\".",
+   "permalink": "https://www.instagram.com/reel/DIbZSdeuXpM/",
+   "postedAt": "2025-04-14T13:09:50.000Z",
+   "cover": "instagram/DIbZSdeuXpM.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DIXA57pvuGq",
+   "type": "REEL",
+   "caption": "✨ ¡Nuevo ingreso en la farmacia!\nLos Body Splash de Victoria’s Secret ya están disponibles para que elijas el que va con vos 💖\n\nFragancias irresistibles que dejan tu piel fresca, perfumada y con ese toque especial que te acompaña todo el día 🌸\n\nDisponibles:\n• Pure Seduction Shimmer ✨\n• Coconut Passion 🥥\n• Velvet Petals 🌺\n• Strawberry & Champagne 🍓🍾\n• Bare Vanilla 🍦\n• Love Spell 💜\n\n📍Pasá por Farmacia Amancio Fernández y llevate tu favorito. Te esperamos en 106 y boulevard.\n📲2255 41-8960\n.\n.\n.\n\n#VictoriasSecret #BodySplash #FraganciasIrresistibles #FarmaciaAmancioFernández #Perfume #CuidadoPersonal\".",
+   "permalink": "https://www.instagram.com/reel/DIXA57pvuGq/",
+   "postedAt": "2025-04-12T20:17:01.000Z",
+   "cover": "instagram/DIXA57pvuGq.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DIRUMyEubZj",
+   "type": "REEL",
+   "caption": "Curflex Dúo – Disponible en Farmacia Amancio Fernández\n\nSi te duelen las articulaciones o sentís rigidez al moverte, este suplemento puede ayudarte a mejorar tu calidad de vida. Con colágeno hidrolizado, magnesio, ácido hialurónico y vitamina D.\n\nEste suplemento dietario contribuye a:\n✅ Regenerar cartílagos\n✅ Fortalecer las articulaciones\n✅ Aliviar el dolor y mejorar la flexibilidad\n✅ Aumentar la densidad ósea\n✅ Recuperar músculos y reducir la fatiga\n\n👉🏼 Consultá siempre con tu médico antes de consumir suplementos. \n\nTe esperamos en 106 y boulevard\n📲2255 41-8960\n.\n.\n.\n#CurflexDúo #FarmaciaAmancioFernández #SaludArticular #Bienestar #Vitaminas #CuidáTuCuerpo\".",
+   "permalink": "https://www.instagram.com/reel/DIRUMyEubZj/",
+   "postedAt": "2025-04-10T15:12:27.000Z",
+   "cover": "instagram/DIRUMyEubZj.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DH8o0UKu9iM",
+   "type": "REEL",
+   "caption": "🌿 Vení a conocer nuestra sección de herboristería en Farmacia Amancio Fernández 🌿\n\nSi buscás una opción natural para sentirte mejor, tenemos lo que necesitás: hierbas, tisanas y tinturas madres que ayudan a equilibrar y fortalecer tu cuerpo.\n\nTe esperamos en 106 y boulevard \n📲2255 41-8960\n.\n.\n.\n#Herboristería #BienestarNatural #HierbasMedicinales #Tisanas #TinturasMadres #FarmaciaAmancioFernández\".",
+   "permalink": "https://www.instagram.com/reel/DH8o0UKu9iM/",
+   "postedAt": "2025-04-02T14:31:20.000Z",
+   "cover": "instagram/DH8o0UKu9iM.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DHmC3uLv7AB",
+   "type": "POST",
+   "caption": "Mira todas las opciones de perfumes que tenemos para ellos, con fragancias suaves, frescas y seguras para su piel. ✨¡El regalo ideal para los más peques!✨\n\n👉🏻Te esperamos de lunes a viernes de 8.30 a 13.00 y  de 16.30 a 21.00 \n👉🏻 Sabados de 8.30 a 13.00 hs \n📍En 106 y boulevard .\n\n#amanciofernandez #villagesell #farmacia #promos\".",
+   "permalink": "https://www.instagram.com/p/DHmC3uLv7AB/",
+   "postedAt": "2025-03-24T19:50:42.000Z",
+   "cover": "instagram/DHmC3uLv7AB.jpg",
+   "visible": true,
+   "featured": true
+  },
+  {
+   "code": "DHd0zp4Ou1v",
+   "type": "REEL",
+   "caption": "✨ ¡Ingresaron nuevas mochis y bolsos! ✨👜\n\nMirá todos los modelos que tenemos disponibles y elegí la tuya. ¡Ideales para la #VueltaAlCole! 📚✏️\n\n👉🏻Te esperamos de lunes a viernes de 8.30 a 13.00 y  de 16.30 a 21.00 👉🏻 Sabados de 16.30 a 21.00 📍En 106 y boulevard .\".",
+   "permalink": "https://www.instagram.com/reel/DHd0zp4Ou1v/",
+   "postedAt": "2025-03-21T15:14:30.000Z",
+   "cover": "instagram/DHd0zp4Ou1v.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DHZLAwlPUtn",
+   "type": "REEL",
+   "caption": "¿Todavia no aprovechaste las promos de Marzo? \n\n👉🏻Te esperamos de lunes a viernes de 8.30 a 13.00 y  de 16.30 a 21.00 \n👉🏻 Sabados de 8.30 a 13.00 \n📍En 106 y boulevard .\n\n#amanciofernandez #villagesell #farmacia #promos\".",
+   "permalink": "https://www.instagram.com/reel/DHZLAwlPUtn/",
+   "postedAt": "2025-03-19T19:57:33.000Z",
+   "cover": "instagram/DHZLAwlPUtn.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DHT1dW8v-LZ",
+   "type": "REEL",
+   "caption": "¡Llegaron los perfumes árabes! Vení a probarlos y descubrí la fragancia perfecta para vos. Aromas intensos, elegantes y con una duración única. \n\n👉🏻Te esperamos de lunes a viernes de 8.30 a 13.00 y  de 16.30 a 21.00\n👉🏻 Sabados de 8.30 a 13.00 \n\n📍En 106 y boulevard .\n\n#amanciofernandez #villagesell #farmacia\".",
+   "permalink": "https://www.instagram.com/reel/DHT1dW8v-LZ/",
+   "postedAt": "2025-03-17T18:13:02.000Z",
+   "cover": "instagram/DHT1dW8v-LZ.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DG1L5j6vGqL",
+   "type": "REEL",
+   "caption": "En Amancio Fernández tenemos la mochila perfecta para el regreso a clases📚 \n¡Veni a elegir la tuya!\n #VueltaAlCole #Mochilas #amanciofernandez\".",
+   "permalink": "https://www.instagram.com/reel/DG1L5j6vGqL/",
+   "postedAt": "2025-03-17T03:29:17.000Z",
+   "cover": "instagram/DG1L5j6vGqL.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DGv__g7vcKt",
+   "type": "REEL",
+   "caption": "Todo lo que necesitas para completar tu entrenamiento está en @nutremax.arg 💪🏻 \nAcércate a nuestra farmacia y disfruta de una atención personalizada. ¡Te esperamos!\n📍106 y boulevard\n\n#suplementosdeportivos #farmacia\".",
+   "permalink": "https://www.instagram.com/reel/DGv__g7vcKt/",
+   "postedAt": "2025-03-03T20:35:37.000Z",
+   "cover": "instagram/DGv__g7vcKt.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DGoe9d1P8iV",
+   "type": "REEL",
+   "caption": "La farmacia para toda la familia 🤩 Porque en cada etapa de la vida, siempre vas a encontrar lo que necesitas. ✨¡Te esperamos! \n📍 106 y Boulevard\n\n#amanciofernandez #farmacia #villagesell\".",
+   "permalink": "https://www.instagram.com/reel/DGoe9d1P8iV/",
+   "postedAt": "2025-02-28T22:18:18.000Z",
+   "cover": "instagram/DGoe9d1P8iV.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DGjQrl_vipU",
+   "type": "POST",
+   "caption": "👉🏻Desliza para descubrir todas las opciones de perfumes que tenemos. ✨\nVení por tu fragancia ideal. ¡Te esperamos en 106 y Boulevard!\n.\n.\n.\n#farmacia #perfumes #villagesell\".",
+   "permalink": "https://www.instagram.com/p/DGjQrl_vipU/",
+   "postedAt": "2025-02-26T21:22:16.000Z",
+   "cover": "instagram/DGjQrl_vipU.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DGRVsJmvm0B",
+   "type": "REEL",
+   "caption": "Todo lo que necesitas para complementar tu entrenamiento está en nuestra farmacia 💪🏻\n\n👉🏻Proteínas, suplementos y mucho mas. \n\n ¡Te esperamos en 106 y Boulevard!\n\n#amanciofernandez #villagesell #proteina #suplementos\".",
+   "permalink": "https://www.instagram.com/reel/DGRVsJmvm0B/",
+   "postedAt": "2025-02-19T22:28:37.000Z",
+   "cover": "instagram/DGRVsJmvm0B.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DGG_KHWvh15",
+   "type": "REEL",
+   "caption": "¡Veni a aprovechar todas las promos del mes! \n\n👉🏻Te esperamos de lunes a viernes de 8.30 a 21.30 y los sábado de 8.30 a 20.30 \n\n📍En 106 y boulevard . \n\n#amanciofernandez #villagesell #farmacia #promos\".",
+   "permalink": "https://www.instagram.com/reel/DGG_KHWvh15/",
+   "postedAt": "2025-02-15T21:51:35.000Z",
+   "cover": "instagram/DGG_KHWvh15.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DF8iPZIPWGA",
+   "type": "REEL",
+   "caption": "Estamos muy cerca de la vuelta al cole 📚y tenemos opciones de mochilas increíbles para que comiences el año con todo🎒✨\n\n¡Veni a elegir la tuya!\".",
+   "permalink": "https://www.instagram.com/reel/DF8iPZIPWGA/",
+   "postedAt": "2025-02-11T20:25:03.000Z",
+   "cover": "instagram/DF8iPZIPWGA.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "DFgdUgjP_l6",
+   "type": "REEL",
+   "caption": "Trabajamos para brindarte lo mejor en salud y bienestar hace más de 60 años 🤍\n\n📍 Nos encontrás en 106 y Boulevard.\n💊 Atención con prepagas y obras sociales.\n👉🏻Perfumería, suplementos y herboristería.\n\n¡Te esperamos!\n\n#amanciofernandez #villagesell #herboristeria #perfumeria #farmacia\".",
+   "permalink": "https://www.instagram.com/reel/DFgdUgjP_l6/",
+   "postedAt": "2025-01-31T22:53:22.000Z",
+   "cover": "instagram/DFgdUgjP_l6.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "DAiw8WZO1Fi",
+   "type": "REEL",
+   "caption": "¿Récordas cómo se sentía ir a comprar cuando eras un niño? Querías agarrar todo lo que podías y estabas con una sonrisa por todo el local, en Amancio Fernández esa sonrisa dura todos los pasillos debido a la gran variedad de artículos que tenemos para todos los gustos, todas las necesidades y edades, te esperamos para que la sonrisa te acompañe durante todo el día 🙂\n\n¡Todo lo que necesites! Queremos recordarte algo obvio pero que no hay que pasar por alto, siempre pensamos en todo lo que podes llegar a necesitar, somos tu solución perfecta para cualquier inquietud o necesidad. ¡Te esperamos!\n\n⏰Lunes a Viernes 08:30 A 13:00 \n🏪🕞🕖🕔🕑🕘 16:00  A 20:30\n⏰ Sábados 08:30 hasta las 13:00 \n📲Consúltanos al WhatsApp +54 2255 41-8960 \n🔗Link en historias destacadas 📱\nTe esperamos en 📍 Av. Boulevard Silvio Gesell y Paseo 106.\n\n🌱Amancio, el mismo de siempre, pero ¡Renovado!✨⏰\n\n• Trabajamos con PAMI y Obras Sociales.\n\n#AmancioFernandez #Villagesell #Gesell2025\n#farmacia #perfumería #Villagesell2024\n#herboristería #suplementos #pami\n#ObrasSociales #farmaciavillagesell\".",
+   "permalink": "https://www.instagram.com/reel/DAiw8WZO1Fi/",
+   "postedAt": "2024-09-30T14:27:00.000Z",
+   "cover": "instagram/DAiw8WZO1Fi.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "C-5-Oh1S1f8",
+   "type": "REEL",
+   "caption": "📝 Te invitamos a visitar nuestra farmacia, con más de 60 años en la ciudad de Villa Gesell.\n\n 💊FARMACIA |☘️HERBORISTERIA \n\n 🛍 PERFUMERÍA | 🎁REGALERIA\n\n \n🤳 Respondemos todas las consultas a través de WhatsApp, link en bio.\n\n📍Boulevard y Paseo 106, Villa Gesell, Buenos Aires.\".",
+   "permalink": "https://www.instagram.com/reel/C-5-Oh1S1f8/",
+   "postedAt": "2024-08-20T21:11:27.000Z",
+   "cover": "instagram/C-5-Oh1S1f8.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "C-DEoSFusNt",
+   "type": "REEL",
+   "caption": "En nuestro espacio, la atención es personalizada, brindando al cliente el mejor servicio posible. Gracias a nuestro cliente y actor Juan por salir en cámara! 👏🏼 y a nuestra actriz de lujo, Silvana\".",
+   "permalink": "https://www.instagram.com/reel/C-DEoSFusNt/",
+   "postedAt": "2024-07-30T13:19:06.000Z",
+   "cover": "instagram/C-DEoSFusNt.jpg",
+   "visible": false,
+   "featured": false
+  },
+  {
+   "code": "CsGlobtOy7J",
+   "type": "POST",
+   "caption": "🏅NUEVA LÍNEA NUTREMAX🎗️\n🏊‍♂️POTENCIÁ TU ESFUERZO🏋️\n🔋Veni a conocer toda la línea completa de nutremax, recuperate, hidratate y seguí!! 🏅\n🚴‍♀️PREPARARE PARA TU CARRERA 🏃‍♀️\".",
+   "permalink": "https://www.instagram.com/p/CsGlobtOy7J/",
+   "postedAt": "2023-05-11T12:32:08.000Z",
+   "cover": "instagram/CsGlobtOy7J.jpg",
+   "visible": true,
+   "featured": false
+  },
+  {
+   "code": "CnxRc43MhUt",
+   "type": "POST",
+   "caption": "✨Renovarse es crecer, y en nuestro caso, sumar nuevas propuestas.✨\n💁‍♀️Te esperamos en Av. Boulevard Silvio Gesell y Paseo 106, para que puedas conocer nuestras nuevas propuestas.\n\nConsejo: También tenemos turnos para tratamientos faciales sin cargo 😉.\n📲Consultanos al Whatsapp +54 9 2255 41-8960, link en historias destacadas.\n\n🕐Abierto de lunes a sábado de 8:30 a 22:00 Hs.\n.\n.\n.\n#AmancioFernandez\n#VillaGesell\n#farmacia\n#perfumería\n#herboristería\n#suplementos\n#pami\n#ObrasSociales\n#FarmaciaDeTurno\n#FarmaciaVillaGesell\".",
+   "permalink": "https://www.instagram.com/p/CnxRc43MhUt/",
+   "postedAt": "2023-01-23T21:31:47.000Z",
+   "cover": "instagram/CnxRc43MhUt.jpg",
+   "visible": true,
+   "featured": false
+  }
+ ],
+ "insurers": [
+  {
+   "name": "IOMA",
+   "fullName": "Instituto de Obra Médico Asistencial"
+  },
+  {
+   "name": "PAMI",
+   "fullName": "Instituto Nacional de Servicios Sociales para Jubilados y Pensionados"
+  },
+  {
+   "name": "OSDE",
+   "fullName": null
+  },
+  {
+   "name": "Swiss Medical",
+   "fullName": null
+  },
+  {
+   "name": "Galeno",
+   "fullName": null
+  },
+  {
+   "name": "Medifé",
+   "fullName": null
+  },
+  {
+   "name": "OSECAC",
+   "fullName": "Obra Social de Empleados de Comercio y Actividades Civiles"
+  },
+  {
+   "name": "SUTEBA",
+   "fullName": "Sindicato Unificado de Trabajadores de la Educación de Buenos Aires"
+  },
+  {
+   "name": "SEC",
+   "fullName": "Sindicato de Empleados de Comercio"
+  },
+  {
+   "name": "UPCN",
+   "fullName": "Unión del Personal Civil de la Nación"
+  },
+  {
+   "name": "Accord Salud",
+   "fullName": null
+  },
+  {
+   "name": "Jerárquicos Salud",
+   "fullName": null
+  },
+  {
+   "name": "Luis Pasteur",
+   "fullName": null
+  },
+  {
+   "name": "OSMATA",
+   "fullName": "Obra Social de Mecánicos y Afines del Transporte Automotor"
+  },
+  {
+   "name": "OSUTGRA",
+   "fullName": "Obra Social de la Unión de Trabajadores Gastronómicos"
+  },
+  {
+   "name": "OSPEDYC",
+   "fullName": "Obra Social del Personal de Entidades Deportivas y Civiles"
+  },
+  {
+   "name": "OSPIM",
+   "fullName": "Obra Social del Personal de la Industria Maderera"
+  },
+  {
+   "name": "OSFATLYF",
+   "fullName": "Obra Social de Trabajadores de Luz y Fuerza"
+  },
+  {
+   "name": "Coseguro Luz y Fuerza",
+   "fullName": null
+  },
+  {
+   "name": "OSPF",
+   "fullName": null
+  },
+  {
+   "name": "OSPE",
+   "fullName": null
+  },
+  {
+   "name": "OSPEDIN",
+   "fullName": null
+  },
+  {
+   "name": "SAT",
+   "fullName": null
+  },
+  {
+   "name": "AMFA",
+   "fullName": null
+  },
+  {
+   "name": "FEBOS",
+   "fullName": null
+  },
+  {
+   "name": "COMEI",
+   "fullName": null
+  },
+  {
+   "name": "Banco Provincia",
+   "fullName": null
+  }
+ ],
+ "store": {
+  "name": "Farmacia Amancio Fernández",
+  "tagline": "Más de 60 años cuidándote",
+  "since": 1960,
+  "phone": "2255 41-8960",
+  "whatsapp": "5492255418960",
+  "address": "Paseo 106 y Boulevard Silvio Gesell",
+  "city": "Villa Gesell",
+  "province": "Buenos Aires",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Farmacia%20Amancio%20Fernandez%20Villa%20Gesell&query_place_id=ChIJF3aJ2u9gm5UR8q-ZHkOOPEg",
+  "lat": -37.2523808,
+  "lng": -56.9779174,
+  "instagram": "@farmacia.amancio.fernandez",
+  "instagramUrl": "https://www.instagram.com/farmacia.amancio.fernandez/",
+  "benefits": [
+   {
+    "icon": "credit-card",
+    "title": "3 cuotas sin interés",
+    "text": "Con tarjeta, en perfumería y regalería."
+   },
+   {
+    "icon": "banknote",
+    "title": "Descuento en efectivo",
+    "text": "Precio especial abonando en efectivo."
+   },
+   {
+    "icon": "truck",
+    "title": "Envío a domicilio sin cargo",
+    "text": "Pedís por WhatsApp y te lo llevamos."
+   },
+   {
+    "icon": "shield-check",
+    "title": "27 obras sociales y prepagas",
+    "text": "Si no encontrás la tuya, escribinos."
+   }
+  ]
+ },
+ "hours": [
+  {
+   "season": "REGULAR",
+   "weekday": 1,
+   "opens": "08:30",
+   "closes": "13:00"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 1,
+   "opens": "16:30",
+   "closes": "21:00"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 1,
+   "opens": "08:30",
+   "closes": "13:30"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 1,
+   "opens": "16:30",
+   "closes": "21:30"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 2,
+   "opens": "08:30",
+   "closes": "13:00"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 2,
+   "opens": "16:30",
+   "closes": "21:00"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 2,
+   "opens": "08:30",
+   "closes": "13:30"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 2,
+   "opens": "16:30",
+   "closes": "21:30"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 3,
+   "opens": "08:30",
+   "closes": "13:00"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 3,
+   "opens": "16:30",
+   "closes": "21:00"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 3,
+   "opens": "08:30",
+   "closes": "13:30"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 3,
+   "opens": "16:30",
+   "closes": "21:30"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 4,
+   "opens": "08:30",
+   "closes": "13:00"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 4,
+   "opens": "16:30",
+   "closes": "21:00"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 4,
+   "opens": "08:30",
+   "closes": "13:30"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 4,
+   "opens": "16:30",
+   "closes": "21:30"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 5,
+   "opens": "08:30",
+   "closes": "13:00"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 5,
+   "opens": "16:30",
+   "closes": "21:00"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 5,
+   "opens": "08:30",
+   "closes": "13:30"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 5,
+   "opens": "16:30",
+   "closes": "21:30"
+  },
+  {
+   "season": "REGULAR",
+   "weekday": 6,
+   "opens": "08:30",
+   "closes": "13:30"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 6,
+   "opens": "08:30",
+   "closes": "13:30"
+  },
+  {
+   "season": "SUMMER",
+   "weekday": 6,
+   "opens": "17:00",
+   "closes": "21:00"
+  }
+ ],
+ "banners": [
+  {
+   "placement": "HOME_PROMO",
+   "eyebrow": "Decants",
+   "title": "Tu perfume favorito, ahora también en decant",
+   "subtitle": "Fraccionamos perfumes originales para que los pruebes o los lleves siempre con vos, sin comprar el frasco completo.",
+   "ctaLabel": "Ver perfumes con decant",
+   "ctaHref": "/catalogo?decant=true",
+   "image": "site/decant.jpg"
+  },
+  {
+   "placement": "HOME_PROMO",
+   "eyebrow": "Envíos",
+   "title": "Pedí por WhatsApp y recibilo en tu casa",
+   "subtitle": "Armá tu pedido en la web, lo preparamos y te lo llevamos a domicilio sin cargo.",
+   "ctaLabel": "Armar mi pedido",
+   "ctaHref": "/catalogo",
+   "image": "site/interior.jpg"
+  }
+ ]
+}

@@ -1,0 +1,3684 @@
+{
+ "categories": [
+  {
+   "slug": "perfumeria",
+   "name": "Perfumería",
+   "icon": "sparkles",
+   "accent": "#009cac",
+   "tagline": "Originales de diseñador, árabes y nacionales. También en decant.",
+   "description": "Más de 120 fragancias árabes y toda la línea de diseñador. Te asesoramos para encontrar la tuya y, si querés probar antes, muchas están en decant.",
+   "coverFile": "categories/perfumeria.jpg"
+  },
+  {
+   "slug": "maquillaje",
+   "name": "Maquillaje",
+   "icon": "palette",
+   "accent": "#c4687d",
+   "tagline": "Bases, labiales y paletas que se usan todos los días.",
+   "description": "Maybelline y más: bases livianas con protección, labiales que hidratan y paletas con excelente pigmentación.",
+   "coverFile": "categories/maquillaje.jpg"
+  },
+  {
+   "slug": "cuidado-de-la-piel",
+   "name": "Cuidado de la piel",
+   "icon": "droplets",
+   "accent": "#e58f9e",
+   "tagline": "Skincare coreano, dermocosmética y cuidado de labios.",
+   "description": "Rutinas completas de limpieza, hidratación, renovación y protección: Medicube, Garnier, Bioglosse, La Roche-Posay y más.",
+   "coverFile": "categories/cuidado-de-la-piel.jpg"
+  },
+  {
+   "slug": "cabello",
+   "name": "Cabello",
+   "icon": "wind",
+   "accent": "#b38b59",
+   "tagline": "Máscaras, aceites y tratamientos para cada tipo de pelo.",
+   "description": "Karseell, Prismax y tratamientos para pelo seco, teñido o con frizz.",
+   "coverFile": "categories/cabello.jpg"
+  },
+  {
+   "slug": "suplementos",
+   "name": "Suplementos",
+   "icon": "dumbbell",
+   "accent": "#5c8d3a",
+   "tagline": "Proteínas, creatina, colágeno y vitaminas, con asesoramiento.",
+   "description": "Star Nutrition, ENA, Nutremax y más para tu entrenamiento, tu recuperación y tus defensas. Consultá siempre con tu médico.",
+   "coverFile": "categories/suplementos.jpg"
+  },
+  {
+   "slug": "herboristeria",
+   "name": "Herboristería",
+   "icon": "leaf",
+   "accent": "#6b8f4e",
+   "tagline": "Hierbas, tisanas y tinturas madres.",
+   "description": "Una opción natural para sentirte mejor: hierbas medicinales, tisanas y tinturas madres para equilibrar y fortalecer tu cuerpo.",
+   "coverFile": "categories/herboristeria.jpg"
+  },
+  {
+   "slug": "salud",
+   "name": "Salud y bienestar",
+   "icon": "heart-pulse",
+   "accent": "#3a7ca5",
+   "tagline": "Control y cuidado en casa.",
+   "description": "Tensiómetros, accesorios para respirar mejor, masajeadores y apoyo ergonómico.",
+   "coverFile": "categories/salud.jpg"
+  },
+  {
+   "slug": "electro",
+   "name": "Electro",
+   "icon": "zap",
+   "accent": "#7d5ba6",
+   "tagline": "Secadores, cepillos y perfiladores.",
+   "description": "Herramientas prácticas para el cuidado personal: secadores, cepillos secadores y perfiladores eléctricos.",
+   "coverFile": "categories/electro.jpg"
+  },
+  {
+   "slug": "regaleria",
+   "name": "Regalería y accesorios",
+   "icon": "gift",
+   "accent": "#d08a2e",
+   "tagline": "Stanley, bolsos, mochilas y billeteras.",
+   "description": "Todo para regalar (o regalarte): Stanley, billeteras, bolsos de playa y de fiesta, mochilas y riñoneras.",
+   "coverFile": "categories/regaleria.jpg"
+  }
+ ],
+ "brands": [
+  {
+   "name": "Versace",
+   "origin": "Italia"
+  },
+  {
+   "name": "Dior",
+   "origin": "Francia"
+  },
+  {
+   "name": "Dolce & Gabbana",
+   "origin": "Italia"
+  },
+  {
+   "name": "Armaf",
+   "origin": "Emiratos Árabes Unidos"
+  },
+  {
+   "name": "Lattafa",
+   "origin": "Emiratos Árabes Unidos"
+  },
+  {
+   "name": "Victoria's Secret",
+   "origin": "Estados Unidos"
+  },
+  {
+   "name": "Kenzo",
+   "origin": "Francia"
+  },
+  {
+   "name": "Jesús del Pozo",
+   "origin": "España"
+  },
+  {
+   "name": "Calvin Klein",
+   "origin": "Estados Unidos"
+  },
+  {
+   "name": "Carolina Herrera",
+   "origin": "España"
+  },
+  {
+   "name": "Rabanne",
+   "origin": "Francia"
+  },
+  {
+   "name": "Jean Paul Gaultier",
+   "origin": "Francia"
+  },
+  {
+   "name": "Chanel",
+   "origin": "Francia"
+  },
+  {
+   "name": "Tucci",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Agatha Ruiz de la Prada",
+   "origin": "España"
+  },
+  {
+   "name": "Las Pepas",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Las Oreiro",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Boos",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Caro Cuore",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Agarrate Catalina",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Benito Fernández",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Mujercitas",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Bensimon",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Maybelline New York",
+   "origin": "Estados Unidos"
+  },
+  {
+   "name": "MacCallure",
+   "origin": null
+  },
+  {
+   "name": "Garnier",
+   "origin": "Francia"
+  },
+  {
+   "name": "Bagóvit",
+   "origin": "Argentina"
+  },
+  {
+   "name": "NIVEA",
+   "origin": "Alemania"
+  },
+  {
+   "name": "Carmex",
+   "origin": "Estados Unidos"
+  },
+  {
+   "name": "Medicube",
+   "origin": "Corea del Sur"
+  },
+  {
+   "name": "La Roche-Posay",
+   "origin": "Francia"
+  },
+  {
+   "name": "Bioglosse",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Karseell",
+   "origin": null
+  },
+  {
+   "name": "Prismax",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Star Nutrition",
+   "origin": "Argentina"
+  },
+  {
+   "name": "ENA Sport Nutrition",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Nutremax",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Aspen",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Stanley",
+   "origin": "Estados Unidos"
+  },
+  {
+   "name": "Trendy",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Skora",
+   "origin": "Argentina"
+  },
+  {
+   "name": "NBA",
+   "origin": null
+  },
+  {
+   "name": "Olibolla",
+   "origin": null
+  },
+  {
+   "name": "Biodinámica",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Quelat",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Curflex",
+   "origin": "Argentina"
+  },
+  {
+   "name": "Wilson",
+   "origin": "Estados Unidos"
+  },
+  {
+   "name": "Everlast",
+   "origin": "Estados Unidos"
+  },
+  {
+   "name": "Head",
+   "origin": "Austria"
+  }
+ ],
+ "products": [
+  {
+   "name": "Crystal Noir",
+   "brand": "Versace",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 90 ml",
+   "gender": "FEMENINO",
+   "price": 150432,
+   "cash": 145731,
+   "featured": true,
+   "decant": true,
+   "tags": [
+    "disenador",
+    "oriental"
+   ],
+   "short": "Oriental floral, intenso y misterioso.",
+   "desc": "Un clásico de Versace para la noche: especiado al comienzo, con un corazón de gardenia y peonía que se apoya en ámbar y almizcle. Frasco facetado negro, inconfundible.",
+   "notes": [
+    [
+     "Pimienta",
+     "Jengibre",
+     "Cardamomo"
+    ],
+    [
+     "Gardenia",
+     "Peonía",
+     "Flor de naranjo"
+    ],
+    [
+     "Ámbar",
+     "Almizcle",
+     "Sándalo"
+    ]
+   ],
+   "attrs": {
+    "Familia olfativa": "Oriental floral",
+    "Ocasión": "Noche",
+    "Concentración": "Eau de Parfum"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "isNew": false,
+   "slug": "versace-crystal-noir",
+   "imageFiles": [
+    "products/versace-crystal-noir-1.jpg"
+   ]
+  },
+  {
+   "name": "J'adore",
+   "brand": "Dior",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum",
+   "gender": "FEMENINO",
+   "price": 171744,
+   "cash": 166377,
+   "featured": true,
+   "decant": true,
+   "tags": [
+    "disenador",
+    "floral",
+    "primavera"
+   ],
+   "short": "El floral luminoso de Dior. Una de las cuatro imperdibles de la primavera.",
+   "desc": "Un ramo de flores blancas y frutas que se siente elegante y femenino. Lo elegimos entre las fragancias imperdibles de la temporada.",
+   "notes": [
+    [
+     "Pera",
+     "Melón",
+     "Bergamota"
+    ],
+    [
+     "Jazmín",
+     "Rosa",
+     "Ylang-ylang"
+    ],
+    [
+     "Vainilla",
+     "Almizcle",
+     "Cedro"
+    ]
+   ],
+   "attrs": {
+    "Familia olfativa": "Floral frutal",
+    "Ocasión": "Día y noche",
+    "Concentración": "Eau de Parfum"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "isNew": false,
+   "slug": "dior-j-adore",
+   "imageFiles": [
+    "products/dior-j-adore-1.jpg"
+   ]
+  },
+  {
+   "name": "Eros",
+   "brand": "Versace",
+   "cat": "perfumeria",
+   "presentation": "Eau de Toilette 100 ml",
+   "gender": "MASCULINO",
+   "price": 127936,
+   "cash": 123938,
+   "featured": true,
+   "decant": true,
+   "tags": [
+    "disenador",
+    "fresco"
+   ],
+   "short": "Fresco, aromático y seductor: un best seller masculino.",
+   "desc": "Menta y manzana verde de entrada, haba tonka en el corazón y un fondo de vainilla y maderas. Intenso y muy elegido.",
+   "notes": [
+    [
+     "Menta",
+     "Manzana verde",
+     "Limón"
+    ],
+    [
+     "Haba tonka",
+     "Geranio",
+     "Ambroxan"
+    ],
+    [
+     "Vainilla",
+     "Vetiver",
+     "Cedro"
+    ]
+   ],
+   "attrs": {
+    "Familia olfativa": "Aromática fougère",
+    "Ocasión": "Noche",
+    "Concentración": "Eau de Toilette"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "isNew": false,
+   "slug": "versace-eros",
+   "imageFiles": [
+    "products/versace-eros-1.jpg"
+   ]
+  },
+  {
+   "name": "Devotion",
+   "brand": "Dolce & Gabbana",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum",
+   "gender": "FEMENINO",
+   "price": 120832,
+   "cash": 117056,
+   "decant": true,
+   "tags": [
+    "disenador",
+    "gourmand"
+   ],
+   "short": "Gourmand luminoso con limón confitado y vainilla.",
+   "desc": "Una fragancia dulce y cálida, con un frasco joya que llama la atención en cualquier tocador.",
+   "notes": [
+    [
+     "Limón confitado"
+    ],
+    [
+     "Flor de azahar"
+    ],
+    [
+     "Vainilla"
+    ]
+   ],
+   "attrs": {
+    "Familia olfativa": "Oriental gourmand",
+    "Concentración": "Eau de Parfum"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "featured": false,
+   "isNew": false,
+   "slug": "dolce-gabbana-devotion",
+   "imageFiles": [
+    "products/dolce-gabbana-devotion-1.jpg"
+   ]
+  },
+  {
+   "name": "Kenzo Homme Intense",
+   "brand": "Kenzo",
+   "cat": "perfumeria",
+   "presentation": "Eau de Toilette Intense 110 ml",
+   "gender": "MASCULINO",
+   "price": 159520,
+   "cash": 154967,
+   "tags": [
+    "disenador",
+    "amaderado"
+   ],
+   "short": "Amaderado acuático, intenso y con carácter.",
+   "desc": "La versión intensa del clásico de Kenzo: frescura marina sobre un fondo de maderas profundas.",
+   "attrs": {
+    "Familia olfativa": "Amaderada acuática",
+    "Concentración": "Eau de Toilette Intense"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "kenzo-kenzo-homme-intense",
+   "imageFiles": [
+    "products/kenzo-kenzo-homme-intense-1.jpg"
+   ]
+  },
+  {
+   "name": "The One Gold",
+   "brand": "Dolce & Gabbana",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum Intense",
+   "gender": "MASCULINO",
+   "price": 156000,
+   "cash": 149000,
+   "decant": true,
+   "tags": [
+    "disenador",
+    "oriental"
+   ],
+   "short": "Oriental especiado, cálido y sofisticado.",
+   "desc": "Una edición dorada e intensa de The One pour homme, ideal para la noche y los días fríos.",
+   "attrs": {
+    "Familia olfativa": "Oriental especiada",
+    "Ocasión": "Noche",
+    "Concentración": "Eau de Parfum Intense"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "featured": false,
+   "isNew": false,
+   "slug": "dolce-gabbana-the-one-gold",
+   "imageFiles": [
+    "products/dolce-gabbana-the-one-gold-1.jpg"
+   ]
+  },
+  {
+   "name": "Halloween",
+   "brand": "Jesús del Pozo",
+   "cat": "perfumeria",
+   "presentation": "Eau de Toilette 100 ml",
+   "gender": "FEMENINO",
+   "price": 126000,
+   "cash": 120000,
+   "tags": [
+    "disenador",
+    "floral"
+   ],
+   "short": "Floral acuático, femenino y fresco.",
+   "desc": "El icónico frasco violeta de Jesús del Pozo: una fragancia floral, fresca y fácil de llevar.",
+   "attrs": {
+    "Familia olfativa": "Floral acuática",
+    "Concentración": "Eau de Toilette"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "jesus-del-pozo-halloween",
+   "imageFiles": [
+    "products/jesus-del-pozo-halloween-1.jpg"
+   ]
+  },
+  {
+   "name": "La Bomba",
+   "brand": "Carolina Herrera",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 80 ml",
+   "gender": "FEMENINO",
+   "featured": true,
+   "isNew": true,
+   "tags": [
+    "disenador",
+    "floral"
+   ],
+   "highlights": [
+    "Explosiva",
+    "Femenina",
+    "Irresistible"
+   ],
+   "short": "Explosiva. Femenina. Irresistible.",
+   "desc": "Pitahaya y frutos rojos de salida, un corazón de peonía, rosa y jazmín, y un fondo cálido de vainilla, almizcle y maderas.",
+   "notes": [
+    [
+     "Pitahaya",
+     "Frutos rojos",
+     "Fresa"
+    ],
+    [
+     "Peonía",
+     "Rosa",
+     "Jazmín"
+    ],
+    [
+     "Vainilla",
+     "Almizcle",
+     "Notas amaderadas"
+    ]
+   ],
+   "attrs": {
+    "Familia olfativa": "Floral frutal",
+    "Concentración": "Eau de Parfum"
+   },
+   "src": "highlight:Perfumes",
+   "price": null,
+   "cash": null,
+   "decant": false,
+   "slug": "carolina-herrera-la-bomba",
+   "imageFiles": [
+    "products/carolina-herrera-la-bomba-1.jpg"
+   ]
+  },
+  {
+   "name": "Fame Parfum",
+   "brand": "Rabanne",
+   "cat": "perfumeria",
+   "presentation": "Parfum",
+   "gender": "FEMENINO",
+   "isNew": true,
+   "tags": [
+    "disenador",
+    "floral"
+   ],
+   "highlights": [
+    "Atrevida",
+    "Femenina",
+    "Irresistible"
+   ],
+   "short": "Atrevida. Femenina. Irresistible.",
+   "desc": "Se atreve, se destaca, es Fame: mango y bergamota de salida, jazmín e incienso en el corazón y un fondo de vainilla y sándalo.",
+   "notes": [
+    [
+     "Mango",
+     "Bergamota"
+    ],
+    [
+     "Jazmín",
+     "Incienso"
+    ],
+    [
+     "Vainilla",
+     "Sándalo"
+    ]
+   ],
+   "attrs": {
+    "Familia olfativa": "Floral amaderada",
+    "Concentración": "Parfum"
+   },
+   "src": "highlight:Perfumes",
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "decant": false,
+   "slug": "rabanne-fame-parfum",
+   "imageFiles": [
+    "products/rabanne-fame-parfum-1.jpg"
+   ]
+  },
+  {
+   "name": "Scandal Pour Homme",
+   "brand": "Jean Paul Gaultier",
+   "cat": "perfumeria",
+   "presentation": "Eau de Toilette",
+   "gender": "MASCULINO",
+   "decant": true,
+   "tags": [
+    "disenador",
+    "top-5"
+   ],
+   "short": "Moderno y con mucha presencia. Parte de nuestro top 5 de diseñador para hombre.",
+   "desc": "Caramelo salado y haba tonka sobre un fondo amaderado: una fragancia moderna y adictiva.",
+   "attrs": {
+    "Familia olfativa": "Oriental fougère"
+   },
+   "src": "instagram:DZ5yrpIOkpl",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "slug": "jean-paul-gaultier-scandal-pour-homme",
+   "imageFiles": [
+    "products/jean-paul-gaultier-scandal-pour-homme-1.jpg"
+   ]
+  },
+  {
+   "name": "Phantom",
+   "brand": "Rabanne",
+   "cat": "perfumeria",
+   "presentation": "Eau de Toilette",
+   "gender": "MASCULINO",
+   "decant": true,
+   "tags": [
+    "disenador",
+    "top-5"
+   ],
+   "short": "Lavanda y limón con un frasco robot inconfundible.",
+   "desc": "Fresco, cremoso y futurista. Uno de los más pedidos del top 5 de diseñador para hombre.",
+   "attrs": {
+    "Familia olfativa": "Aromática"
+   },
+   "src": "instagram:DZ5yrpIOkpl",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "slug": "rabanne-phantom",
+   "imageFiles": [
+    "products/rabanne-phantom-1.jpg",
+    "products/rabanne-phantom-2.jpg"
+   ]
+  },
+  {
+   "name": "Bleu de Chanel",
+   "brand": "Chanel",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum",
+   "gender": "MASCULINO",
+   "tags": [
+    "disenador",
+    "top-5"
+   ],
+   "short": "Amaderado aromático, elegante y atemporal.",
+   "desc": "El cierre de nuestro top 5 de diseñador: una fragancia versátil que funciona de día y de noche.",
+   "attrs": {
+    "Familia olfativa": "Amaderada aromática",
+    "Concentración": "Eau de Parfum"
+   },
+   "src": "instagram:DZ5yrpIOkpl",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "chanel-bleu-de-chanel",
+   "imageFiles": [
+    "products/chanel-bleu-de-chanel-1.jpg"
+   ]
+  },
+  {
+   "name": "CK Hair & Body Mist Sheer Peach",
+   "brand": "Calvin Klein",
+   "cat": "perfumeria",
+   "presentation": "236 ml",
+   "gender": "FEMENINO",
+   "price": 59900,
+   "cash": null,
+   "isNew": true,
+   "tags": [
+    "body-mist"
+   ],
+   "highlights": [
+    "Ligero",
+    "Frutal",
+    "Delicado"
+   ],
+   "short": "Ligero. Frutal. Delicado. Fragancia liviana para pelo y cuerpo.",
+   "desc": "Fragancias livianas, frescas y versátiles para usar en el pelo y en el cuerpo, todos los días.",
+   "notes": [
+    [
+     "Durazno",
+     "Bergamota"
+    ],
+    [
+     "Flor de durazno",
+     "Jazmín"
+    ],
+    [
+     "Ámbar",
+     "Almizcle",
+     "Madera de sándalo"
+    ]
+   ],
+   "attrs": {
+    "Uso": "Pelo y cuerpo"
+   },
+   "src": "highlight:Perfumes",
+   "featured": false,
+   "decant": false,
+   "slug": "calvin-klein-ck-hair-body-mist-sheer-peach",
+   "imageFiles": [
+    "products/calvin-klein-ck-hair-body-mist-sheer-peach-1.jpg"
+   ]
+  },
+  {
+   "name": "CK Hair & Body Mist Silky Coconut",
+   "brand": "Calvin Klein",
+   "cat": "perfumeria",
+   "presentation": "236 ml",
+   "gender": "FEMENINO",
+   "price": 59900,
+   "cash": null,
+   "isNew": true,
+   "tags": [
+    "body-mist"
+   ],
+   "highlights": [
+    "Ligero",
+    "Cremoso",
+    "Fresco"
+   ],
+   "short": "Ligero. Cremoso. Fresco. Fragancia liviana para pelo y cuerpo.",
+   "desc": "Fragancias livianas, frescas y versátiles para usar en el pelo y en el cuerpo, todos los días.",
+   "notes": [
+    [
+     "Coco",
+     "Bergamota"
+    ],
+    [
+     "Lirio del valle",
+     "Peonía blanca"
+    ],
+    [
+     "Almizcle",
+     "Madera de sándalo",
+     "Vainilla"
+    ]
+   ],
+   "attrs": {
+    "Uso": "Pelo y cuerpo"
+   },
+   "src": "highlight:Perfumes",
+   "featured": false,
+   "decant": false,
+   "slug": "calvin-klein-ck-hair-body-mist-silky-coconut",
+   "imageFiles": [
+    "products/calvin-klein-ck-hair-body-mist-silky-coconut-1.jpg"
+   ]
+  },
+  {
+   "name": "CK Hair & Body Mist Pure Vanilla",
+   "brand": "Calvin Klein",
+   "cat": "perfumeria",
+   "presentation": "236 ml",
+   "gender": "FEMENINO",
+   "price": 59900,
+   "cash": null,
+   "isNew": true,
+   "tags": [
+    "body-mist"
+   ],
+   "highlights": [
+    "Dulce",
+    "Cálido",
+    "Envolvente"
+   ],
+   "short": "Dulce. Cálido. Envolvente. Fragancia liviana para pelo y cuerpo.",
+   "desc": "Fragancias livianas, frescas y versátiles para usar en el pelo y en el cuerpo, todos los días.",
+   "notes": [
+    [
+     "Vainilla",
+     "Orquídea"
+    ],
+    [
+     "Jazmín",
+     "Flor de vainilla"
+    ],
+    [
+     "Vainilla",
+     "Haba tonka",
+     "Musk"
+    ]
+   ],
+   "attrs": {
+    "Uso": "Pelo y cuerpo"
+   },
+   "src": "highlight:Perfumes",
+   "featured": false,
+   "decant": false,
+   "slug": "calvin-klein-ck-hair-body-mist-pure-vanilla",
+   "imageFiles": [
+    "products/calvin-klein-ck-hair-body-mist-pure-vanilla-1.jpg"
+   ]
+  },
+  {
+   "name": "Body Mist Velvet Petals",
+   "brand": "Victoria's Secret",
+   "cat": "perfumeria",
+   "presentation": "250 ml",
+   "gender": "FEMENINO",
+   "price": 35000,
+   "tags": [
+    "body-mist"
+   ],
+   "short": "Floral y suave, de los más elegidos. También en versión shimmer.",
+   "desc": "Floral y suave, de los más elegidos. También en versión shimmer. Fragancias irresistibles que dejan la piel fresca y perfumada todo el día.",
+   "notes": [
+    [
+     "Pétalos de rosa"
+    ],
+    [
+     "Néctar de almendra"
+    ],
+    [
+     "Vainilla"
+    ]
+   ],
+   "attrs": {
+    "Línea": "Body Mist / Body Splash"
+   },
+   "src": "instagram:DLsElryuCBR",
+   "highlights": [],
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "victoria-s-secret-body-mist-velvet-petals",
+   "imageFiles": [
+    "products/victoria-s-secret-body-mist-velvet-petals-1.jpg",
+    "products/victoria-s-secret-body-mist-velvet-petals-2.jpg"
+   ]
+  },
+  {
+   "name": "Body Mist Bare Vanilla",
+   "brand": "Victoria's Secret",
+   "cat": "perfumeria",
+   "presentation": "250 ml",
+   "gender": "FEMENINO",
+   "price": 35000,
+   "tags": [
+    "body-mist"
+   ],
+   "short": "Vainilla cremosa y cálida para todos los días.",
+   "desc": "Vainilla cremosa y cálida para todos los días. Fragancias irresistibles que dejan la piel fresca y perfumada todo el día.",
+   "notes": [
+    [
+     "Vainilla batida"
+    ],
+    [
+     "Cachemira"
+    ],
+    [
+     "Almizcle"
+    ]
+   ],
+   "attrs": {
+    "Línea": "Body Mist / Body Splash"
+   },
+   "src": "instagram:DLsElryuCBR",
+   "highlights": [],
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "victoria-s-secret-body-mist-bare-vanilla",
+   "imageFiles": [
+    "products/victoria-s-secret-body-mist-bare-vanilla-1.jpg"
+   ]
+  },
+  {
+   "name": "Body Mist Romantic",
+   "brand": "Victoria's Secret",
+   "cat": "perfumeria",
+   "presentation": "250 ml",
+   "gender": "FEMENINO",
+   "price": 35000,
+   "tags": [
+    "body-mist"
+   ],
+   "short": "Romántica y delicada, con un fondo suave de almizcle.",
+   "desc": "Romántica y delicada, con un fondo suave de almizcle. Fragancias irresistibles que dejan la piel fresca y perfumada todo el día.",
+   "notes": [
+    [
+     "Pétalos rosados"
+    ],
+    [
+     "Flores blancas"
+    ],
+    [
+     "Almizcle"
+    ]
+   ],
+   "attrs": {
+    "Línea": "Body Mist / Body Splash"
+   },
+   "src": "instagram:DLsElryuCBR",
+   "highlights": [],
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "victoria-s-secret-body-mist-romantic",
+   "imageFiles": [
+    "products/victoria-s-secret-body-mist-romantic-1.jpg"
+   ]
+  },
+  {
+   "name": "Body Mist Coconut Passion",
+   "brand": "Victoria's Secret",
+   "cat": "perfumeria",
+   "presentation": "250 ml",
+   "gender": "FEMENINO",
+   "price": 35000,
+   "tags": [
+    "body-mist"
+   ],
+   "short": "Tropical y cremosa, con el coco como protagonista.",
+   "desc": "Tropical y cremosa, con el coco como protagonista. Fragancias irresistibles que dejan la piel fresca y perfumada todo el día.",
+   "notes": [
+    [
+     "Coco"
+    ],
+    [
+     "Flores tropicales"
+    ],
+    [
+     "Vainilla"
+    ]
+   ],
+   "attrs": {
+    "Línea": "Body Mist / Body Splash"
+   },
+   "src": "instagram:DLsElryuCBR",
+   "highlights": [],
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "victoria-s-secret-body-mist-coconut-passion",
+   "imageFiles": [
+    "products/victoria-s-secret-body-mist-coconut-passion-1.jpg"
+   ]
+  },
+  {
+   "name": "Odyssey Mandarin Sky",
+   "brand": "Armaf",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 100 ml",
+   "gender": "MASCULINO",
+   "cash": 60000,
+   "featured": true,
+   "decant": true,
+   "tags": [
+    "arabe",
+    "promo"
+   ],
+   "short": "Siguen en promoción nuestros más pedidos.",
+   "desc": "Cítrico, dulce y muy duradero. Uno de los perfumes árabes más pedidos de la farmacia.",
+   "attrs": {
+    "Familia olfativa": "Cítrica ambarada",
+    "Origen": "Emiratos Árabes Unidos"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "isNew": false,
+   "slug": "armaf-odyssey-mandarin-sky",
+   "imageFiles": [
+    "products/armaf-odyssey-mandarin-sky-1.jpg"
+   ]
+  },
+  {
+   "name": "Fakhar Men",
+   "brand": "Lattafa",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 100 ml",
+   "gender": "MASCULINO",
+   "cash": 58000,
+   "featured": true,
+   "decant": true,
+   "tags": [
+    "arabe"
+   ],
+   "short": "Fresco y elegante, con un frasco plateado de lujo.",
+   "desc": "Un árabe masculino versátil, aromático y duradero, ideal para todos los días.",
+   "attrs": {
+    "Familia olfativa": "Aromática amaderada",
+    "Origen": "Emiratos Árabes Unidos"
+   },
+   "src": "highlight:Perfumes",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "isNew": false,
+   "slug": "lattafa-fakhar-men",
+   "imageFiles": [
+    "products/lattafa-fakhar-men-1.jpg",
+    "products/lattafa-fakhar-men-2.jpg"
+   ]
+  },
+  {
+   "name": "Fakhar Gold",
+   "brand": "Lattafa",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 100 ml",
+   "gender": "FEMENINO",
+   "decant": true,
+   "tags": [
+    "arabe"
+   ],
+   "short": "La versión dorada y femenina de Fakhar.",
+   "desc": "Floral y luminosa, con un frasco dorado que es un regalo en sí mismo.",
+   "attrs": {
+    "Origen": "Emiratos Árabes Unidos"
+   },
+   "src": "instagram:DHT1dW8v-LZ",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "slug": "lattafa-fakhar-gold",
+   "imageFiles": [
+    "products/lattafa-fakhar-gold-1.jpg"
+   ]
+  },
+  {
+   "name": "Musamam Black Intense",
+   "brand": "Lattafa",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum",
+   "gender": "MASCULINO",
+   "featured": true,
+   "tags": [
+    "arabe",
+    "oriental"
+   ],
+   "highlights": [
+    "Poder",
+    "Misterio",
+    "Seducción"
+   ],
+   "short": "Poder. Misterio. Seducción.",
+   "desc": "Una fragancia intensa y magnética: frescura especiada de salida, un corazón aromático y un fondo profundo de ámbar y oud. Duradero, elegante, inolvidable.",
+   "notes": [
+    [
+     "Mandarina",
+     "Pimienta negra"
+    ],
+    [
+     "Flor de azahar",
+     "Lavanda"
+    ],
+    [
+     "Ámbar",
+     "Madera de oud"
+    ]
+   ],
+   "attrs": {
+    "Para": "Él",
+    "Momento": "Día y noche",
+    "Temporada": "Otoño / invierno",
+    "Origen": "Emiratos Árabes Unidos"
+   },
+   "src": "highlight:Perfumes Árabes",
+   "price": null,
+   "cash": null,
+   "isNew": false,
+   "decant": false,
+   "slug": "lattafa-musamam-black-intense",
+   "imageFiles": [
+    "products/lattafa-musamam-black-intense-1.jpg"
+   ]
+  },
+  {
+   "name": "Pride Ansaam Silver",
+   "brand": "Lattafa",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 100 ml",
+   "gender": "FEMENINO",
+   "tags": [
+    "arabe",
+    "floral"
+   ],
+   "highlights": [
+    "Fresca",
+    "Floral",
+    "Sofisticada"
+   ],
+   "short": "Elegancia que deja huella. Fresca, floral y sofisticada.",
+   "desc": "Una fragancia floral y luminosa que combina la frescura cítrica con un corazón floral elegante, sobre un fondo cálido y sensual.",
+   "notes": [
+    [
+     "Bergamota",
+     "Pimienta rosa"
+    ],
+    [
+     "Jazmín",
+     "Flor de azahar"
+    ],
+    [
+     "Ámbar",
+     "Almizcle"
+    ]
+   ],
+   "attrs": {
+    "Para": "Ella",
+    "Momento": "Día",
+    "Temporada": "Primavera / verano",
+    "Origen": "Emiratos Árabes Unidos"
+   },
+   "src": "highlight:Perfumes Árabes",
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "lattafa-pride-ansaam-silver",
+   "imageFiles": [
+    "products/lattafa-pride-ansaam-silver-1.jpg"
+   ]
+  },
+  {
+   "name": "Yara",
+   "brand": "Lattafa",
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 100 ml",
+   "gender": "FEMENINO",
+   "featured": true,
+   "decant": true,
+   "tags": [
+    "arabe",
+    "gourmand"
+   ],
+   "highlights": [
+    "Femenina",
+    "Dulce",
+    "Encantadora"
+   ],
+   "short": "Femenina. Dulce. Encantadora.",
+   "desc": "Una combinación deliciosa y adictiva que mezcla frutas jugosas, flores delicadas y un fondo cremoso y cálido.",
+   "notes": [
+    [
+     "Mandarina",
+     "Frutas tropicales"
+    ],
+    [
+     "Orquídea",
+     "Flor tropical"
+    ],
+    [
+     "Vainilla",
+     "Almizcle"
+    ]
+   ],
+   "attrs": {
+    "Para": "Ella",
+    "Momento": "Día y noche",
+    "Temporada": "Primavera / verano",
+    "Origen": "Emiratos Árabes Unidos"
+   },
+   "src": "highlight:Perfumes Árabes",
+   "price": null,
+   "cash": null,
+   "isNew": false,
+   "slug": "lattafa-yara",
+   "imageFiles": [
+    "products/lattafa-yara-1.jpg"
+   ]
+  },
+  {
+   "name": "Tucci",
+   "brand": "Tucci",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Una fragancia nacional clásica y elegante.",
+   "desc": "Una fragancia nacional clásica y elegante. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "tucci-tucci",
+   "imageFiles": [
+    "products/tucci-tucci-1.jpg"
+   ]
+  },
+  {
+   "name": "Look Kool",
+   "brand": "Agatha Ruiz de la Prada",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Divertida, colorida y fresca.",
+   "desc": "Divertida, colorida y fresca. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "agatha-ruiz-de-la-prada-look-kool",
+   "imageFiles": [
+    "products/agatha-ruiz-de-la-prada-look-kool-1.jpg"
+   ]
+  },
+  {
+   "name": "Look Gold",
+   "brand": "Agatha Ruiz de la Prada",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "La versión dorada y luminosa de Look.",
+   "desc": "La versión dorada y luminosa de Look. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "agatha-ruiz-de-la-prada-look-gold",
+   "imageFiles": [
+    "products/agatha-ruiz-de-la-prada-look-gold-1.jpg"
+   ]
+  },
+  {
+   "name": "Ninfa",
+   "brand": "Las Pepas",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Eau de parfum femenino, delicado y romántico.",
+   "desc": "Eau de parfum femenino, delicado y romántico. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "las-pepas-ninfa",
+   "imageFiles": [
+    "products/las-pepas-ninfa-1.jpg"
+   ]
+  },
+  {
+   "name": "Love My Life",
+   "brand": "Las Oreiro",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Romántico y luminoso, con el sello de Las Oreiro.",
+   "desc": "Romántico y luminoso, con el sello de Las Oreiro. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "las-oreiro-love-my-life",
+   "imageFiles": [
+    "products/las-oreiro-love-my-life-1.jpg"
+   ]
+  },
+  {
+   "name": "Forever",
+   "brand": "Boos",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Fresco y elegante para todos los días.",
+   "desc": "Fresco y elegante para todos los días. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "boos-forever",
+   "imageFiles": [
+    "products/boos-forever-1.jpg"
+   ]
+  },
+  {
+   "name": "Signature",
+   "brand": "Boos",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Intenso y sofisticado.",
+   "desc": "Intenso y sofisticado. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "boos-signature",
+   "imageFiles": [
+    "products/boos-signature-1.jpg"
+   ]
+  },
+  {
+   "name": "Rose",
+   "brand": "Boos",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Floral, con la rosa como protagonista.",
+   "desc": "Floral, con la rosa como protagonista. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "boos-rose",
+   "imageFiles": [
+    "products/boos-rose-1.jpg"
+   ]
+  },
+  {
+   "name": "Eau de Toilette",
+   "brand": "Caro Cuore",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "La fragancia clásica de Caro Cuore.",
+   "desc": "La fragancia clásica de Caro Cuore. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "caro-cuore-eau-de-toilette",
+   "imageFiles": [
+    "products/caro-cuore-eau-de-toilette-1.jpg"
+   ]
+  },
+  {
+   "name": "My Rules",
+   "brand": "Las Oreiro",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Atrevida y femenina. 20% OFF en perfumes seleccionados.",
+   "desc": "Atrevida y femenina. 20% OFF en perfumes seleccionados. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "las-oreiro-my-rules",
+   "imageFiles": [
+    "products/las-oreiro-my-rules-1.jpg"
+   ]
+  },
+  {
+   "name": "Dolce Vita",
+   "brand": "Las Oreiro",
+   "cat": "perfumeria",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Dulce y alegre, con un estuche lleno de corazones.",
+   "desc": "Dulce y alegre, con un estuche lleno de corazones. Perfumes nacionales con opciones para todos los gustos y presupuestos.",
+   "src": "instagram",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "las-oreiro-dolce-vita",
+   "imageFiles": [
+    "products/las-oreiro-dolce-vita-1.jpg"
+   ]
+  },
+  {
+   "name": "María Elixir",
+   "brand": null,
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 100 ml",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Eau de parfum For Her, industria argentina.",
+   "desc": "Una fragancia femenina envolvente, de las seleccionadas con 20% OFF.",
+   "src": "instagram:DOJyuftjq7v",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "maria-elixir",
+   "imageFiles": [
+    "products/maria-elixir-1.jpg"
+   ]
+  },
+  {
+   "name": "Perhaps For Her",
+   "brand": null,
+   "cat": "perfumeria",
+   "presentation": "Eau de Parfum 100 ml",
+   "gender": "FEMENINO",
+   "tags": [
+    "nacional"
+   ],
+   "short": "Femenina y moderna, industria argentina.",
+   "desc": "Eau de parfum For Her en su estuche fucsia: un regalo seguro.",
+   "src": "instagram:DGjQrl_vipU",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "perhaps-for-her",
+   "imageFiles": [
+    "products/perhaps-for-her-1.jpg"
+   ]
+  },
+  {
+   "name": "Perfume infantil Be Cool y Be Love",
+   "brand": "Agarrate Catalina",
+   "cat": "perfumeria",
+   "gender": "UNISEX",
+   "tags": [
+    "infantil"
+   ],
+   "short": "Fragancias suaves, frescas y seguras para su piel.",
+   "desc": "El regalo ideal para los más peques: fragancias suaves, frescas y pensadas para su piel.",
+   "src": "instagram:DHmC3uLv7AB",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "agarrate-catalina-perfume-infantil-be-cool-y-be-love",
+   "imageFiles": [
+    "products/agarrate-catalina-perfume-infantil-be-cool-y-be-love-1.jpg"
+   ]
+  },
+  {
+   "name": "Perfume infantil Guapa",
+   "brand": "Benito Fernández",
+   "cat": "perfumeria",
+   "gender": "UNISEX",
+   "tags": [
+    "infantil"
+   ],
+   "short": "Fragancias suaves, frescas y seguras para su piel.",
+   "desc": "El regalo ideal para los más peques: fragancias suaves, frescas y pensadas para su piel.",
+   "src": "instagram:DHmC3uLv7AB",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "benito-fernandez-perfume-infantil-guapa",
+   "imageFiles": [
+    "products/benito-fernandez-perfume-infantil-guapa-1.jpg"
+   ]
+  },
+  {
+   "name": "Perfume infantil Sophie y Julie",
+   "brand": "Mujercitas",
+   "cat": "perfumeria",
+   "gender": "UNISEX",
+   "tags": [
+    "infantil"
+   ],
+   "short": "Fragancias suaves, frescas y seguras para su piel.",
+   "desc": "El regalo ideal para los más peques: fragancias suaves, frescas y pensadas para su piel.",
+   "src": "instagram:DHmC3uLv7AB",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "mujercitas-perfume-infantil-sophie-y-julie",
+   "imageFiles": [
+    "products/mujercitas-perfume-infantil-sophie-y-julie-1.jpg"
+   ]
+  },
+  {
+   "name": "Perfume infantil Wonder Woman",
+   "brand": null,
+   "cat": "perfumeria",
+   "gender": "UNISEX",
+   "tags": [
+    "infantil"
+   ],
+   "short": "Fragancias suaves, frescas y seguras para su piel.",
+   "desc": "El regalo ideal para los más peques: fragancias suaves, frescas y pensadas para su piel.",
+   "src": "instagram:DHmC3uLv7AB",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "perfume-infantil-wonder-woman",
+   "imageFiles": [
+    "products/perfume-infantil-wonder-woman-1.jpg"
+   ]
+  },
+  {
+   "name": "Perfume infantil Minions",
+   "brand": null,
+   "cat": "perfumeria",
+   "gender": "UNISEX",
+   "tags": [
+    "infantil"
+   ],
+   "short": "Fragancias suaves, frescas y seguras para su piel.",
+   "desc": "El regalo ideal para los más peques: fragancias suaves, frescas y pensadas para su piel.",
+   "src": "instagram:DHmC3uLv7AB",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "perfume-infantil-minions",
+   "imageFiles": [
+    "products/perfume-infantil-minions-1.jpg"
+   ]
+  },
+  {
+   "name": "Perfume infantil Trolls",
+   "brand": null,
+   "cat": "perfumeria",
+   "gender": "UNISEX",
+   "tags": [
+    "infantil"
+   ],
+   "short": "Fragancias suaves, frescas y seguras para su piel.",
+   "desc": "El regalo ideal para los más peques: fragancias suaves, frescas y pensadas para su piel.",
+   "src": "instagram:DHmC3uLv7AB",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "perfume-infantil-trolls",
+   "imageFiles": [
+    "products/perfume-infantil-trolls-1.jpg"
+   ]
+  },
+  {
+   "name": "Smart Cool · Set body splash + shower gel",
+   "brand": "Bensimon",
+   "cat": "perfumeria",
+   "gender": "MASCULINO",
+   "tags": [
+    "set",
+    "regalo"
+   ],
+   "short": "Mandarina verde, lavanda y cuero. Un set ideal para regalar.",
+   "desc": "Body splash + shower gel pensados para el hombre moderno que transforma el cuidado personal en un ritual. Notas de mandarina verde, lavanda y cuero en una fragancia intensa y envolvente.",
+   "notes": [
+    [
+     "Mandarina verde"
+    ],
+    [
+     "Lavanda"
+    ],
+    [
+     "Cuero"
+    ]
+   ],
+   "src": "instagram:DIbZSdeuXpM",
+   "attrs": {},
+   "highlights": [],
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "bensimon-smart-cool-set-body-splash-shower-gel",
+   "imageFiles": [
+    "products/bensimon-smart-cool-set-body-splash-shower-gel-1.jpg",
+    "products/bensimon-smart-cool-set-body-splash-shower-gel-2.jpg"
+   ]
+  },
+  {
+   "name": "Fit Me Fresh Tint +C",
+   "brand": "Maybelline New York",
+   "cat": "maquillaje",
+   "presentation": "Base con vitamina C y FPS",
+   "price": 36000,
+   "cash": 32400,
+   "featured": true,
+   "tags": [
+    "base"
+   ],
+   "short": "Una de las bases más buscadas de la farmacia: liviana y con protección solar.",
+   "desc": "Tinte fresco con vitamina C, de cobertura liviana y acabado natural. Y lo más importante: tiene protección solar.",
+   "src": "highlight:Maquillaje",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "isNew": false,
+   "decant": false,
+   "slug": "maybelline-new-york-fit-me-fresh-tint-c",
+   "imageFiles": [
+    "products/maybelline-new-york-fit-me-fresh-tint-c-1.jpg",
+    "products/maybelline-new-york-fit-me-fresh-tint-c-2.jpg"
+   ]
+  },
+  {
+   "name": "Lifter Stix",
+   "brand": "Maybelline New York",
+   "cat": "maquillaje",
+   "presentation": "Maquillaje en barra",
+   "price": 32000,
+   "cash": 28800,
+   "tags": [
+    "rubor",
+    "barra"
+   ],
+   "short": "Maquillaje en barra que da color y brillo en segundos.",
+   "desc": "Un tipo de maquillaje en barra para mejillas y labios, práctico para llevar en la cartera.",
+   "src": "highlight:Maquillaje",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "maybelline-new-york-lifter-stix",
+   "imageFiles": [
+    "products/maybelline-new-york-lifter-stix-1.jpg",
+    "products/maybelline-new-york-lifter-stix-2.jpg"
+   ]
+  },
+  {
+   "name": "Lifter Glaze",
+   "brand": "Maybelline New York",
+   "cat": "maquillaje",
+   "presentation": "Labial glaseado",
+   "price": 30000,
+   "cash": 27000,
+   "isNew": true,
+   "tags": [
+    "labios"
+   ],
+   "short": "Dan brillo, hidratan y no se sienten pesados.",
+   "desc": "Para los labios, los Lifter Glaze aportan brillo con efecto glaseado, hidratan y son súper livianos.",
+   "src": "highlight:Maquillaje",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "featured": false,
+   "decant": false,
+   "slug": "maybelline-new-york-lifter-glaze",
+   "imageFiles": [
+    "products/maybelline-new-york-lifter-glaze-1.jpg",
+    "products/maybelline-new-york-lifter-glaze-2.jpg"
+   ]
+  },
+  {
+   "name": "Iluminador",
+   "brand": "Maybelline New York",
+   "cat": "maquillaje",
+   "presentation": "Tonos 08 Shades On y 22 Star Struck",
+   "price": 38100,
+   "cash": 34200,
+   "tags": [
+    "iluminador"
+   ],
+   "short": "En el toque final no te pueden faltar.",
+   "desc": "Iluminadores de excelente pigmentación para dar luz al rostro. Elegí tu tono.",
+   "attrs": {
+    "Tonos": "08 Shades On · 22 Star Struck"
+   },
+   "src": "highlight:Maquillaje",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "maybelline-new-york-iluminador",
+   "imageFiles": [
+    "products/maybelline-new-york-iluminador-1.jpg",
+    "products/maybelline-new-york-iluminador-2.jpg"
+   ]
+  },
+  {
+   "name": "Paleta The Burgundy Bar",
+   "brand": "Maybelline New York",
+   "cat": "maquillaje",
+   "presentation": "Paleta de sombras",
+   "price": 30000,
+   "cash": 27000,
+   "tags": [
+    "sombras"
+   ],
+   "short": "Excelente pigmentación, ideal para looks suaves o marcados.",
+   "desc": "Tonos borravino y nude con excelente pigmentación, ideales tanto para maquillajes suaves como para looks más marcados.",
+   "src": "highlight:Maquillaje",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "maybelline-new-york-paleta-the-burgundy-bar",
+   "imageFiles": [
+    "products/maybelline-new-york-paleta-the-burgundy-bar-1.jpg"
+   ]
+  },
+  {
+   "name": "Paleta de sombras",
+   "brand": "MacCallure",
+   "cat": "maquillaje",
+   "presentation": "Paleta multicolor",
+   "tags": [
+    "sombras"
+   ],
+   "short": "Tonos vibrantes y brillos para jugar con el color.",
+   "desc": "Una paleta llena de color, ideal para regalar.",
+   "src": "instagram:DNBr2NtvEw0",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "maccallure-paleta-de-sombras",
+   "imageFiles": [
+    "products/maccallure-paleta-de-sombras-1.jpg"
+   ]
+  },
+  {
+   "name": "Lip Gloss",
+   "brand": "Olibolla",
+   "cat": "maquillaje",
+   "presentation": "Tubo",
+   "tags": [
+    "labios"
+   ],
+   "short": "Lo que todas las girls necesitan.",
+   "desc": "Gloss labial en tubo, con brillo y aroma. Ideal para llevar en el bolso.",
+   "src": "instagram:DNMB9a-tgxn",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "olibolla-lip-gloss",
+   "imageFiles": [
+    "products/olibolla-lip-gloss-1.jpg"
+   ]
+  },
+  {
+   "name": "Pimple Patch 8 horas Invisible",
+   "brand": "Garnier",
+   "cat": "cuidado-de-la-piel",
+   "presentation": "x22 parches (10 y 12 mm)",
+   "featured": true,
+   "tags": [
+    "acne"
+   ],
+   "short": "Llegaron los más pedidos: parches hidrocoloides para el acné.",
+   "desc": "Parches hidrocoloides invisibles que ayudan a reducir la visibilidad de las imperfecciones en 8 horas. Cruelty free.",
+   "src": "highlight:Cosmética",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "isNew": false,
+   "decant": false,
+   "slug": "garnier-pimple-patch-8-horas-invisible",
+   "imageFiles": [
+    "products/garnier-pimple-patch-8-horas-invisible-1.jpg"
+   ]
+  },
+  {
+   "name": "Bagóvit A Pura Vitamina A",
+   "brand": "Bagóvit",
+   "cat": "cuidado-de-la-piel",
+   "presentation": "Emulsión 350 g · Crema 400 g",
+   "tags": [
+    "corporal",
+    "invierno"
+   ],
+   "short": "Esenciales de invierno: todo lo que tu piel necesita esta temporada.",
+   "desc": "Emulsión nutritiva humectante y crema con pura vitamina A para piel seca, especialmente en los meses fríos.",
+   "attrs": {
+    "Presentaciones": "Emulsión 350 g · Crema 400 g"
+   },
+   "src": "highlight:Cosmética",
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "bagovit-bagovit-a-pura-vitamina-a",
+   "imageFiles": [
+    "products/bagovit-bagovit-a-pura-vitamina-a-1.jpg"
+   ]
+  },
+  {
+   "name": "Protector labial 24h Original Care",
+   "brand": "NIVEA",
+   "cat": "cuidado-de-la-piel",
+   "presentation": "4,8 g",
+   "tags": [
+    "labios"
+   ],
+   "short": "24 horas de humectación para tus labios.",
+   "desc": "El complemento ideal: protector labial con 24 h de humectación.",
+   "src": "highlight:Cosmética",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "nivea-protector-labial-24h-original-care",
+   "imageFiles": [
+    "products/nivea-protector-labial-24h-original-care-1.jpg"
+   ]
+  },
+  {
+   "name": "Daily Care FPS 15 · Pack x3",
+   "brand": "Carmex",
+   "cat": "cuidado-de-la-piel",
+   "presentation": "Fresh Cherry · Strawberry · Wintergreen",
+   "isNew": true,
+   "tags": [
+    "labios"
+   ],
+   "short": "Bálsamo labial humectante con FPS 15, en pack de tres sabores.",
+   "desc": "Hidratación diaria con protección solar en tres versiones: cereza, frutilla y menta.",
+   "src": "highlight:Nuevos ingresos",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "decant": false,
+   "slug": "carmex-daily-care-fps-15-pack-x3",
+   "imageFiles": [
+    "products/carmex-daily-care-fps-15-pack-x3-1.jpg"
+   ]
+  },
+  {
+   "name": "PDRN Pink Collagen Exosome Shot 2000",
+   "brand": "Medicube",
+   "cat": "cuidado-de-la-piel",
+   "presentation": "30 ml",
+   "isNew": true,
+   "featured": true,
+   "tags": [
+    "coreano",
+    "serum"
+   ],
+   "short": "Sérum con colágeno y exosomas para un brillo extremo.",
+   "desc": "Estimula la regeneración celular con PDRN (ADN de salmón) y mejora la elasticidad para una piel firme y luminosa.",
+   "src": "highlight:Nuevos ingresos",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "decant": false,
+   "slug": "medicube-pdrn-pink-collagen-exosome-shot-2000",
+   "imageFiles": [
+    "products/medicube-pdrn-pink-collagen-exosome-shot-2000-1.jpg",
+    "products/medicube-pdrn-pink-collagen-exosome-shot-2000-2.jpg"
+   ]
+  },
+  {
+   "name": "PDRN Pink Peptide Eye Cream",
+   "brand": "Medicube",
+   "cat": "cuidado-de-la-piel",
+   "presentation": "30 ml",
+   "isNew": true,
+   "tags": [
+    "coreano",
+    "ojos"
+   ],
+   "short": "Contorno de ojos con PDRN y niacinamida al 5%.",
+   "desc": "Formulado con PDRN (ADN de salmón) y niacinamida al 5%. Diseñado para reducir líneas finas, arrugas y ojeras.",
+   "src": "highlight:Nuevos ingresos",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "decant": false,
+   "slug": "medicube-pdrn-pink-peptide-eye-cream",
+   "imageFiles": [
+    "products/medicube-pdrn-pink-peptide-eye-cream-1.jpg",
+    "products/medicube-pdrn-pink-peptide-eye-cream-2.jpg"
+   ]
+  },
+  {
+   "name": "Collagen Jelly Cream",
+   "brand": "Medicube",
+   "cat": "cuidado-de-la-piel",
+   "presentation": "50 ml",
+   "isNew": true,
+   "tags": [
+    "coreano",
+    "hidratante"
+   ],
+   "short": "Crema en gel con efecto \"Korean Glass Glow\".",
+   "desc": "Contiene colágeno soluble e hidrolizado para mejorar la elasticidad de la piel. Hidrata intensamente y genera un efecto luminoso estilo Korean Glass Glow.",
+   "src": "highlight:Nuevos ingresos",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "decant": false,
+   "slug": "medicube-collagen-jelly-cream",
+   "imageFiles": [
+    "products/medicube-collagen-jelly-cream-1.jpg",
+    "products/medicube-collagen-jelly-cream-2.jpg"
+   ]
+  },
+  {
+   "name": "Collagen Night Wrapping Mask",
+   "brand": "Medicube",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "coreano",
+    "mascara"
+   ],
+   "short": "Dormí y despertate con piel nueva.",
+   "desc": "Crea una capa protectora de colágeno durante la noche que se retira a la mañana siguiente.",
+   "src": "instagram:DVyo5shjkX7",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "medicube-collagen-night-wrapping-mask",
+   "imageFiles": [
+    "products/medicube-collagen-night-wrapping-mask-1.jpg"
+   ]
+  },
+  {
+   "name": "PDRN Pink Vita Coating Mask",
+   "brand": "Medicube",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "coreano",
+    "mascara"
+   ],
+   "short": "El shot final de vitaminas y colágeno.",
+   "desc": "Máscara para un efecto \"buena cara\" inmediato, con vitaminas y colágeno.",
+   "src": "instagram:DVyo5shjkX7",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "medicube-pdrn-pink-vita-coating-mask",
+   "imageFiles": [
+    "products/medicube-pdrn-pink-vita-coating-mask-1.jpg"
+   ]
+  },
+  {
+   "name": "Express Aclara Gel limpiador 2%",
+   "brand": "Garnier",
+   "cat": "cuidado-de-la-piel",
+   "presentation": "200 ml",
+   "tags": [
+    "limpieza",
+    "manchas"
+   ],
+   "short": "Limpia en profundidad y ayuda a reducir imperfecciones.",
+   "desc": "Gel limpiador purificante de la línea Express Aclara, con 2% de activos anti-imperfecciones.",
+   "src": "instagram:DbQ4OKjMQb1",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "garnier-express-aclara-gel-limpiador-2",
+   "imageFiles": [
+    "products/garnier-express-aclara-gel-limpiador-2-1.jpg"
+   ]
+  },
+  {
+   "name": "Express Aclara Crema Vitamina C FPS 30",
+   "brand": "Garnier",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "manchas",
+    "proteccion-solar"
+   ],
+   "short": "Protección solar + acción antimanchas para el día a día.",
+   "desc": "Crema hidratante con vitamina C y FPS 30 de la línea Express Aclara.",
+   "src": "instagram:DLibgHPPKZm",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "garnier-express-aclara-crema-vitamina-c-fps-30",
+   "imageFiles": [
+    "products/garnier-express-aclara-crema-vitamina-c-fps-30-1.jpg"
+   ]
+  },
+  {
+   "name": "Express Aclara Sérum Vitamina C 10%",
+   "brand": "Garnier",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "manchas",
+    "serum"
+   ],
+   "short": "Sérum de noche con vitamina C pura al 10%.",
+   "desc": "Actúa mientras dormís para reducir manchas y unificar el tono.",
+   "src": "instagram:DLibgHPPKZm",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "garnier-express-aclara-serum-vitamina-c-10",
+   "imageFiles": [
+    "products/garnier-express-aclara-serum-vitamina-c-10-1.jpg"
+   ]
+  },
+  {
+   "name": "Cicaplast Baume B5+",
+   "brand": "La Roche-Posay",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "reparador"
+   ],
+   "short": "Bálsamo reparador calmante, un favorito sin pasar por el Duty Free.",
+   "desc": "Repara y calma la piel sensible o irritada. Para toda la familia.",
+   "src": "instagram:DbQ4OKjMQb1",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "la-roche-posay-cicaplast-baume-b5",
+   "imageFiles": [
+    "products/la-roche-posay-cicaplast-baume-b5-1.jpg"
+   ]
+  },
+  {
+   "name": "Agua de rosas",
+   "brand": "Bioglosse",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "rutina"
+   ],
+   "short": "Tónico refrescante para todos los tipos de piel.",
+   "desc": "Tónico refrescante para todos los tipos de piel. Parte de una línea completa de limpieza, hidratación, renovación y protección.",
+   "src": "instagram:DYr4TuhuSyW",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "bioglosse-agua-de-rosas",
+   "imageFiles": [
+    "products/bioglosse-agua-de-rosas-1.jpg"
+   ]
+  },
+  {
+   "name": "Loción refrescante y descongestiva 3 en 1",
+   "brand": "Bioglosse",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "rutina"
+   ],
+   "short": "Refresca, descongestiona y prepara la piel.",
+   "desc": "Refresca, descongestiona y prepara la piel. Parte de una línea completa de limpieza, hidratación, renovación y protección.",
+   "src": "instagram:DYr4TuhuSyW",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "bioglosse-locion-refrescante-y-descongestiva-3-en-1",
+   "imageFiles": [
+    "products/bioglosse-locion-refrescante-y-descongestiva-3-en-1-1.jpg"
+   ]
+  },
+  {
+   "name": "Sérum Vitamina C",
+   "brand": "Bioglosse",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "rutina"
+   ],
+   "short": "Aporta luminosidad y unifica el tono.",
+   "desc": "Aporta luminosidad y unifica el tono. Parte de una línea completa de limpieza, hidratación, renovación y protección.",
+   "src": "instagram:DYr4TuhuSyW",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "bioglosse-serum-vitamina-c",
+   "imageFiles": [
+    "products/bioglosse-serum-vitamina-c-1.jpg"
+   ]
+  },
+  {
+   "name": "Sérum Antiage colágeno y elastina",
+   "brand": "Bioglosse",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "rutina"
+   ],
+   "short": "Ayuda a mejorar la firmeza y la elasticidad.",
+   "desc": "Ayuda a mejorar la firmeza y la elasticidad. Parte de una línea completa de limpieza, hidratación, renovación y protección.",
+   "src": "instagram:DYr4TuhuSyW",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "bioglosse-serum-antiage-colageno-y-elastina",
+   "imageFiles": [
+    "products/bioglosse-serum-antiage-colageno-y-elastina-1.jpg"
+   ]
+  },
+  {
+   "name": "Crema ultra hidratante Vitamina C",
+   "brand": "Bioglosse",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "rutina"
+   ],
+   "short": "Fresca y luminosa, con vitamina C.",
+   "desc": "Fresca y luminosa, con vitamina C. Parte de una línea completa de limpieza, hidratación, renovación y protección.",
+   "src": "instagram:DYr4TuhuSyW",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "bioglosse-crema-ultra-hidratante-vitamina-c",
+   "imageFiles": [
+    "products/bioglosse-crema-ultra-hidratante-vitamina-c-1.jpg"
+   ]
+  },
+  {
+   "name": "Protector labial Disney Princess",
+   "brand": "NIVEA",
+   "cat": "cuidado-de-la-piel",
+   "tags": [
+    "labios",
+    "infantil"
+   ],
+   "short": "Hidratación con aroma, ese detalle que no puede faltar en tu bolso.",
+   "desc": "Bálsamo labial con diseño de princesas Disney.",
+   "src": "instagram:DTp0GzWDu9L",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "nivea-protector-labial-disney-princess",
+   "imageFiles": [
+    "products/nivea-protector-labial-disney-princess-1.jpg"
+   ]
+  },
+  {
+   "name": "Maca Power Collagen · Máscara",
+   "brand": "Karseell",
+   "cat": "cabello",
+   "presentation": "500 ml",
+   "featured": true,
+   "tags": [
+    "mascara"
+   ],
+   "short": "Reingreso: la máscara capilar más buscada.",
+   "desc": "Tratamiento capilar con colágeno y maca. Aprendé a identificar la original: aroma fuerte y color suave.",
+   "src": "highlight:Nuevos ingresos",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "isNew": false,
+   "decant": false,
+   "slug": "karseell-maca-power-collagen-mascara",
+   "imageFiles": [
+    "products/karseell-maca-power-collagen-mascara-1.jpg",
+    "products/karseell-maca-power-collagen-mascara-2.jpg"
+   ]
+  },
+  {
+   "name": "Maca Essence Oil",
+   "brand": "Karseell",
+   "cat": "cabello",
+   "presentation": "50 ml",
+   "tags": [
+    "aceite"
+   ],
+   "short": "Aceite capilar nutritivo de la línea Maca Power.",
+   "desc": "Aporta brillo y nutrición de medios a puntas.",
+   "src": "highlight:Nuevos ingresos",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "karseell-maca-essence-oil",
+   "imageFiles": [
+    "products/karseell-maca-essence-oil-1.jpg"
+   ]
+  },
+  {
+   "name": "Nutri Care · Kit trío",
+   "brand": "Prismax",
+   "cat": "cabello",
+   "tags": [
+    "kit",
+    "verano"
+   ],
+   "short": "El trío experto que nutre, hidrata y protege de raíz a puntas.",
+   "desc": "Deja el pelo más suave, más sano y con un brillo espectacular. Ideal para el verano.",
+   "src": "instagram:DSsyTpujg8c",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "prismax-nutri-care-kit-trio",
+   "imageFiles": [
+    "products/prismax-nutri-care-kit-trio-1.jpg",
+    "products/prismax-nutri-care-kit-trio-2.jpg"
+   ]
+  },
+  {
+   "name": "Color Care · Máscara",
+   "brand": "Prismax",
+   "cat": "cabello",
+   "tags": [
+    "color"
+   ],
+   "short": "Para proteger el color en cabellos teñidos.",
+   "desc": "Máscara capilar de la línea Color Care.",
+   "src": "instagram:DSsyTpujg8c",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "prismax-color-care-mascara",
+   "imageFiles": [
+    "products/prismax-color-care-mascara-1.jpg"
+   ]
+  },
+  {
+   "name": "Creatine Monohydrate",
+   "brand": "Star Nutrition",
+   "cat": "suplementos",
+   "presentation": "300 g · 60 servicios",
+   "featured": true,
+   "tags": [
+    "creatina",
+    "deportivo"
+   ],
+   "short": "Creatina monohidrato para potenciar tu entrenamiento.",
+   "desc": "Se toma a cualquier hora del día. Consultá con tu médico antes de consumir suplementos.",
+   "src": "instagram:DTsaEV2DjXk",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "isNew": false,
+   "decant": false,
+   "slug": "star-nutrition-creatine-monohydrate",
+   "imageFiles": [
+    "products/star-nutrition-creatine-monohydrate-1.jpg"
+   ]
+  },
+  {
+   "name": "Collagen Sport y Collagen Plus",
+   "brand": "Star Nutrition",
+   "cat": "suplementos",
+   "tags": [
+    "colageno"
+   ],
+   "short": "Colágeno hidrolizado para articulaciones, piel y recuperación.",
+   "desc": "Acompaña tu rendimiento y recuperación.",
+   "src": "instagram:DTsaEV2DjXk",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "star-nutrition-collagen-sport-y-collagen-plus",
+   "imageFiles": [
+    "products/star-nutrition-collagen-sport-y-collagen-plus-1.jpg"
+   ]
+  },
+  {
+   "name": "Glutamine Micronized",
+   "brand": "ENA Sport Nutrition",
+   "cat": "suplementos",
+   "tags": [
+    "recuperacion"
+   ],
+   "short": "Glutamina 100% pura para la recuperación muscular.",
+   "desc": "Junto con el citrato de magnesio, aliados de la recuperación.",
+   "src": "instagram:DTsaEV2DjXk",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "ena-sport-nutrition-glutamine-micronized",
+   "imageFiles": [
+    "products/ena-sport-nutrition-glutamine-micronized-1.jpg"
+   ]
+  },
+  {
+   "name": "Enargy Gel+",
+   "brand": "ENA Sport Nutrition",
+   "cat": "suplementos",
+   "presentation": "Caja x 8 unidades",
+   "tags": [
+    "energia",
+    "deportivo"
+   ],
+   "short": "Repositor energético con cafeína, taurina y vitaminas.",
+   "desc": "Gel energético para entrenamientos largos y competencias.",
+   "src": "instagram:DTsaEV2DjXk",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "ena-sport-nutrition-enargy-gel",
+   "imageFiles": [
+    "products/ena-sport-nutrition-enargy-gel-1.jpg"
+   ]
+  },
+  {
+   "name": "Plant Protein",
+   "brand": "ENA Sport Nutrition",
+   "cat": "suplementos",
+   "presentation": "20 servicios",
+   "tags": [
+    "proteina",
+    "vegano"
+   ],
+   "short": "Proteína vegetal, apta para quienes no consumen lácteos.",
+   "desc": "Proteína después de entrenar, de origen vegetal.",
+   "src": "instagram:DTsaEV2DjXk",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "ena-sport-nutrition-plant-protein",
+   "imageFiles": [
+    "products/ena-sport-nutrition-plant-protein-1.jpg"
+   ]
+  },
+  {
+   "name": "100% Whey",
+   "brand": "ENA Sport Nutrition",
+   "cat": "suplementos",
+   "tags": [
+    "proteina"
+   ],
+   "short": "Proteína de suero para después de entrenar.",
+   "desc": "Clásico de los suplementos deportivos. Consultá sabores.",
+   "src": "instagram:DGRVsJmvm0B",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "ena-sport-nutrition-100-whey",
+   "imageFiles": [
+    "products/ena-sport-nutrition-100-whey-1.jpg"
+   ]
+  },
+  {
+   "name": "Serie Elite Amino Pro",
+   "brand": "Nutremax",
+   "cat": "suplementos",
+   "tags": [
+    "aminoacidos"
+   ],
+   "short": "Aminoácidos para potenciar tu esfuerzo.",
+   "desc": "De la línea completa de Nutremax.",
+   "src": "instagram:DGv__g7vcKt",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "nutremax-serie-elite-amino-pro",
+   "imageFiles": [
+    "products/nutremax-serie-elite-amino-pro-1.jpg"
+   ]
+  },
+  {
+   "name": "Whey Protein",
+   "brand": "Nutremax",
+   "cat": "suplementos",
+   "tags": [
+    "proteina"
+   ],
+   "short": "Proteína de suero Nutremax.",
+   "desc": "Todo lo que necesitás para complementar tu entrenamiento.",
+   "src": "instagram:DGv__g7vcKt",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "nutremax-whey-protein",
+   "imageFiles": [
+    "products/nutremax-whey-protein-1.jpg"
+   ]
+  },
+  {
+   "name": "Creatina",
+   "brand": "Nutremax",
+   "cat": "suplementos",
+   "tags": [
+    "creatina"
+   ],
+   "short": "Creatina monohidrato Nutremax.",
+   "desc": "Potenciá tu esfuerzo.",
+   "src": "instagram:DGv__g7vcKt",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "nutremax-creatina",
+   "imageFiles": [
+    "products/nutremax-creatina-1.jpg"
+   ]
+  },
+  {
+   "name": "Curflex Dúo",
+   "brand": "Curflex",
+   "cat": "suplementos",
+   "tags": [
+    "articulaciones",
+    "colageno"
+   ],
+   "short": "Colágeno hidrolizado, magnesio, ácido hialurónico y vitamina D.",
+   "desc": "Contribuye a regenerar cartílagos, fortalecer las articulaciones, aliviar el dolor, aumentar la densidad ósea y recuperar músculos. Consultá siempre con tu médico antes de consumir suplementos.",
+   "src": "instagram:DIRUMyEubZj",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "curflex-curflex-duo",
+   "imageFiles": [
+    "products/curflex-curflex-duo-1.jpg"
+   ]
+  },
+  {
+   "name": "Uña de gato",
+   "brand": null,
+   "cat": "herboristeria",
+   "presentation": "Hierba medicinal",
+   "tags": [
+    "hierbas"
+   ],
+   "short": "Tradicionalmente utilizada como antiinflamatorio y para reforzar el sistema inmunológico.",
+   "desc": "Tradicionalmente utilizada como antiinflamatorio y para reforzar el sistema inmunológico. Medicamento fitoterápico de uso tradicional. Consultá con tu médico o farmacéutico.",
+   "src": "instagram:DL3FVVzzw1Q",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "una-de-gato",
+   "imageFiles": [
+    "products/una-de-gato-1.jpg"
+   ]
+  },
+  {
+   "name": "Ambay",
+   "brand": null,
+   "cat": "herboristeria",
+   "presentation": "Hierba medicinal",
+   "tags": [
+    "hierbas"
+   ],
+   "short": "Tradicionalmente utilizado para catarros, bronquitis, resfríos y asma.",
+   "desc": "Tradicionalmente utilizado para catarros, bronquitis, resfríos y asma. Medicamento fitoterápico de uso tradicional. Consultá con tu médico o farmacéutico.",
+   "src": "instagram:DL3FVVzzw1Q",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "ambay",
+   "imageFiles": [
+    "products/ambay-1.jpg"
+   ]
+  },
+  {
+   "name": "Pulmonaria",
+   "brand": null,
+   "cat": "herboristeria",
+   "presentation": "Hierba medicinal",
+   "tags": [
+    "hierbas"
+   ],
+   "short": "Tradicionalmente utilizada para bronquitis, catarros y afecciones de las vías respiratorias.",
+   "desc": "Tradicionalmente utilizada para bronquitis, catarros y afecciones de las vías respiratorias. Medicamento fitoterápico de uso tradicional. Consultá con tu médico o farmacéutico.",
+   "src": "instagram:DL3FVVzzw1Q",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "slug": "pulmonaria",
+   "imageFiles": [
+    "products/pulmonaria-1.jpg"
+   ]
+  },
+  {
+   "name": "Tinturas madres",
+   "brand": null,
+   "cat": "herboristeria",
+   "tags": [
+    "tinturas"
+   ],
+   "short": "Extractos de plantas para equilibrar y fortalecer tu cuerpo.",
+   "desc": "Consultanos cuál es la mejor opción para vos.",
+   "src": "instagram:DH8o0UKu9iM",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "tinturas-madres",
+   "imageFiles": [
+    "products/tinturas-madres-1.jpg"
+   ]
+  },
+  {
+   "name": "Hierbas y tisanas",
+   "brand": null,
+   "cat": "herboristeria",
+   "tags": [
+    "hierbas",
+    "tisanas"
+   ],
+   "short": "Hierbas medicinales y tisanas para sentirte mejor de forma natural.",
+   "desc": "Una amplia sección de herboristería con hierbas y tisanas. Te asesoramos para encontrar la mejor opción.",
+   "src": "instagram:DH8o0UKu9iM",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "hierbas-y-tisanas",
+   "imageFiles": [
+    "products/hierbas-y-tisanas-1.jpg",
+    "products/hierbas-y-tisanas-2.jpg"
+   ]
+  },
+  {
+   "name": "Tensiómetro digital",
+   "brand": "Aspen",
+   "cat": "salud",
+   "featured": true,
+   "tags": [
+    "control"
+   ],
+   "short": "Medí tu presión de forma rápida, precisa y sencilla, sin salir de casa.",
+   "desc": "Cuidar tu salud empieza con un buen control. Incluye estuche. Consultá disponibilidad.",
+   "src": "instagram:DaOe3WLOgFF",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "aspen-tensiometro-digital",
+   "imageFiles": [
+    "products/aspen-tensiometro-digital-1.jpg",
+    "products/aspen-tensiometro-digital-2.jpg"
+   ]
+  },
+  {
+   "name": "Dilatador nasal magnético",
+   "brand": null,
+   "cat": "salud",
+   "price": 18000,
+   "tags": [
+    "respiracion",
+    "deporte"
+   ],
+   "short": "¿Ronquidos o nariz tapada? Abrí tus vías respiratorias al instante.",
+   "desc": "Se coloca sobre el tabique y abre las fosas nasales hasta un 80% más. Incluye parches adhesivos para usarlo todos los días.",
+   "src": "instagram:DVPHzMnDqTl",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "dilatador-nasal-magnetico",
+   "imageFiles": [
+    "products/dilatador-nasal-magnetico-1.jpg",
+    "products/dilatador-nasal-magnetico-2.jpg"
+   ]
+  },
+  {
+   "name": "Asiento Mini Ergo-Dona",
+   "brand": "Biodinámica",
+   "cat": "salud",
+   "tags": [
+    "ergonomia"
+   ],
+   "short": "Almohadilla ergonómica con funda lavable e indeformable.",
+   "desc": "Brinda el apoyo que tu cuerpo necesita para estar mejor mientras trabajás, estudiás o descansás.",
+   "src": "instagram:DdkMteyx3Cc",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "biodinamica-asiento-mini-ergo-dona",
+   "imageFiles": [
+    "products/biodinamica-asiento-mini-ergo-dona-1.jpg"
+   ]
+  },
+  {
+   "name": "Secador de pelo",
+   "brand": null,
+   "cat": "electro",
+   "isNew": true,
+   "tags": [
+    "pelo"
+   ],
+   "short": "Práctico y fácil de usar, en colores degradé.",
+   "desc": "Nuevos secadores de pelo, livianos y prácticos.",
+   "src": "instagram:DUT6d8CEi2b",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "secador-de-pelo",
+   "imageFiles": [
+    "products/secador-de-pelo-1.jpg",
+    "products/secador-de-pelo-2.jpg"
+   ]
+  },
+  {
+   "name": "Secador de pelo profesional",
+   "brand": null,
+   "cat": "electro",
+   "tags": [
+    "pelo"
+   ],
+   "short": "Diseño compacto y potente.",
+   "desc": "Secador de alto rendimiento con diseño moderno.",
+   "src": "instagram:DUT6d8CEi2b",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "secador-de-pelo-profesional",
+   "imageFiles": [
+    "products/secador-de-pelo-profesional-1.jpg"
+   ]
+  },
+  {
+   "name": "Cepillo secador multiestilo",
+   "brand": null,
+   "cat": "electro",
+   "tags": [
+    "pelo"
+   ],
+   "short": "Seca y modela en un solo paso.",
+   "desc": "Cepillo secador con cabezales intercambiables.",
+   "src": "instagram:DUT6d8CEi2b",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "cepillo-secador-multiestilo",
+   "imageFiles": [
+    "products/cepillo-secador-multiestilo-1.jpg"
+   ]
+  },
+  {
+   "name": "Stanley: vasos, botellas y termos",
+   "brand": "Stanley",
+   "cat": "regaleria",
+   "featured": true,
+   "isNew": true,
+   "tags": [
+    "stanley",
+    "mate"
+   ],
+   "short": "¡Nuevos ingresos! Vasos Quencher, botellas IceFlow, termos clásicos y mates.",
+   "desc": "Vení a descubrir los modelos y colores de Stanley: vasos Quencher, botellas IceFlow, termos clásicos y los clásicos mates.",
+   "src": "instagram:DeO8CLGpQQi",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "decant": false,
+   "presentation": null,
+   "slug": "stanley-stanley-vasos-botellas-y-termos",
+   "imageFiles": [
+    "products/stanley-stanley-vasos-botellas-y-termos-1.jpg",
+    "products/stanley-stanley-vasos-botellas-y-termos-2.jpg"
+   ]
+  },
+  {
+   "name": "Billeteras Trendy",
+   "brand": "Trendy",
+   "cat": "regaleria",
+   "tags": [
+    "billeteras"
+   ],
+   "short": "Billeteras XL con detalle de corazón, en varios colores.",
+   "desc": "Ideales para regalar. Deslizá y mirá todos los modelos en la farmacia.",
+   "src": "instagram:DSCyqR2DtGd",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "trendy-billeteras-trendy",
+   "imageFiles": [
+    "products/trendy-billeteras-trendy-1.jpg",
+    "products/trendy-billeteras-trendy-2.jpg"
+   ]
+  },
+  {
+   "name": "Billeteras Keep it Simple",
+   "brand": null,
+   "cat": "regaleria",
+   "tags": [
+    "billeteras"
+   ],
+   "short": "Billeteras en tonos pastel.",
+   "desc": "Modelos prácticos con mucha onda.",
+   "src": "instagram:DSCyqR2DtGd",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "billeteras-keep-it-simple",
+   "imageFiles": [
+    "products/billeteras-keep-it-simple-1.jpg"
+   ]
+  },
+  {
+   "name": "Billeteras Muá!",
+   "brand": null,
+   "cat": "regaleria",
+   "tags": [
+    "billeteras"
+   ],
+   "short": "Billeteras con estampa Muá!",
+   "desc": "Divertidas y cancheras.",
+   "src": "instagram:DSCyqR2DtGd",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "billeteras-mua",
+   "imageFiles": [
+    "products/billeteras-mua-1.jpg"
+   ]
+  },
+  {
+   "name": "Billeteras BCY",
+   "brand": null,
+   "cat": "regaleria",
+   "tags": [
+    "billeteras"
+   ],
+   "short": "Billeteras sobre en negro, verde y beige.",
+   "desc": "Billeteras XL, minis y sobres.",
+   "src": "instagram:DSCyqR2DtGd",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "billeteras-bcy",
+   "imageFiles": [
+    "products/billeteras-bcy-1.jpg"
+   ]
+  },
+  {
+   "name": "Bolso de playa",
+   "brand": "Skora",
+   "cat": "regaleria",
+   "tags": [
+    "bolsos",
+    "verano"
+   ],
+   "short": "Amplio, cómodo y súper canchero para todo el verano.",
+   "desc": "Sol, arena, mates y días que no se terminan más: bolsos de playa para acompañarte toda la temporada.",
+   "src": "instagram:DSFf9owCbtp",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "skora-bolso-de-playa",
+   "imageFiles": [
+    "products/skora-bolso-de-playa-1.jpg",
+    "products/skora-bolso-de-playa-2.jpg"
+   ]
+  },
+  {
+   "name": "Bolso de fiesta",
+   "brand": null,
+   "cat": "regaleria",
+   "tags": [
+    "bolsos"
+   ],
+   "short": "Ese detalle que completa tu look.",
+   "desc": "Sobres y carteras con brillo para las fiestas.",
+   "src": "instagram:DR-tERRCaUY",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "bolso-de-fiesta",
+   "imageFiles": [
+    "products/bolso-de-fiesta-1.jpg",
+    "products/bolso-de-fiesta-2.jpg"
+   ]
+  },
+  {
+   "name": "Mochilitas infantiles",
+   "brand": null,
+   "cat": "regaleria",
+   "tags": [
+    "ninos",
+    "mochilas"
+   ],
+   "short": "Cómodas, livianas y llenas de color.",
+   "desc": "Ideales para acompañar a los más peques en cada aventura del verano.",
+   "src": "instagram:DSKqM2BCanZ",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "mochilitas-infantiles",
+   "imageFiles": [
+    "products/mochilitas-infantiles-1.jpg",
+    "products/mochilitas-infantiles-2.jpg",
+    "products/mochilitas-infantiles-3.jpg"
+   ]
+  },
+  {
+   "name": "Mochilas deportivas",
+   "brand": null,
+   "cat": "regaleria",
+   "tags": [
+    "mochilas",
+    "vuelta-al-cole"
+   ],
+   "short": "Head, Wilson y Everlast para la vuelta al cole.",
+   "desc": "Mochilas resistentes y con estilo para empezar el año con todo.",
+   "src": "instagram:DF8iPZIPWGA",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "mochilas-deportivas",
+   "imageFiles": [
+    "products/mochilas-deportivas-1.jpg",
+    "products/mochilas-deportivas-2.jpg"
+   ]
+  },
+  {
+   "name": "Riñoneras y bandoleras NBA",
+   "brand": "NBA",
+   "cat": "regaleria",
+   "tags": [
+    "riñoneras"
+   ],
+   "short": "El estilo de tu equipo favorito, en todo momento.",
+   "desc": "Riñoneras y bandoleras de hombre con licencia NBA.",
+   "src": "instagram:DLvRjhHvVjJ",
+   "attrs": {},
+   "highlights": [],
+   "notes": [
+    [],
+    [],
+    []
+   ],
+   "gender": null,
+   "price": null,
+   "cash": null,
+   "featured": false,
+   "isNew": false,
+   "decant": false,
+   "presentation": null,
+   "slug": "nba-rinoneras-y-bandoleras-nba",
+   "imageFiles": [
+    "products/nba-rinoneras-y-bandoleras-nba-1.jpg"
+   ]
+  }
+ ]
+}

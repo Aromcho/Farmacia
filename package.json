@@ -1,0 +1,25 @@
+{
+  "name": "farmacia-amancio-fernandez",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Web + API + Admin de Farmacia Amancio Fernández (Next.js + NestJS + PostgreSQL)",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "env": "node scripts/init-env.mjs",
+    "db:up": "docker compose up -d db",
+    "db:down": "docker compose down",
+    "setup": "npm run env && npm run db:up && npm -w apps/api run db:migrate && npm -w apps/api run seed",
+    "seed:reset": "npm -w apps/api run seed -- --reset",
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"npm -w apps/api run start:dev\" \"npm -w apps/web run dev\"",
+    "build": "npm -w apps/api run build && npm -w apps/web run build",
+    "start": "concurrently -k -n api,web -c cyan,magenta \"npm -w apps/api run start:prod\" \"npm -w apps/web run start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=20.18"
+  }
+}
