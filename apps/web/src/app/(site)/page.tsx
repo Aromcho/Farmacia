@@ -26,7 +26,11 @@ export default async function HomePage() {
 
   return (
     <>
-      <Hero highlights={highlights} video={{ src: '/media/hero.mp4', poster: '/media/hero-poster.webp' }} />
+      <Hero
+        highlights={highlights}
+        video={{ src: '/media/hero.mp4', poster: '/media/hero-poster.webp' }}
+        desktopVideo={{ src: '/media/heroesc.mp4', poster: '/media/heroesc-poster.webp' }}
+      />
       <Benefits info={store?.info ?? null} />
       <PerfumeShowcase
         tabs={[

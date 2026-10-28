@@ -48,7 +48,8 @@ async function bootstrap() {
 
   app.enableShutdownHooks();
   const port = Number(config.get('PORT') ?? 4000);
-  await app.listen(port);
+  const host = config.get<string>('HOST');
+  await (host ? app.listen(port, host) : app.listen(port));
   Logger.log(`API lista en http://localhost:${port}/api  ·  Docs: /api/docs`, 'Bootstrap');
 }
 bootstrap();

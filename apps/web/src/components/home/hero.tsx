@@ -13,12 +13,22 @@ import { waLink } from '@/lib/format';
 import type { Highlight } from '@/lib/types';
 
 const ease = [0.16, 1, 0.3, 1] as const;
+const DESKTOP_MEDIA = '(orientation: landscape)';
+const MOBILE_MEDIA = '(orientation: portrait)';
 
 /**
  * Hero: la cruz LED encendida sobre luz que cae en el agua (video de Kling),
  * con parallax en tres planos: fondo lento, cruz media, texto rápido.
  */
-export function Hero({ highlights, video }: { highlights: Highlight[]; video?: { src: string; poster: string } | null }) {
+export function Hero({
+  highlights,
+  video,
+  desktopVideo,
+}: {
+  highlights: Highlight[];
+  video?: { src: string; poster: string } | null;
+  desktopVideo?: { src: string; poster: string } | null;
+}) {
   const ref = useRef<HTMLElement>(null);
   const reduce = useReducedMotion();
   const { hours, info } = useStore();
@@ -43,18 +53,28 @@ export function Hero({ highlights, video }: { highlights: Highlight[]; video?: {
       {/* plano 1: luz bajo el agua */}
       <motion.div style={reduce ? undefined : { y: bgY, scale: bgScale }} className="absolute inset-0 -z-10 will-change-transform" aria-hidden="true">
         {video && videoOk ? (
-          <video
-            className="size-full object-cover opacity-80"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-            poster={video.poster}
-            onError={() => setVideoOk(false)}
-          >
-            <source src={video.src} type="video/mp4" />
-          </video>
+          // Vertical en pantallas verticales, horizontal (sin pixelar) en escritorio. El navegador elige un solo
+          // <source> por media query, sin JS ni doble descarga. El poster va en un <picture> debajo porque
+          // el atributo poster no admite variantes; el video lo tapa en cuanto tiene el primer cuadro.
+          <div className="relative size-full opacity-80">
+            <picture>
+              {desktopVideo && <source media={DESKTOP_MEDIA} srcSet={desktopVideo.poster} />}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={video.poster} alt="" className="absolute inset-0 size-full object-cover" />
+            </picture>
+            <video
+              className="absolute inset-0 size-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="auto"
+              onError={() => setVideoOk(false)}
+            >
+              {desktopVideo && <source src={video.src} media={MOBILE_MEDIA} type="video/mp4" />}
+              <source src={desktopVideo?.src ?? video.src} type="video/mp4" />
+            </video>
+          </div>
         ) : (
           <div className="size-full bg-[radial-gradient(120%_70%_at_50%_0%,#1f7d86_0%,#0a383d_45%,#052a2e_100%)]" />
         )}

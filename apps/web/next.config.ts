@@ -3,6 +3,8 @@ import type { NextConfig } from 'next';
 const API_URL = process.env.API_URL ?? 'http://localhost:4000';
 
 const nextConfig: NextConfig = {
+  // Permite compilar en otra carpeta (NEXT_DIST_DIR=.next-new) sin pisar la que está sirviendo producción
+  distDir: process.env.NEXT_DIST_DIR ?? '.next',
   reactStrictMode: true,
   poweredByHeader: false,
   // La API (NestJS) y las imágenes subidas se sirven bajo el mismo dominio

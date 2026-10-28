@@ -27,6 +27,12 @@ interface Led {
 const COLS = 13;
 const CENTER = 6;
 const SMILE_ROWS = 17.4;
+/** Margen (en celdas) alrededor de la grilla para que el halo no quede recortado por el borde del canvas */
+const PAD = 1.8;
+/** Encendido inicial: arranca BOOT_DELAY s después del primer cuadro visible y avanza BOOT_SPEED celdas/s desde el centro */
+const BOOT_DELAY = 0.3;
+const BOOT_SPEED = 9;
+const BOOT_END = BOOT_DELAY + (12 + 1.4) / BOOT_SPEED;
 
 const COLORS: Record<Region, string> = {
   top: '#54c4cf',
@@ -95,16 +101,20 @@ function buildLeds(withSmile: boolean): Led[] {
 
 /** Sprite de un LED con halo, pre-renderizado una vez por color */
 function makeSprite(color: string, cell: number, dpr: number, glow: boolean) {
-  const size = Math.ceil(cell * (glow ? 2.6 : 1.1) * dpr);
+  const size = Math.ceil(cell * (glow ? PAD * 2 : 1.1) * dpr);
   const c = document.createElement('canvas');
   c.width = c.height = size;
   const g = c.getContext('2d')!;
   const r = size / 2;
   const core = cell * 0.36 * dpr;
   if (glow) {
-    const halo = g.createRadialGradient(r, r, core * 0.6, r, r, r);
-    halo.addColorStop(0, hexA(color, 0.42));
-    halo.addColorStop(0.35, hexA(color, 0.12));
+    // caída gaussiana: al sumarse los halos vecinos no aparecen "bordes" rectangulares alrededor de los brazos
+    const sigma = 0.42 * cell * dpr;
+    const halo = g.createRadialGradient(r, r, 0, r, r, r);
+    for (let i = 0; i <= 12; i++) {
+      const f = i / 12;
+      halo.addColorStop(f, hexA(color, 0.34 * Math.exp(-((f * r) ** 2) / (2 * sigma * sigma))));
+    }
     halo.addColorStop(1, hexA(color, 0));
     g.fillStyle = halo;
     g.fillRect(0, 0, size, size);
@@ -178,7 +188,8 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
     let raf = 0;
     let running = false;
     let visible = true;
-    const start = performance.now();
+    // el reloj arranca en el primer cuadro dibujado (no al montar), así el encendido se ve aunque la hidratación tarde
+    let start = -1;
     let litT = litRef.current ? 1 : 0; // transición suave encendido/apagado
     const pointer = { x: -99, y: -99, active: false };
     const ripples: { x: number; y: number; t0: number }[] = [];
@@ -188,10 +199,15 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
       if (!w) return;
       dpr = Math.min(window.devicePixelRatio || 1, 2.5);
       cell = w / COLS;
-      const h = cell * rows;
-      canvas.width = Math.round(w * dpr);
-      canvas.height = Math.round(h * dpr);
-      canvas.style.height = `${h}px`;
+      const pad = cell * PAD;
+      const cw = w + pad * 2;
+      const ch = cell * rows + pad * 2;
+      canvas.width = Math.round(cw * dpr);
+      canvas.height = Math.round(ch * dpr);
+      // el canvas desborda la grilla por el margen del halo sin cambiar el tamaño del contenedor
+      canvas.style.width = `${cw}px`;
+      canvas.style.height = `${ch}px`;
+      canvas.style.margin = `${-pad}px`;
       const pal = glow ? GLOW : COLORS;
       sprites = {
         top: makeSprite(pal.top, cell, dpr, glow),
@@ -205,8 +221,8 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
     };
 
     const brightness = (led: Led, t: number, isLit: number) => {
-      // encendido inicial: desde el centro hacia afuera
-      const boot = reduced ? 1 : smooth(0, 1.4, (t - 0.15) * 11 - led.d);
+      // encendido inicial: desde el centro hacia afuera (también con "reducir movimiento": es luz, no desplazamiento)
+      const boot = smooth(0, 1.4, (t - BOOT_DELAY) * BOOT_SPEED - led.d);
       // brillo diagonal que recorre la cruz
       const shimmer = 0.5 + 0.5 * Math.sin((led.x + led.y) * 0.5 - t * 1.7);
       let b = (0.8 + 0.2 * shimmer) * boot;
@@ -253,6 +269,7 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
     };
 
     const draw = (now: number) => {
+      if (start < 0) start = now;
       const t = (now - start) / 1000;
       const target = litRef.current ? 1 : 0;
       litT += (target - litT) * 0.06;
@@ -265,8 +282,8 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
       for (let i = ripples.length - 1; i >= 0; i--) if (t - ripples[i].t0 > 1.2) ripples.splice(i, 1);
 
       for (const led of leds) {
-        const cx = (led.x + 0.5) * cell * dpr;
-        const cy = (led.y + 0.5) * cell * dpr;
+        const cx = (led.x + 0.5 + PAD) * cell * dpr;
+        const cy = (led.y + 0.5 + PAD) * cell * dpr;
         if (off) {
           ctx.globalCompositeOperation = 'source-over';
           ctx.globalAlpha = glow ? 0.9 : 1;
@@ -288,12 +305,18 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
       ctx.globalCompositeOperation = 'source-over';
     };
 
+    const booted = () => start >= 0 && (performance.now() - start) / 1000 > BOOT_END;
     const loop = (now: number) => {
       draw(now);
+      // con "reducir movimiento" el bucle sólo vive mientras dura el encendido
+      if (reduced && booted()) {
+        running = false;
+        return;
+      }
       raf = requestAnimationFrame(loop);
     };
     const play = () => {
-      if (running || reduced || !visible || document.hidden) return;
+      if (running || !visible || document.hidden || (reduced && booted())) return;
       running = true;
       raf = requestAnimationFrame(loop);
     };
@@ -329,7 +352,7 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
 
     const toGrid = (e: PointerEvent) => {
       const rect = canvas.getBoundingClientRect();
-      return { x: (e.clientX - rect.left) / cell - 0.5, y: (e.clientY - rect.top) / cell - 0.5 };
+      return { x: (e.clientX - rect.left) / cell - 0.5 - PAD, y: (e.clientY - rect.top) / cell - 0.5 - PAD };
     };
     const onMove = (e: PointerEvent) => {
       const p = toGrid(e);
@@ -368,7 +391,7 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
       role="img"
       aria-label={label ?? (lit ? 'Cruz de farmacia encendida: estamos abiertos' : 'Cruz de farmacia apagada: ahora estamos cerrados')}
     >
-      <canvas ref={canvasRef} className="block w-full touch-manipulation" />
+      <canvas ref={canvasRef} className="block max-w-none touch-manipulation" />
     </div>
   );
 }
