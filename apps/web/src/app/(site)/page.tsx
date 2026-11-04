@@ -28,8 +28,8 @@ export default async function HomePage() {
     <>
       <Hero
         highlights={highlights}
-        video={{ src: '/media/hero.mp4', poster: '/media/hero-poster.webp' }}
-        desktopVideo={{ src: '/media/heroesc.mp4', poster: '/media/heroesc-poster.webp' }}
+        video={{ src: '/media/hero-mobile-pingpong.mp4', poster: '/media/hero-mobile-poster.webp' }}
+        desktopVideo={{ src: '/media/hero-desktop-pingpong.mp4', poster: '/media/hero-desktop-poster.webp' }}
       />
       <Benefits info={store?.info ?? null} />
       <PerfumeShowcase
