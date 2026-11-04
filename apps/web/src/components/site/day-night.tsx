@@ -63,6 +63,9 @@ function useFrameSequence(canvasRef: RefObject<HTMLCanvasElement | null>, progre
       const s = Math.max(W / img.naturalWidth, H / img.naturalHeight);
       const w = img.naturalWidth * s;
       const h = img.naturalHeight * s;
+      // el canvas reinicia el suavizado al cambiar de tamaño: sin esto Chrome escala en baja calidad (se ve pixelado)
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'high';
       ctx.globalAlpha = alpha;
       ctx.drawImage(img, (W - w) * focusX, (H - h) / 2, w, h);
     };
@@ -139,7 +142,7 @@ export function DayNight() {
 
   // respaldo mientras cargan los cuadros (o si fallan): fundido entre las dos fotos
   const night = useTransform(p, [0.4, 0.8], [0, 1]);
-  const zoom = useTransform(scrollYProgress, [0, 1], [1.06, 1]);
+  const zoom = useTransform(scrollYProgress, [0, 1], [1.03, 1]);
   const glow = useTransform(p, [0.62, 0.9], [0, 1]);
   const cue = useTransform(scrollYProgress, [0, 0.05], [1, 0]);
 
