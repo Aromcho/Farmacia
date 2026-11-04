@@ -3,7 +3,9 @@
 import { motion, useMotionValueEvent, useReducedMotion, useScroll, useTransform, type MotionValue } from 'motion/react';
 import { useEffect, useRef, useState, type RefObject } from 'react';
 import { cn } from '@/lib/cn';
+import { groupWeek } from '@/lib/format';
 import { StatusPill } from './status-pill';
+import { useStore } from './store-provider';
 
 /* Secuencia de cuadros del timelapse día → noche (Kling 3.0, cámara fija) */
 const FRAMES = 48;
@@ -25,17 +27,19 @@ const loadOrder = () => {
   return out;
 };
 
-/** Minutos desde 08:30 (510) hasta 21:00 (1260) */
-const toClock = (p: number) => {
-  const m = Math.round((510 + (1260 - 510) * p) / 5) * 5;
-  return `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
-};
+const toMin = (hhmm: string) => Number(hhmm.slice(0, 2)) * 60 + Number(hhmm.slice(3, 5));
+const fmt = (m: number) => `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
 
-const STEPS = [
-  { at: 0, heading: 'h1' as const, title: 'Más de 60 años cuidándote en Villa Gesell', text: 'Atención cercana, profesional y de confianza en Paseo 106 y Boulevard. Medicamentos, perfumería, dermocosmética y herboristería.' },
-  { at: 0.34, heading: 'h2' as const, title: 'Abrimos temprano, cerramos tarde', text: 'De lunes a sábado, con horario extendido en verano. Estacionás en la puerta y te atendemos enseguida.' },
-  { at: 0.72, heading: 'h2' as const, title: 'Y de noche, la cruz encendida', text: 'Cuando se prende el verde, estamos. Por WhatsApp te respondemos dentro del horario.' },
-];
+type Step = { at: number; heading: 'h1' | 'h2'; title: string; text: string };
+
+/** Textos de cada tramo del día, armados con los horarios cargados en el panel */
+function buildSteps(schedule: string, closes: string): Step[] {
+  return [
+    { at: 0, heading: 'h1', title: 'Más de 60 años cuidándote en Villa Gesell', text: 'Atención cercana, profesional y de confianza en Paseo 106 y Boulevard. Medicamentos, perfumería, dermocosmética y herboristería.' },
+    { at: 0.34, heading: 'h2', title: 'Abrimos temprano', text: schedule ? `${schedule}. Estacionás en la puerta.` : 'Te esperamos en Paseo 106 y Boulevard, con estacionamiento en la puerta.' },
+    { at: 0.72, heading: 'h2', title: 'Y de noche, la cruz encendida', text: `Cuando se prende el verde, estamos: abrimos hasta las ${closes}. Por WhatsApp te respondemos dentro del horario.` },
+  ];
+}
 
 function useFrameSequence(canvasRef: RefObject<HTMLCanvasElement | null>, progress: MotionValue<number>) {
   const [ready, setReady] = useState(false);
@@ -139,12 +143,22 @@ export function DayNight() {
   const glow = useTransform(p, [0.62, 0.9], [0, 1]);
   const cue = useTransform(scrollYProgress, [0, 0.05], [1, 0]);
 
-  const [clock, setClock] = useState('08:30');
-  const [step, setStep] = useState(0);
-  useMotionValueEvent(p, 'change', (v) => {
-    setClock(toClock(v));
-    setStep(STEPS.reduce((acc, s, i) => (v >= s.at ? i : acc), 0));
-  });
+  // el reloj va de la primera apertura al último cierre de la temporada vigente
+  const { hours } = useStore();
+  const week = hours?.weeks[hours.season] ?? [];
+  const ranges = week.flatMap((d) => d.ranges);
+  const openMin = ranges.length ? Math.min(...ranges.map((r) => toMin(r.opens))) : 510;
+  const closeMin = ranges.length ? Math.max(...ranges.map((r) => toMin(r.closes))) : 1230;
+  const schedule = groupWeek(week)
+    .filter((g) => g.text !== 'Cerrado')
+    .map((g) => `${g.label}, de ${g.text}`)
+    .join('. ');
+  const STEPS = buildSteps(schedule, fmt(closeMin));
+
+  const [prog, setProg] = useState(0);
+  useMotionValueEvent(p, 'change', setProg);
+  const clock = fmt(Math.round((openMin + (closeMin - openMin) * prog) / 5) * 5);
+  const step = STEPS.reduce((acc, s, i) => (prog >= s.at ? i : acc), 0);
   const isNight = step === 2;
 
   return (
@@ -217,11 +231,11 @@ export function DayNight() {
 
             {/* línea del horario */}
             <div className="hidden shrink-0 flex-col items-center gap-3 text-xs font-semibold text-white/60 md:flex" aria-hidden="true">
-              <span className="tabular">08:30</span>
+              <span className="tabular">{fmt(openMin)}</span>
               <div className="h-56 w-1 overflow-hidden rounded-full bg-white/15">
                 <motion.div style={{ scaleY: p }} className="h-full w-full origin-top rounded-full bg-gradient-to-b from-sun via-[#e38b5a] to-[#3cffaa]" />
               </div>
-              <span className="tabular">21:00</span>
+              <span className="tabular">{fmt(closeMin)}</span>
             </div>
           </div>
         </div>
