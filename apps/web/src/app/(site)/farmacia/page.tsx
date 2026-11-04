@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, Navigation, Phone } from 'lucide-react';
+import { DayNight } from '@/components/site/day-night';
 import { HoursTable } from '@/components/site/hours-table';
 import { MapEmbed } from '@/components/site/map-embed';
 import { ExternalButton } from '@/components/ui/button';
 import { InstagramIcon, WhatsAppIcon } from '@/components/ui/icons';
-import { ParallaxBg, ParallaxItem } from '@/components/ui/parallax';
+import { ParallaxItem } from '@/components/ui/parallax';
 import { getInsurers, getStore } from '@/lib/api';
 import { prettyPhone, waLink } from '@/lib/format';
 
@@ -15,10 +16,12 @@ export const metadata: Metadata = {
 };
 
 const PHOTOS = [
-  { src: '/media/farma/fachada.webp', alt: 'Fachada de la farmacia en 106 y Boulevard' },
-  { src: '/media/farma/interior.webp', alt: 'Interior de la farmacia con mostradores de atención' },
-  { src: '/media/farma/perfumes.webp', alt: 'Góndolas de perfumería' },
-  { src: '/media/farma/herboristeria.webp', alt: 'Sección de herboristería' },
+  { src: '/media/nosotros/dia-lateral.webp', alt: 'Fachada de la farmacia en Paseo 106 y Boulevard', caption: 'Paseo 106 y Boulevard', wide: true },
+  { src: '/media/farma/interior.webp', alt: 'Interior de la farmacia con mostradores de atención', caption: 'Mostrador' },
+  { src: '/media/farma/perfumes.webp', alt: 'Góndolas de perfumería', caption: 'Perfumería' },
+  { src: '/media/farma/herboristeria.webp', alt: 'Sección de herboristería', caption: 'Herboristería' },
+  { src: '/media/farma/decant.webp', alt: 'Decants de perfumes', caption: 'Decants' },
+  { src: '/media/nosotros/noche-amplia.webp', alt: 'La farmacia de noche con el cartel verde encendido', caption: 'De noche', wide: true },
 ];
 
 export default async function FarmaciaPage() {
@@ -27,19 +30,8 @@ export default async function FarmaciaPage() {
 
   return (
     <div className="mb-tabbar">
-      <header className="relative isolate min-h-[78svh] overflow-hidden bg-night text-white">
-        <ParallaxBg strength={0.2} className="-z-10">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/media/farma/fachada-noche.webp" alt="" className="size-full object-cover opacity-70" />
-        </ParallaxBg>
-        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-night via-night/55 to-night/20" />
-        <div className="container-x flex min-h-[78svh] flex-col justify-end pb-12 pt-[calc(var(--header-h)+3rem)] lg:pb-20">
-          <h1 className="display-1 max-w-3xl text-balance">Más de 60 años cuidándote en Villa Gesell</h1>
-          <p className="mt-5 max-w-[52ch] text-[1.05rem] leading-relaxed text-white/75">
-            Atención cercana, profesional y de confianza en Paseo 106 y Boulevard. Medicamentos, perfumería, dermocosmética, herboristería y todo para tu bienestar.
-          </p>
-        </div>
-      </header>
+
+      <DayNight />
 
       <section id="horarios" className="container-x scroll-mt-24 py-16 lg:py-24" aria-labelledby="horarios-title">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
@@ -72,14 +64,29 @@ export default async function FarmaciaPage() {
         </div>
       </section>
 
-      <section className="overflow-hidden bg-mist py-16 lg:py-24" aria-label="Fotos de la farmacia">
-        <div className="container-x grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-5">
-          {PHOTOS.map((ph, i) => (
-            <ParallaxItem key={ph.src} offset={i % 2 ? 40 : -20}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={ph.src} alt={ph.alt} loading="lazy" decoding="async" className="aspect-[3/4] w-full rounded-[1.5rem] object-cover" />
-            </ParallaxItem>
-          ))}
+      <section className="overflow-hidden bg-mist py-16 lg:py-24" aria-labelledby="fotos-title">
+        <div className="container-x">
+          <h2 id="fotos-title" className="display-2 text-ink">
+            Pasá a conocernos
+          </h2>
+          <p className="mt-3 max-w-[50ch] text-ink-soft">Un local amplio y luminoso, con estacionamiento en la puerta y todo a la vista.</p>
+          <div className="mt-10 grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-5">
+            {PHOTOS.map((ph, i) => (
+              <ParallaxItem key={ph.src} offset={i % 2 ? 36 : -18} className={ph.wide ? 'col-span-2' : undefined}>
+                <figure className="group relative overflow-hidden rounded-[1.5rem]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={ph.src}
+                    alt={ph.alt}
+                    loading="lazy"
+                    decoding="async"
+                    className={`w-full object-cover transition-transform duration-700 group-hover:scale-[1.03] ${ph.wide ? 'aspect-[4/3] lg:aspect-[8/5]' : 'aspect-[3/4] lg:aspect-[4/5]'}`}
+                  />
+                  <figcaption className="absolute bottom-3 left-3 rounded-full bg-white/85 px-3 py-1 text-xs font-semibold text-ink backdrop-blur-md">{ph.caption}</figcaption>
+                </figure>
+              </ParallaxItem>
+            ))}
+          </div>
         </div>
       </section>
 
