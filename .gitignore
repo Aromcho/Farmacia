@@ -1,5 +1,7 @@
 node_modules
 .next
+.next-old-*
+.next-new
 dist
 *.tsbuildinfo
 .env

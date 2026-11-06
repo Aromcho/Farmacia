@@ -5,9 +5,9 @@ import { cn } from '@/lib/cn';
  * - brazo superior: aqua · brazo derecho: menta · resto: teal
  */
 export function LogoMark({ className, mono }: { className?: string; mono?: 'white' | 'ink' }) {
-  const teal = mono === 'white' ? '#ffffff' : mono === 'ink' ? '#0e3b3f' : '#009cac';
-  const aqua = mono === 'white' ? 'rgba(255,255,255,.72)' : mono === 'ink' ? '#3d6468' : '#54c4cf';
-  const mint = mono === 'white' ? 'rgba(255,255,255,.86)' : mono === 'ink' ? '#5b7f82' : '#6cc4c0';
+  const teal = mono === 'white' ? '#ffffff' : mono === 'ink' ? '#004f58' : '#009eae';
+  const aqua = mono === 'white' ? 'rgba(255,255,255,.72)' : mono === 'ink' ? '#3f6b70' : '#55c5d0';
+  const mint = mono === 'white' ? 'rgba(255,255,255,.86)' : mono === 'ink' ? '#5f8a8e' : '#6cc8c3';
   return (
     <svg viewBox="0 0 108 140" className={cn('shrink-0', className)} aria-hidden="true">
       {/* brazo izquierdo + centro + brazo inferior */}

@@ -68,7 +68,7 @@ export function SiteHeader({ nav }: { nav: NavLink[] }) {
                 className={cn(
                   'relative whitespace-nowrap rounded-full px-3 py-2 text-[0.9rem] font-medium transition-colors',
                   i >= 3 && i < nav.length - 2 && 'hidden 2xl:block',
-                  overDark ? 'text-white/80 hover:text-white' : 'text-ink-soft hover:text-ink',
+                  overDark ? 'text-white/90 hover:text-white' : 'text-ink-soft hover:text-ink',
                   active && (overDark ? 'text-white' : 'text-ink'),
                 )}
               >

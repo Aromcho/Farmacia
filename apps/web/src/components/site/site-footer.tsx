@@ -14,7 +14,7 @@ export function SiteFooter({ store, categories }: { store: PublicStore | null; c
     r && r.ranges.length ? r.ranges.map((x) => `${x.opens} a ${x.closes}`).join(' y ') : 'Cerrado';
 
   return (
-    <footer className="relative overflow-hidden bg-night text-white/80 mb-tabbar">
+    <footer className="relative overflow-hidden bg-night text-white/90 mb-tabbar">
       <div aria-hidden="true" className="pointer-events-none absolute -right-24 -top-24 size-96 rounded-full bg-teal/20 blur-3xl" />
       <div className="container-x relative grid grid-cols-2 gap-x-6 gap-y-12 py-16 md:grid-cols-[1.3fr_1fr_1fr_1.2fr] md:py-20">
         <div className="col-span-2 max-w-xs md:col-span-1">
@@ -22,7 +22,7 @@ export function SiteFooter({ store, categories }: { store: PublicStore | null; c
             <LogoMark className="h-12 w-auto" mono="white" />
             <div className="leading-tight">
               <p className="font-extrabold tracking-[0.06em] text-white uppercase">Amancio Fernández</p>
-              <p className="text-sm text-white/60">farmacia &amp; bienestar</p>
+              <p className="text-sm text-white/80">farmacia &amp; bienestar</p>
             </div>
           </div>
           <p className="mt-6 font-serif text-2xl leading-snug text-white">Más de 60 años cuidándote en Villa Gesell.</p>
@@ -57,7 +57,7 @@ export function SiteFooter({ store, categories }: { store: PublicStore | null; c
           {info && (
             <>
               <a className="flex gap-3 hover:text-white" href={info.mapsUrl ?? '#'} target="_blank" rel="noopener noreferrer">
-                <MapPin className="mt-0.5 size-4 shrink-0 text-aqua" aria-hidden="true" />
+                <MapPin className="mt-0.5 size-4 shrink-0 text-white" aria-hidden="true" />
                 <span>
                   {info.address}
                   <br />
@@ -65,7 +65,7 @@ export function SiteFooter({ store, categories }: { store: PublicStore | null; c
                 </span>
               </a>
               <p className="flex gap-3">
-                <Clock className="mt-0.5 size-4 shrink-0 text-aqua" aria-hidden="true" />
+                <Clock className="mt-0.5 size-4 shrink-0 text-white" aria-hidden="true" />
                 <span className="tabular">
                   Lun a vie: {fmt(weekdays)}
                   <br />
@@ -73,7 +73,7 @@ export function SiteFooter({ store, categories }: { store: PublicStore | null; c
                 </span>
               </p>
               <a className="flex gap-3 hover:text-white" href={`tel:${info.phone.replace(/\s/g, '')}`}>
-                <Phone className="mt-0.5 size-4 shrink-0 text-aqua" aria-hidden="true" />
+                <Phone className="mt-0.5 size-4 shrink-0 text-white" aria-hidden="true" />
                 <span className="tabular">{prettyPhone(info.phone)}</span>
               </a>
               <div className="flex gap-2 pt-2">
@@ -101,7 +101,7 @@ export function SiteFooter({ store, categories }: { store: PublicStore | null; c
         </div>
       </div>
       <div className="border-t border-white/10">
-        <div className="container-x flex flex-col gap-2 py-6 text-xs text-white/50 sm:flex-row sm:justify-between">
+        <div className="container-x flex flex-col gap-2 py-6 text-xs text-white/75 sm:flex-row sm:justify-between">
           <p>© {new Date().getFullYear()} Farmacia Amancio Fernández · Villa Gesell, Buenos Aires</p>
           <p>Los precios pueden cambiar sin aviso. Consultá disponibilidad antes de acercarte.</p>
         </div>

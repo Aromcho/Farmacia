@@ -227,7 +227,7 @@ export function CatalogView({ initial, facets, categorySlug, apiQuery }: Props) 
               type="button"
               onClick={loadMore}
               disabled={loadingMore}
-              className="inline-flex h-12 items-center gap-2 rounded-full bg-ink px-7 font-semibold text-white transition hover:bg-night-3 disabled:opacity-60"
+              className="inline-flex h-12 items-center gap-2 rounded-full bg-teal-strong px-7 font-semibold text-white transition hover:bg-teal-deep disabled:opacity-60"
             >
               {loadingMore && <Loader2 className="size-4 animate-spin" />}
               Ver más productos
@@ -279,7 +279,7 @@ function Chip({ active, onClick, children }: { active: boolean; onClick: () => v
       type="button"
       onClick={onClick}
       aria-pressed={active}
-      className={cn('rounded-full px-3.5 py-2 text-sm font-semibold transition-colors', active ? 'bg-ink text-white' : 'bg-foam text-ink-soft hover:text-ink')}
+      className={cn('rounded-full px-3.5 py-2 text-sm font-semibold transition-colors', active ? 'bg-teal-strong text-white' : 'bg-foam text-ink-soft hover:text-ink')}
     >
       {children}
     </button>
@@ -302,14 +302,14 @@ export const tagLabel = (t: string) => TAGS[t] ?? t.replace(/-/g, ' ');
 export function CategoryChips({ categories, active }: { categories: { name: string; slug: string }[]; active?: string }) {
   return (
     <nav aria-label="Categorías" className="scroll-x -mx-5 gap-2 px-5 md:-mx-8 md:px-8">
-      <Link href="/catalogo" className={cn('shrink-0 rounded-full px-4 py-2.5 text-[0.92rem] font-semibold transition-colors', !active ? 'bg-ink text-white' : 'bg-foam text-ink-soft hover:text-ink')}>
+      <Link href="/catalogo" className={cn('shrink-0 rounded-full px-4 py-2.5 text-[0.92rem] font-semibold transition-colors', !active ? 'bg-teal-strong text-white' : 'bg-foam text-ink-soft hover:text-ink')}>
         Todo
       </Link>
       {categories.map((c) => (
         <Link
           key={c.slug}
           href={`/catalogo/${c.slug}`}
-          className={cn('shrink-0 rounded-full px-4 py-2.5 text-[0.92rem] font-semibold transition-colors', active === c.slug ? 'bg-ink text-white' : 'bg-foam text-ink-soft hover:text-ink')}
+          className={cn('shrink-0 rounded-full px-4 py-2.5 text-[0.92rem] font-semibold transition-colors', active === c.slug ? 'bg-teal-strong text-white' : 'bg-foam text-ink-soft hover:text-ink')}
         >
           {c.name}
         </Link>

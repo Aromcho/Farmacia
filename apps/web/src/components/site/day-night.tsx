@@ -188,13 +188,13 @@ export function DayNight() {
               aria-label="Fachada de la farmacia en Paseo 106 y Boulevard, que pasa del día a la noche con el cartel verde encendido"
               className={cn('absolute inset-0 size-full transition-opacity duration-700', ready ? 'opacity-100' : 'opacity-0')}
             />
-            {/* halo verde del cartel */}
+            {/* halo del cartel (menta de la marca) */}
             <motion.div
               style={{ opacity: glow }}
-              className="pointer-events-none absolute left-[36%] top-[38%] h-[24%] w-[54%] rounded-full bg-[radial-gradient(closest-side,rgb(60_255_170/0.3),transparent)] mix-blend-screen blur-2xl max-md:left-[10%] max-md:w-[84%]"
+              className="pointer-events-none absolute left-[36%] top-[38%] h-[24%] w-[54%] rounded-full bg-[radial-gradient(closest-side,rgb(108_200_195/0.35),transparent)] mix-blend-screen blur-2xl max-md:left-[10%] max-md:w-[84%]"
             />
           </motion.div>
-          <div className="absolute inset-0 bg-gradient-to-t from-night via-night/20 to-night/40 md:bg-[linear-gradient(90deg,rgb(5_42_46/0.9)_0%,rgb(5_42_46/0.5)_36%,transparent_62%),linear-gradient(0deg,rgb(5_42_46/0.6)_0%,transparent_35%),linear-gradient(180deg,rgb(5_42_46/0.45)_0%,transparent_22%)]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-night via-night/20 to-night/40 md:bg-[linear-gradient(90deg,rgb(0_127_139/0.9)_0%,rgb(0_127_139/0.5)_36%,transparent_62%),linear-gradient(0deg,rgb(0_127_139/0.6)_0%,transparent_35%),linear-gradient(180deg,rgb(0_127_139/0.45)_0%,transparent_22%)]" />
         </div>
 
         {/* Texto */}
@@ -205,7 +205,7 @@ export function DayNight() {
                 <p
                   className={cn(
                     'tabular font-serif text-[2.6rem] leading-none tracking-tight transition-[color,text-shadow] duration-700 lg:text-[4.25rem]',
-                    isNight ? 'text-[#8dffcf] [text-shadow:0_0_28px_rgb(60_255_170/0.55)]' : 'text-white',
+                    isNight ? 'text-white [text-shadow:0_0_22px_rgb(85_197_208/0.95),0_0_44px_rgb(108_200_195/0.6)]' : 'text-white',
                   )}
                   aria-hidden="true"
                 >
@@ -225,7 +225,7 @@ export function DayNight() {
                       className={cn('col-start-1 row-start-1', step !== i && 'pointer-events-none')}
                     >
                       <H className={cn('text-balance', 'display-2')}>{s.title}</H>
-                      <p className="mt-3 max-w-[46ch] text-[1.02rem] leading-relaxed text-white/80 lg:text-[1.08rem]">{s.text}</p>
+                      <p className="mt-3 max-w-[46ch] text-[1.02rem] leading-relaxed text-white/90 lg:text-[1.08rem]">{s.text}</p>
                     </motion.div>
                   );
                 })}
@@ -233,10 +233,10 @@ export function DayNight() {
             </div>
 
             {/* línea del horario */}
-            <div className="hidden shrink-0 flex-col items-center gap-3 text-xs font-semibold text-white/60 md:flex" aria-hidden="true">
+            <div className="hidden shrink-0 flex-col items-center gap-3 text-xs font-semibold text-white/80 md:flex" aria-hidden="true">
               <span className="tabular">{fmt(openMin)}</span>
               <div className="h-56 w-1 overflow-hidden rounded-full bg-white/15">
-                <motion.div style={{ scaleY: p }} className="h-full w-full origin-top rounded-full bg-gradient-to-b from-sun via-[#e38b5a] to-[#3cffaa]" />
+                <motion.div style={{ scaleY: p }} className="h-full w-full origin-top rounded-full bg-gradient-to-b from-white via-aqua to-mint" />
               </div>
               <span className="tabular">{fmt(closeMin)}</span>
             </div>

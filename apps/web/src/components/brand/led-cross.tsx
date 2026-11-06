@@ -35,17 +35,17 @@ const BOOT_SPEED = 9;
 const BOOT_END = BOOT_DELAY + (12 + 1.4) / BOOT_SPEED;
 
 const COLORS: Record<Region, string> = {
-  top: '#54c4cf',
-  right: '#6cc4c0',
-  main: '#009cac',
-  smile: '#009cac',
+  top: '#55c5d0',
+  right: '#6cc8c3',
+  main: '#009eae',
+  smile: '#009eae',
 };
-/** Versiones "emitidas" para fondo oscuro: mismo matiz, más luz, y bien diferenciadas como en el logo */
+/** Versiones "emitidas" sobre el teal de la marca: como el logo en blanco (teal → blanco, aqua y menta → blancos tintados) */
 const GLOW: Record<Region, string> = {
-  top: '#8fe3ec',
-  right: '#86e0c9',
-  main: '#08aebf',
-  smile: '#08aebf',
+  top: '#c6eef2',
+  right: '#cff1ed',
+  main: '#ffffff',
+  smile: '#ffffff',
 };
 
 function hash(n: number) {
@@ -216,7 +216,7 @@ export function LedCross({ lit = true, theme = 'dark', smile = true, interactive
         smile: makeSprite(pal.smile, cell, dpr, glow),
       };
       white = makeSprite('#e9fffd', cell, dpr, glow);
-      off = makeSprite(glow ? '#1d4e53' : '#d3e9e9', cell, dpr, false);
+      off = makeSprite(glow ? '#006b76' : '#d3e9e9', cell, dpr, false);
       draw(performance.now());
     };
 

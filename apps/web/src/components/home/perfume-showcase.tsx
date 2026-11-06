@@ -39,7 +39,7 @@ export function PerfumeShowcase({ tabs }: { tabs: PerfumeTab[] }) {
               className="relative shrink-0 rounded-full px-4.5 py-2.5 text-[0.92rem] font-semibold transition-colors aria-selected:text-white aria-[selected=false]:bg-foam aria-[selected=false]:text-ink-soft aria-[selected=false]:hover:text-ink"
             >
               {t.key === current.key && (
-                <motion.span layoutId="perfume-tab" className="absolute inset-0 rounded-full bg-ink" transition={{ type: 'spring', stiffness: 420, damping: 34 }} />
+                <motion.span layoutId="perfume-tab" className="absolute inset-0 rounded-full bg-teal-strong" transition={{ type: 'spring', stiffness: 420, damping: 34 }} />
               )}
               <span className="relative">{t.label}</span>
             </button>

@@ -105,7 +105,7 @@ export function ProductDetail({ product: p }: { product: TProduct }) {
                       aria-pressed={active}
                       className={cn(
                         'flex items-center justify-center gap-2 rounded-2xl px-4 py-3.5 text-[0.95rem] font-semibold ring-1 transition',
-                        active ? 'bg-ink text-white ring-ink' : 'bg-white text-ink ring-line hover:ring-teal/40',
+                        active ? 'bg-teal-strong text-white ring-teal-strong' : 'bg-white text-ink ring-line hover:ring-teal/40',
                       )}
                     >
                       {o === 'Decant' && <DropIcon className="size-4" />}

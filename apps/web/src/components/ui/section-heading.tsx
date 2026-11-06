@@ -25,7 +25,7 @@ export function SectionHeading({
         <h2 id={id} className={cn('display-2 text-balance', tone === 'dark' ? 'text-white' : 'text-ink')}>
           {title}
         </h2>
-        {text && <p className={cn('mt-3 max-w-[52ch] text-[1.02rem] leading-relaxed', tone === 'dark' ? 'text-white/70' : 'text-ink-soft')}>{text}</p>}
+        {text && <p className={cn('mt-3 max-w-[52ch] text-[1.02rem] leading-relaxed', tone === 'dark' ? 'text-white/90' : 'text-ink-soft')}>{text}</p>}
       </div>
       {href && (
         <Link

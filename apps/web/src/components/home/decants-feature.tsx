@@ -21,22 +21,22 @@ export function DecantsFeature() {
           <div className="absolute inset-0 rounded-[2rem] ring-1 ring-inset ring-white/10" />
         </div>
         <div className="order-1 lg:order-2">
-          <span className="inline-flex size-12 items-center justify-center rounded-2xl bg-white/10 text-aqua ring-1 ring-white/15">
+          <span className="inline-flex size-12 items-center justify-center rounded-2xl bg-white/15 text-white ring-1 ring-white/25">
             <DropIcon className="size-6" />
           </span>
           <h2 id="decants-title" className="display-2 mt-6 text-balance">
             Tu perfume favorito, ahora también en decant
           </h2>
-          <p className="mt-4 max-w-[46ch] text-[1.05rem] leading-relaxed text-white/70">
+          <p className="mt-4 max-w-[46ch] text-[1.05rem] leading-relaxed text-white/90">
             Una forma práctica de probar perfumes originales, llevar tus favoritos siempre con vos y descubrir cuál va realmente con tu estilo.
           </p>
           <ol className="mt-9 space-y-6">
             {STEPS.map((s, i) => (
               <li key={s.title} className="flex gap-4">
-                <span className="tabular grid size-9 shrink-0 place-items-center rounded-full border border-aqua/40 font-serif text-lg text-aqua">{i + 1}</span>
+                <span className="tabular grid size-9 shrink-0 place-items-center rounded-full border border-white/45 font-serif text-lg text-white">{i + 1}</span>
                 <span>
                   <span className="block font-semibold text-white">{s.title}</span>
-                  <span className="mt-1 block text-[0.95rem] leading-relaxed text-white/65">{s.text}</span>
+                  <span className="mt-1 block text-[0.95rem] leading-relaxed text-white/85">{s.text}</span>
                 </span>
               </li>
             ))}

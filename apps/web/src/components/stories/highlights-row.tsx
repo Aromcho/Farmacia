@@ -55,14 +55,16 @@ export function HighlightsRow({ highlights, tone = 'dark', className }: { highli
                 <span
                   className={cn(
                     'relative grid size-[4.4rem] place-items-center rounded-full p-[2.5px] transition-transform duration-300 ease-out-expo group-active:scale-95 lg:size-[4.8rem]',
-                    isSeen ? (tone === 'dark' ? 'bg-white/25' : 'bg-line') : 'bg-[conic-gradient(from_200deg,#54c4cf,#009cac,#6cc4c0,#f5b83d,#54c4cf)]',
+                    isSeen ? (tone === 'dark' ? 'bg-white/25' : 'bg-line') : tone === 'dark'
+                        ? 'bg-[conic-gradient(from_200deg,#55c5d0,#ffffff,#6cc8c3,#ffffff,#55c5d0)]'
+                        : 'bg-[conic-gradient(from_200deg,#55c5d0,#009eae,#6cc8c3,#009eae,#55c5d0)]',
                   )}
                 >
                   <span className={cn('block size-full overflow-hidden rounded-full p-[2.5px]', tone === 'dark' ? 'bg-night' : 'bg-white')}>
                     <Img media={h.cover ?? h.items[0]?.media} sizes="80px" className="size-full rounded-full" imgClassName="transition-transform duration-500 group-hover:scale-110" />
                   </span>
                 </span>
-                <span className={cn('line-clamp-1 max-w-full text-center text-[0.74rem] font-medium', tone === 'dark' ? 'text-white/80' : 'text-ink-soft')}>
+                <span className={cn('line-clamp-1 max-w-full text-center text-[0.74rem] font-medium', tone === 'dark' ? 'text-white/90' : 'text-ink-soft')}>
                   {h.title}
                 </span>
               </button>

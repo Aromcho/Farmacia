@@ -159,7 +159,7 @@ function Editor(p: Props & { row: Row | null; onClose: () => void }) {
             );
           return (
             <Field key={f.key} label={f.label} hint={f.hint}>
-              <Input type={f.type === 'color' ? 'color' : f.type === 'datetime' ? 'datetime-local' : 'text'} value={String(v[f.key] ?? (f.type === 'color' ? '#009cac' : ''))} onChange={(e) => set(f.key, e.target.value)} className={f.type === 'color' ? 'w-24 p-1' : undefined} />
+              <Input type={f.type === 'color' ? 'color' : f.type === 'datetime' ? 'datetime-local' : 'text'} value={String(v[f.key] ?? (f.type === 'color' ? '#009eae' : ''))} onChange={(e) => set(f.key, e.target.value)} className={f.type === 'color' ? 'w-24 p-1' : undefined} />
             </Field>
           );
         })}

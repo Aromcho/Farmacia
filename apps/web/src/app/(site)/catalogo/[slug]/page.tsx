@@ -28,7 +28,7 @@ export default async function CategoryPage({ params, searchParams }: Props) {
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-night via-night/70 to-night/30" />
         <div className="container-x">
           <h1 className="display-1">{category.name}</h1>
-          {category.description && <p className="mt-4 max-w-[54ch] text-[1.05rem] leading-relaxed text-white/75">{category.description}</p>}
+          {category.description && <p className="mt-4 max-w-[54ch] text-[1.05rem] leading-relaxed text-white/90">{category.description}</p>}
         </div>
       </header>
       <div className="container-x pb-20 pt-6">

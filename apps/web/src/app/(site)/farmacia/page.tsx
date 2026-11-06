@@ -93,8 +93,8 @@ export default async function FarmaciaPage() {
       <section className="container-x grid gap-10 py-16 lg:grid-cols-2 lg:py-24">
         <div className="rounded-[2rem] bg-night p-8 text-white lg:p-10">
           <h2 className="display-3">Obras sociales y prepagas</h2>
-          <p className="mt-3 text-white/70">Trabajamos con {insurers.length} coberturas, entre ellas IOMA, PAMI, OSDE, Swiss Medical, Galeno y OSECAC.</p>
-          <Link href="/obras-sociales" className="group mt-6 inline-flex items-center gap-2 font-semibold text-aqua">
+          <p className="mt-3 text-white/90">Trabajamos con {insurers.length} coberturas, entre ellas IOMA, PAMI, OSDE, Swiss Medical, Galeno y OSECAC.</p>
+          <Link href="/obras-sociales" className="group mt-6 inline-flex items-center gap-2 font-semibold text-white underline decoration-white/40 underline-offset-4 hover:decoration-white">
             Ver todas y buscar la mía
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
           </Link>

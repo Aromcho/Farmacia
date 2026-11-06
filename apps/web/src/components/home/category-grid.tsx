@@ -28,8 +28,8 @@ export function CategoryGrid({ categories }: { categories: Category[] }) {
                 <span className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-4 lg:p-5">
                   <span>
                     <span className={cn('block text-balance font-serif leading-tight text-white', i === 0 ? 'text-[1.8rem] lg:text-[2.4rem]' : 'text-[1.12rem] lg:text-[1.35rem]')}>{c.name}</span>
-                    {i === 0 && c.tagline && <span className="mt-1.5 block max-w-sm text-[0.9rem] text-white/75">{c.tagline}</span>}
-                    <span className="tabular mt-1 block text-[0.78rem] font-medium text-white/70">{c.productCount} productos</span>
+                    {i === 0 && c.tagline && <span className="mt-1.5 block max-w-sm text-[0.9rem] text-white/90">{c.tagline}</span>}
+                    <span className="tabular mt-1 block text-[0.78rem] font-medium text-white/85">{c.productCount} productos</span>
                   </span>
                   <span className="grid size-9 shrink-0 place-items-center rounded-full bg-white/15 text-white backdrop-blur transition-colors group-hover:bg-white group-hover:text-ink">
                     <ArrowUpRight className="size-4" aria-hidden="true" />
