@@ -56,7 +56,7 @@ export function Hero({
           // Vertical en pantallas verticales, horizontal (sin pixelar) en escritorio. El navegador elige un solo
           // <source> por media query, sin JS ni doble descarga. El poster va en un <picture> debajo porque
           // el atributo poster no admite variantes; el video lo tapa en cuanto tiene el primer cuadro.
-          <div className="relative size-full opacity-80 lg:opacity-100">
+          <div className="relative size-full opacity-90 lg:opacity-100">
             <picture>
               {desktopVideo && <source media={DESKTOP_MEDIA} srcSet={desktopVideo.poster} />}
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -80,8 +80,8 @@ export function Hero({
         )}
         {/* degradado de marca: viñeta teal en vertical; en escritorio, panel teal a la izquierda (texto), un velo teal detrás de la cruz
             para que los LEDs blancos se lean como el logo en blanco, y el resto del video limpio */}
-        <div className="absolute inset-0 bg-[radial-gradient(90%_60%_at_50%_38%,transparent_0%,rgb(0_127_139/0.55)_70%,rgb(0_127_139/0.9)_100%)] lg:bg-[radial-gradient(40%_60%_at_74%_46%,rgb(0_127_139/0.6)_0%,rgb(0_127_139/0.25)_50%,transparent_75%),linear-gradient(90deg,rgb(0_127_139/0.92)_0%,rgb(0_140_154/0.72)_34%,rgb(0_158_174/0.18)_62%,transparent_80%),linear-gradient(180deg,rgb(0_127_139/0.55)_0%,transparent_22%)]" />
-        <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-night via-night/80 to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(90%_60%_at_50%_38%,transparent_0%,rgb(0_127_139/0.35)_70%,rgb(0_127_139/0.7)_100%)] lg:bg-[radial-gradient(40%_60%_at_74%_46%,rgb(0_127_139/0.45)_0%,rgb(0_127_139/0.18)_50%,transparent_75%),linear-gradient(90deg,rgb(0_127_139/0.8)_0%,rgb(0_140_154/0.55)_34%,rgb(0_158_174/0.12)_62%,transparent_80%),linear-gradient(180deg,rgb(0_127_139/0.4)_0%,transparent_22%)]" />
+        <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-night via-night/60 to-transparent" />
       </motion.div>
 
       <div className="container-x relative grid min-h-[calc(100svh-var(--tabbar-h))] grid-cols-[minmax(0,1fr)] lg:min-h-[100svh] grid-rows-[1fr_auto] pb-6 pt-[calc(var(--header-h)+env(safe-area-inset-top)+12px)] lg:pb-10">
@@ -117,7 +117,7 @@ export function Hero({
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.8, ease }}
-              className="mx-auto mt-4 max-w-[34ch] text-[1rem] leading-relaxed text-white/90 lg:mx-0 lg:mt-5 lg:text-lg"
+              className="mx-auto mt-4 max-w-[34ch] text-[1rem] leading-relaxed text-white/90 [text-shadow:0_1px_14px_rgb(0_79_88/0.65)] lg:mx-0 lg:mt-5 lg:text-lg"
             >
               Farmacia, perfumería y herboristería en Villa Gesell. Pedís por WhatsApp y te lo llevamos sin cargo.
             </motion.p>
