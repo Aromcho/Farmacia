@@ -8,7 +8,8 @@ import { PerfumeShowcase } from '@/components/home/perfume-showcase';
 import { VisitSection } from '@/components/home/visit-section';
 import { ProductRail } from '@/components/catalog/product-rail';
 import { SectionHeading } from '@/components/ui/section-heading';
-import { getCategories, getHighlights, getInstagram, getInsurers, getProducts, getStore } from '@/lib/api';
+import { getCategories, getHighlights, getInstagram, getInsurers, getProduct, getProducts, getStore } from '@/lib/api';
+import { VIDEO_HIGHLIGHT_SLUGS, videoHighlights } from '@/lib/product-videos';
 
 export default async function HomePage() {
   const [store, highlights, categories, ella, el, arabes, decants, nuevos, insurers, posts] = await Promise.all([
@@ -23,11 +24,16 @@ export default async function HomePage() {
     getInsurers(),
     getInstagram(12),
   ]);
+  // historias de video: se arman con las fichas de los productos (si falla alguna, se omite)
+  const videoProducts = Object.fromEntries(
+    await Promise.all(VIDEO_HIGHLIGHT_SLUGS.map(async (slug) => [slug, await getProduct(slug).catch(() => null)] as const)),
+  );
+  const allHighlights = [...videoHighlights(videoProducts), ...highlights];
 
   return (
     <>
       <Hero
-        highlights={highlights}
+        highlights={allHighlights}
         video={{ src: '/media/hero-mobile.mp4', poster: '/media/hero-mobile-poster.webp' }}
         desktopVideo={{ src: '/media/hero-desktop.mp4', poster: '/media/hero-desktop-poster.webp' }}
       />

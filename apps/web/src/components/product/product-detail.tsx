@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
+import { AnimatePresence, motion } from 'motion/react';
 import { ChevronLeft, Minus, Play, Plus, ShoppingBag, Store, Truck, CreditCard, X } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -299,7 +299,6 @@ function Gallery({ product: p, slides, onZoom }: { product: TProduct; slides: Sl
  */
 function VideoSlide({ video, active, eager, onOpen }: { video: ProductVideo; active: boolean; eager: boolean; onOpen: () => void }) {
   const ref = useRef<HTMLVideoElement>(null);
-  const reduce = useReducedMotion();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -313,9 +312,11 @@ function VideoSlide({ video, active, eager, onOpen }: { video: ProductVideo; act
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    if (visible && active && !reduce) el.play().catch(() => {});
-    else el.pause();
-  }, [visible, active, reduce]);
+    if (visible && active) {
+      el.muted = true; // React no siempre aplica el atributo muted y sin él el navegador bloquea el play()
+      el.play().catch(() => {});
+    } else el.pause();
+  }, [visible, active]);
 
   return (
     <button type="button" onClick={onOpen} className="block w-full cursor-zoom-in" aria-label={`Ver video: ${video.label}`}>

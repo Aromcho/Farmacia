@@ -142,6 +142,8 @@ export interface HighlightItem {
   sortOrder: number;
   media: Media;
   product: HighlightProduct | null;
+  /** historias armadas en el front con los videos de producto (no vienen de la API) */
+  video?: { src: string; poster: string } | null;
 }
 
 export interface Highlight {

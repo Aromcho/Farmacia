@@ -101,6 +101,18 @@ export function StoryViewer({ highlights, startIndex, onClose, onSeen }: Props) 
     return () => cancelAnimationFrame(raf);
   }, [paused, item, duration, next]);
 
+  // videos: siguen la pausa del visor (mantener apretado, botón, pestaña oculta)
+  useEffect(() => {
+    // se busca por id: durante el fundido conviven el video saliente y el entrante
+    const v = item?.video ? document.querySelector<HTMLVideoElement>(`video[data-story-video="${item.id}"]`) : null;
+    if (!v) return;
+    if (paused) v.pause();
+    else {
+      v.muted = true;
+      v.play().catch(() => {});
+    }
+  }, [paused, item]);
+
   // precarga de la siguiente imagen
   useEffect(() => {
     const nextItem = group?.items[ii + 1] ?? highlights[hi + 1]?.items[0];
@@ -211,7 +223,21 @@ export function StoryViewer({ highlights, startIndex, onClose, onSeen }: Props) 
         >
           <AnimatePresence initial={false}>
             <motion.div key={item.id} className="absolute inset-0" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
-              <Img media={item.media} sizes="(min-width: 1024px) 540px, 100vw" priority className="absolute inset-0" />
+              {item.video ? (
+                <video
+                  data-story-video={item.id}
+                  src={item.video.src}
+                  poster={item.video.poster}
+                  className="absolute inset-0 size-full object-cover"
+                  autoPlay
+                  muted
+                  playsInline
+                  preload="auto"
+                  aria-hidden="true"
+                />
+              ) : (
+                <Img media={item.media} sizes="(min-width: 1024px) 540px, 100vw" priority className="absolute inset-0" />
+              )}
             </motion.div>
           </AnimatePresence>
 
