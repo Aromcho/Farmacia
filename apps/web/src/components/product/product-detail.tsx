@@ -1,9 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { AnimatePresence, motion } from 'motion/react';
-import { ChevronLeft, Minus, Plus, ShoppingBag, Store, Truck, CreditCard, X } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
+import { ChevronLeft, Minus, Play, Plus, ShoppingBag, Store, Truck, CreditCard, X } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useCart } from '@/components/cart/cart-provider';
 import { useStore } from '@/components/site/store-provider';
@@ -11,7 +11,11 @@ import { DropIcon, WhatsAppIcon } from '@/components/ui/icons';
 import { Img } from '@/components/ui/img';
 import { cn } from '@/lib/cn';
 import { GENDER_LABEL, installment, money, savingPct, waLink } from '@/lib/format';
-import type { ProductDetail as TProduct } from '@/lib/types';
+import { productVideos, type ProductVideo } from '@/lib/product-videos';
+import type { Media, ProductDetail as TProduct } from '@/lib/types';
+
+/** Diapositiva de la galería: primero los videos del producto, después las fotos */
+type Slide = { kind: 'video'; key: string; video: ProductVideo } | { kind: 'image'; key: string; media: Media };
 
 export function ProductDetail({ product: p }: { product: TProduct }) {
   const { add } = useCart();
@@ -19,6 +23,13 @@ export function ProductDetail({ product: p }: { product: TProduct }) {
   const [qty, setQty] = useState(1);
   const [option, setOption] = useState<string | null>(null);
   const [zoom, setZoom] = useState<number | null>(null);
+  const slides = useMemo<Slide[]>(
+    () => [
+      ...productVideos(p.slug).map((video) => ({ kind: 'video' as const, key: video.src, video })),
+      ...p.images.map((im) => ({ kind: 'image' as const, key: im.id, media: im.media })),
+    ],
+    [p.slug, p.images],
+  );
 
   useEffect(() => {
     fetch(`/api/products/${p.slug}/view`, { method: 'POST' }).catch(() => {});
@@ -36,7 +47,7 @@ export function ProductDetail({ product: p }: { product: TProduct }) {
   return (
     <>
       <div className="lg:grid lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-14 xl:gap-20">
-        <Gallery product={p} onZoom={setZoom} />
+        <Gallery product={p} slides={slides} onZoom={setZoom} />
 
         <div className="container-x pt-6 lg:px-0 lg:pt-0">
           <nav aria-label="Ruta" className="hidden items-center gap-1.5 text-sm text-ink-soft lg:flex">
@@ -178,7 +189,7 @@ export function ProductDetail({ product: p }: { product: TProduct }) {
         </div>
       </div>
 
-      <AnimatePresence>{zoom !== null && <Lightbox product={p} index={zoom} onClose={() => setZoom(null)} />}</AnimatePresence>
+      <AnimatePresence>{zoom !== null && <Lightbox slide={slides[zoom]} onClose={() => setZoom(null)} />}</AnimatePresence>
     </>
   );
 }
@@ -199,10 +210,10 @@ function Stepper({ qty, setQty }: { qty: number; setQty: (n: number) => void }) 
   );
 }
 
-function Gallery({ product: p, onZoom }: { product: TProduct; onZoom: (i: number) => void }) {
+function Gallery({ product: p, slides, onZoom }: { product: TProduct; slides: Slide[]; onZoom: (i: number) => void }) {
   const ref = useRef<HTMLUListElement>(null);
   const [index, setIndex] = useState(0);
-  const imgs = p.images;
+  const alt = `${p.brand?.name ?? ''} ${p.name}`.trim();
 
   useEffect(() => {
     const el = ref.current;
@@ -212,17 +223,23 @@ function Gallery({ product: p, onZoom }: { product: TProduct; onZoom: (i: number
     return () => el.removeEventListener('scroll', onScroll);
   }, []);
 
-  if (!imgs.length) return <div className="aspect-[4/5] bg-foam lg:rounded-[2rem]" />;
+  if (!slides.length) return <div className="aspect-[4/5] bg-foam lg:rounded-[2rem]" />;
+
+  const go = (i: number) => ref.current?.scrollTo({ left: i * ref.current.clientWidth, behavior: 'smooth' });
 
   return (
     <div className="lg:sticky lg:top-[calc(var(--header-h)+1.5rem)] lg:self-start">
       <div className="relative">
         <ul ref={ref} className="scroll-x lg:overflow-hidden lg:rounded-[2rem]" style={{ scrollPaddingInline: 0 }}>
-          {imgs.map((im, i) => (
-            <li key={im.id} className="w-full shrink-0">
-              <button type="button" onClick={() => onZoom(i)} className="block w-full cursor-zoom-in" aria-label="Ampliar imagen">
-                <Img media={im.media} alt={`${p.brand?.name ?? ''} ${p.name}`} ratio="4/5" sizes="(min-width: 1024px) 50vw, 100vw" priority={i === 0} />
-              </button>
+          {slides.map((sl, i) => (
+            <li key={sl.key} className="w-full shrink-0">
+              {sl.kind === 'video' ? (
+                <VideoSlide video={sl.video} active={i === index} eager={i === 0} onOpen={() => onZoom(i)} />
+              ) : (
+                <button type="button" onClick={() => onZoom(i)} className="block w-full cursor-zoom-in" aria-label="Ampliar imagen">
+                  <Img media={sl.media} alt={alt} ratio="4/5" sizes="(min-width: 1024px) 50vw, 100vw" priority={i === 0} />
+                </button>
+              )}
             </li>
           ))}
         </ul>
@@ -231,30 +248,43 @@ function Gallery({ product: p, onZoom }: { product: TProduct; onZoom: (i: number
             <DropIcon className="size-3.5" /> También en decant
           </span>
         )}
-        {imgs.length > 1 && (
+        {slides.length > 1 && (
           <div className="absolute inset-x-0 bottom-4 flex justify-center gap-1.5">
-            {imgs.map((im, i) => (
+            {slides.map((sl, i) => (
               <button
-                key={im.id}
+                key={sl.key}
                 type="button"
-                onClick={() => ref.current?.scrollTo({ left: i * ref.current.clientWidth, behavior: 'smooth' })}
+                onClick={() => go(i)}
                 className={cn('h-1.5 rounded-full transition-all', i === index ? 'w-6 bg-white' : 'w-1.5 bg-white/60')}
-                aria-label={`Ver imagen ${i + 1}`}
+                aria-label={sl.kind === 'video' ? `Ver video ${i + 1}` : `Ver imagen ${i + 1}`}
               />
             ))}
           </div>
         )}
       </div>
-      {imgs.length > 1 && (
-        <div className="mt-3 hidden gap-3 lg:flex">
-          {imgs.map((im, i) => (
+      {slides.length > 1 && (
+        <div className="mt-3 hidden flex-wrap gap-3 lg:flex">
+          {slides.map((sl, i) => (
             <button
-              key={im.id}
+              key={sl.key}
               type="button"
-              onClick={() => ref.current?.scrollTo({ left: i * ref.current.clientWidth, behavior: 'smooth' })}
-              className={cn('w-20 overflow-hidden rounded-xl ring-2 transition', i === index ? 'ring-teal-strong' : 'ring-transparent opacity-70 hover:opacity-100')}
+              onClick={() => go(i)}
+              className={cn('relative w-20 overflow-hidden rounded-xl ring-2 transition', i === index ? 'ring-teal-strong' : 'ring-transparent opacity-70 hover:opacity-100')}
+              aria-label={sl.kind === 'video' ? `Ver video: ${sl.video.label}` : `Ver imagen ${i + 1}`}
             >
-              <Img media={im.media} ratio="4/5" sizes="80px" />
+              {sl.kind === 'video' ? (
+                <span className="relative block aspect-[4/5] bg-night">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={sl.video.poster} alt="" loading="lazy" className="absolute inset-0 size-full object-cover" />
+                  <span className="absolute inset-0 grid place-items-center">
+                    <span className="grid size-7 place-items-center rounded-full bg-white/90 text-teal-strong">
+                      <Play className="ml-0.5 size-3.5 fill-current" aria-hidden="true" />
+                    </span>
+                  </span>
+                </span>
+              ) : (
+                <Img media={sl.media} ratio="4/5" sizes="80px" />
+              )}
             </button>
           ))}
         </div>
@@ -263,7 +293,54 @@ function Gallery({ product: p, onZoom }: { product: TProduct; onZoom: (i: number
   );
 }
 
-function Lightbox({ product: p, index, onClose }: { product: TProduct; index: number; onClose: () => void }) {
+/**
+ * Video vertical dentro del cuadro 4:5 de la galería: mudo, en bucle, y solo se reproduce
+ * mientras se ve (se pausa al deslizar a otra foto o al salir de pantalla).
+ */
+function VideoSlide({ video, active, eager, onOpen }: { video: ProductVideo; active: boolean; eager: boolean; onOpen: () => void }) {
+  const ref = useRef<HTMLVideoElement>(null);
+  const reduce = useReducedMotion();
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(([e]) => setVisible(e.isIntersecting && e.intersectionRatio >= 0.5), { threshold: [0, 0.5, 1] });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (visible && active && !reduce) el.play().catch(() => {});
+    else el.pause();
+  }, [visible, active, reduce]);
+
+  return (
+    <button type="button" onClick={onOpen} className="block w-full cursor-zoom-in" aria-label={`Ver video: ${video.label}`}>
+      <span className="relative block overflow-hidden bg-night" style={{ aspectRatio: '4/5' }}>
+        <video
+          ref={ref}
+          className="absolute inset-0 size-full object-cover"
+          poster={video.poster}
+          muted
+          loop
+          playsInline
+          preload={eager ? 'metadata' : 'none'}
+          aria-hidden="true"
+        >
+          <source src={video.src} type="video/mp4" />
+        </video>
+        <span className="absolute right-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-teal-strong backdrop-blur">
+          <Play className="size-3 fill-current" aria-hidden="true" /> Video
+        </span>
+      </span>
+    </button>
+  );
+}
+
+function Lightbox({ slide, onClose }: { slide: Slide | undefined; onClose: () => void }) {
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     setMounted(true);
@@ -276,14 +353,30 @@ function Lightbox({ product: p, index, onClose }: { product: TProduct; index: nu
       document.body.style.overflow = prev;
     };
   }, [onClose]);
-  if (!mounted) return null;
+  if (!mounted || !slide) return null;
   return createPortal(
     <motion.div className="fixed inset-0 z-[80] flex items-center justify-center bg-night/95 p-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} data-lenis-prevent>
       <button type="button" onClick={onClose} className="absolute right-4 top-[calc(env(safe-area-inset-top)+12px)] grid size-11 place-items-center rounded-full bg-white/10 text-white" aria-label="Cerrar">
         <X className="size-6" />
       </button>
       <motion.div initial={{ scale: 0.94 }} animate={{ scale: 1 }} transition={{ type: 'spring', stiffness: 300, damping: 30 }} className="w-full max-w-xl" onClick={(e) => e.stopPropagation()}>
-        <Img media={p.images[index]?.media} ratio="4/5" sizes="100vw" fit="contain" className="rounded-2xl bg-transparent" />
+        {slide.kind === 'video' ? (
+          <video
+            src={slide.video.src}
+            poster={slide.video.poster}
+            width={720}
+            height={1280}
+            className="mx-auto block h-auto max-h-[85vh] w-auto max-w-full rounded-2xl"
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls
+            aria-label={slide.video.label}
+          />
+        ) : (
+          <Img media={slide.media} ratio="4/5" sizes="100vw" fit="contain" className="rounded-2xl bg-transparent" />
+        )}
       </motion.div>
     </motion.div>,
     document.body,
