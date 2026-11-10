@@ -299,7 +299,8 @@ function Gallery({ product: p, slides, onZoom }: { product: TProduct; slides: Sl
  */
 function VideoSlide({ video, active, eager, onOpen }: { video: ProductVideo; active: boolean; eager: boolean; onOpen: () => void }) {
   const ref = useRef<HTMLVideoElement>(null);
-  const [visible, setVisible] = useState(false);
+  // el primero arranca reproduciéndose sin esperar al IntersectionObserver
+  const [visible, setVisible] = useState(eager);
 
   useEffect(() => {
     const el = ref.current;
