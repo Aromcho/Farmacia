@@ -7,6 +7,7 @@ import { CatalogModule } from './catalog/catalog.module';
 import { PgExceptionFilter } from './common/filters/pg-exception.filter';
 import { ContentModule } from './content/content.module';
 import { HealthController } from './health.controller';
+import { InternalModule } from './internal/internal.module';
 import { MediaModule } from './media/media.module';
 import { OrdersModule } from './orders/orders.module';
 import { DbModule } from './db/db.module';
@@ -27,6 +28,7 @@ import { UsersModule } from './users/users.module';
     ContentModule,
     OrdersModule,
     StatsModule,
+    InternalModule,
   ],
   controllers: [HealthController],
   providers: [
